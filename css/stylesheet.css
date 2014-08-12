@@ -1,0 +1,13 @@
+body {
+    padding-top: 0;
+}
+
+#navbar-top {
+    margin: 0;
+}
+
+#navbar-top.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
