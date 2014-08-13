@@ -16,91 +16,97 @@ div.prompt {
     min-width: 0;
 }
 
-/* Syntax Highlighting */
+/* Syntax Highlighting - Pygments - github.css */
 .highlight .hll {
     background-color: #ffffcc
 }
 
 /* Comment */
 .highlight .c {
-    color: #60a0b0;
+    color: #999988;
     font-style: italic
 }
 
 /* Error */
 .highlight .err {
-    border: 1px solid #FF0000
+    color: #a61717;
+    background-color: #e3d2d2
 }
 
 /* Keyword */
 .highlight .k {
-    color: #007020;
+    color: #000000;
     font-weight: bold
 }
 
 /* Operator */
 .highlight .o {
-    color: #666666
+    color: #000000;
+    font-weight: bold
 }
 
 /* Comment.Multiline */
 .highlight .cm {
-    color: #60a0b0;
+    color: #999988;
     font-style: italic
 }
 
 /* Comment.Preproc */
 .highlight .cp {
-    color: #007020
+    color: #999999;
+    font-weight: bold;
+    font-style: italic
 }
 
 /* Comment.Single */
 .highlight .c1 {
-    color: #60a0b0;
+    color: #999988;
     font-style: italic
 }
 
 /* Comment.Special */
 .highlight .cs {
-    color: #60a0b0;
-    background-color: #fff0f0
+    color: #999999;
+    font-weight: bold;
+    font-style: italic
 }
 
 /* Generic.Deleted */
 .highlight .gd {
-    color: #A00000
+    color: #000000;
+    background-color: #ffdddd
 }
 
 /* Generic.Emph */
 .highlight .ge {
+    color: #000000;
     font-style: italic
 }
 
 /* Generic.Error */
 .highlight .gr {
-    color: #FF0000
+    color: #aa0000
 }
 
 /* Generic.Heading */
 .highlight .gh {
-    color: #000080;
-    font-weight: bold
+    color: #999999
 }
 
 /* Generic.Inserted */
 .highlight .gi {
-    color: #00A000
+    color: #000000;
+    background-color: #ddffdd
 }
 
 /* Generic.Output */
 .highlight .go {
-    color: #808080
+    color: #888888
 }
 
 /* Generic.Prompt */
 .highlight .gp {
-    color: #c65d09;
-    font-weight: bold
+    color: #555555
 }
 
 /* Generic.Strong */
@@ -110,128 +116,128 @@ div.prompt {
 
 /* Generic.Subheading */
 .highlight .gu {
-    color: #800080;
-    font-weight: bold
+    color: #aaaaaa
 }
 
 /* Generic.Traceback */
 .highlight .gt {
-    color: #0040D0
+    color: #aa0000
 }
 
 /* Keyword.Constant */
 .highlight .kc {
-    color: #007020;
+    color: #000000;
     font-weight: bold
 }
 
 /* Keyword.Declaration */
 .highlight .kd {
-    color: #007020;
+    color: #000000;
     font-weight: bold
 }
 
 /* Keyword.Namespace */
 .highlight .kn {
-    color: #007020;
+    color: #000000;
     font-weight: bold
 }
 
 /* Keyword.Pseudo */
 .highlight .kp {
-    color: #007020
+    color: #000000;
+    font-weight: bold
 }
 
 /* Keyword.Reserved */
 .highlight .kr {
-    color: #007020;
+    color: #000000;
     font-weight: bold
 }
 
 /* Keyword.Type */
 .highlight .kt {
-    color: #902000
+    color: #445588;
+    font-weight: bold
 }
 
 /* Literal.Number */
 .highlight .m {
-    color: #40a070
+    color: #009999
 }
 
 /* Literal.String */
 .highlight .s {
-    color: #4070a0
+    color: #d01040
 }
 
 /* Name.Attribute */
 .highlight .na {
-    color: #4070a0
+    color: #008080
 }
 
 /* Name.Builtin */
 .highlight .nb {
-    color: #007020
+    color: #0086B3
 }
 
 /* Name.Class */
 .highlight .nc {
-    color: #0e84b5;
+    color: #445588;
     font-weight: bold
 }
 
 /* Name.Constant */
 .highlight .no {
-    color: #60add5
+    color: #008080
 }
 
 /* Name.Decorator */
 .highlight .nd {
-    color: #555555;
+    color: #3c5d5d;
     font-weight: bold
 }
 
 /* Name.Entity */
 .highlight .ni {
-    color: #d55537;
-    font-weight: bold
+    color: #800080
 }
 
 /* Name.Exception */
 .highlight .ne {
-    color: #007020
+    color: #990000;
+    font-weight: bold
 }
 
 /* Name.Function */
 .highlight .nf {
-    color: #06287e
+    color: #990000;
+    font-weight: bold
 }
 
 /* Name.Label */
 .highlight .nl {
-    color: #002070;
+    color: #990000;
     font-weight: bold
 }
 
 /* Name.Namespace */
 .highlight .nn {
-    color: #0e84b5;
-    font-weight: bold
+    color: #555555
 }
 
 /* Name.Tag */
 .highlight .nt {
-    color: #062873;
-    font-weight: bold
+    color: #000080
 }
 
 /* Name.Variable */
 .highlight .nv {
-    color: #bb60d5
+    color: #008080
 }
 
 /* Operator.Word */
 .highlight .ow {
-    color: #007020;
+    color: #000000;
     font-weight: bold
 }
 
@@ -242,103 +248,100 @@ div.prompt {
 
 /* Literal.Number.Float */
 .highlight .mf {
-    color: #40a070
+    color: #009999
 }
 
 /* Literal.Number.Hex */
 .highlight .mh {
-    color: #40a070
+    color: #009999
 }
 
 /* Literal.Number.Integer */
 .highlight .mi {
-    color: #40a070
+    color: #009999
 }
 
 /* Literal.Number.Oct */
 .highlight .mo {
-    color: #40a070
+    color: #009999
 }
 
 /* Literal.String.Backtick */
 .highlight .sb {
-    color: #4070a0
+    color: #d01040
 }
 
 /* Literal.String.Char */
 .highlight .sc {
-    color: #4070a0
+    color: #d01040
 }
 
 /* Literal.String.Doc */
 .highlight .sd {
-    color: #4070a0;
-    font-style: italic
+    color: #d01040
 }
 
 /* Literal.String.Double */
 .highlight .s2 {
-    color: #4070a0
+    color: #d01040
 }
 
 /* Literal.String.Escape */
 .highlight .se {
-    color: #4070a0;
-    font-weight: bold
+    color: #d01040
 }
 
 /* Literal.String.Heredoc */
 .highlight .sh {
-    color: #4070a0
+    color: #d01040
 }
 
 /* Literal.String.Interpol */
 .highlight .si {
-    color: #70a0d0;
-    font-style: italic
+    color: #d01040
 }
 
 /* Literal.String.Other */
 .highlight .sx {
-    color: #c65d09
+    color: #d01040
 }
 
 /* Literal.String.Regex */
 .highlight .sr {
-    color: #235388
+    color: #009926
 }
 
 /* Literal.String.Single */
 .highlight .s1 {
-    color: #4070a0
+    color: #d01040
 }
 
 /* Literal.String.Symbol */
 .highlight .ss {
-    color: #517918
+    color: #990073
 }
 
 /* Name.Builtin.Pseudo */
 .highlight .bp {
-    color: #007020
+    color: #999999
 }
 
 /* Name.Variable.Class */
 .highlight .vc {
-    color: #bb60d5
+    color: #008080
 }
 
 /* Name.Variable.Global */
 .highlight .vg {
-    color: #bb60d5
+    color: #008080
 }
 
 /* Name.Variable.Instance */
 .highlight .vi {
-    color: #bb60d5
+    color: #008080
 }
 
 /* Literal.Number.Integer.Long */
-.highlight .il {
-    color: #40a070
+.highlight .highlight .il {
+    color: #009999
 }
