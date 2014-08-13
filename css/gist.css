@@ -1,0 +1,20 @@
+.gist {
+    background: #FCFCFC;
+    padding: 0;
+}
+
+.gist-file {
+    border: 0 !important;
+    border-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+
+.gist-data {
+    border-bottom: 0 !important;
+}
+
+.file-data {
+    background: #FFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+}

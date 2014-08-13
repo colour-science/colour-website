@@ -18,124 +18,130 @@
 
             <h2 class="text-center">Development & Technical Support</h2>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <h3>Thomas Mansencal</h3>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Thomas Mansencal</h3>
 
-                        <p><em class="text-info">Visual Effects Artist</em></p>
+                    <p><em class="text-info">Visual Effects Artist</em></p>
 
-                        <p>Project coordination, overall development.</p>
+                    <p>Project coordination, overall development.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Michael Mauderer</h3>
 
-                        <div class="list-group">
-                            <script type="text/javascript" language="javascript">
-                                <!--
-                                {
-                                    coded = "9byNk8.NkC8SCVkB@eNkwB.VyN"
-                                    key = "GNXcBZ5gL98KE4ujxWz7bayUn0i3YVrAde26fmROlJMIvtskQ1CPwTDHhFoSqp"
-                                    shift = coded.length
-                                    link = ""
-                                    for (i = 0; i < coded.length; i++) {
-                                        if (key.indexOf(coded.charAt(i)) == -1) {
-                                            ltr = coded.charAt(i)
-                                            link += (ltr)
-                                        }
-                                        else {
-                                            ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
-                                            link += (key.charAt(ltr))
-                                        }
+                    <p>
+                        <em class="text-info">Computer Science Researcher</em>
+                    </p>
+
+                    <p>Colour appearance models, overall development.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Michael Parsons</h3>
+
+                    <p>
+                        <em class="text-info">Colour Scientist @
+                            <a href="http://www.moving-picture.com/">The Moving Picture Company</a></em>
+                    </p>
+
+                    <p>Continuous technical support.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="list-group">
+                        <script type="text/javascript" language="javascript">
+                            <!--
+                            {
+                                coded = "9byNk8.NkC8SCVkB@eNkwB.VyN"
+                                key = "GNXcBZ5gL98KE4ujxWz7bayUn0i3YVrAde26fmROlJMIvtskQ1CPwTDHhFoSqp"
+                                shift = coded.length
+                                link = ""
+                                for (i = 0; i < coded.length; i++) {
+                                    if (key.indexOf(coded.charAt(i)) == -1) {
+                                        ltr = coded.charAt(i)
+                                        link += (ltr)
                                     }
-                                    document.write("<a class='list-group-item text-center' href='mailto:" + link + "'><span class='fa fa-send'>&nbsp;Email</span></a>")
+                                    else {
+                                        ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                                        link += (key.charAt(ltr))
+                                    }
                                 }
-                                //-->
-                            </script>
-                            <a href="http://www.thomasmansencal.com" class="list-group-item text-center">
-                                <span>Website</span>
-                            </a>
-                            <a href="http://thomasmansencal.blogspot.fr/" class="list-group-item text-center">
-                                <span>Blog</span>
-                            </a>
-                        </div>
+                                document.write("<a class='list-group-item text-center' href='mailto:" + link + "'><span class='fa fa-send'>&nbsp;Email</span></a>")
+                            }
+                            //-->
+                        </script>
+                        <a href="http://www.thomasmansencal.com" class="list-group-item text-center">
+                            <span>Website</span>
+                        </a>
+                        <a href="http://thomasmansencal.blogspot.fr/" class="list-group-item text-center">
+                            <span>Blog</span>
+                        </a>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <h3>Michael Mauderer</h3>
-
-                        <p>
-                            <em class="text-info">Computer Science Researcher</em>
-                        </p>
-
-                        <p>Colour appearance models, overall development.</p>
-
-                        <div class="list-group">
-                            <a href="http://michaelmauderer.com/" class="list-group-item text-center">
-                                <span>Website</span>
-                            </a>
-                        </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="list-group">
+                        <a href="http://michaelmauderer.com/" class="list-group-item text-center">
+                            <span>Website</span>
+                        </a>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <h3>Michael Parsons</h3>
-
-                        <p>
-                            <em class="text-info">Colour Scientist @
-                                <a href="http://www.moving-picture.com/">The Moving Picture Company</a></em>
-                        </p>
-
-                        <p>Continuous technical support.</p>
-
-                    </div>
+                </div>
+                <div class="col-md-4 text-center">
                 </div>
             </div>
 
             <h2 class="text-center">Acknowledgements</h2>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <h3>Paul Centore</h3>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Paul Centore</h3>
 
-                        <p>
-                            <em class="text-info">Mathematician & Colour Scientist</em>
-                        </p>
+                    <p>
+                        <em class="text-info">Mathematician & Colour Scientist</em>
+                    </p>
 
-                        <p>Matlab *Munsell Renotation System* implementation.</p>
+                    <p>Matlab *Munsell Renotation System* implementation.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Yoshi Ohno</h3>
 
-                        <div class="list-group">
-                            <a href="http://99main.com/~centore/" class="list-group-item text-center">
-                                <span>Website</span>
-                            </a>
-                        </div>
+                    <p>
+                        <em class="text-info">Mathematician & Colour Scientist</em>
+                    </p>
+
+                    <p>
+                        <em class="text-info">Ohno (2013)</em> correlated colour temperature calculation technical support.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Charles Poynton</h3>
+
+                    <p>
+                        <em class="text-info">Mathematician & Colour Scientist</a></em>
+                    </p>
+
+                    <p>Technical support.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="list-group">
+                        <a href="http://99main.com/~centore/" class="list-group-item text-center">
+                            <span>Website</span>
+                        </a>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <h3>Yoshi Ohno</h3>
-
-                        <p>
-                            <em class="text-info">Mathematician & Colour Scientist</em>
-                        </p>
-
-                        <p>
-                            <em class="text-info">Ohno (2013)</em> correlated colour temperature calculation technical support.
-                        </p>
-
-                        <div class="list-group">
-                            <a href="http://www.nist.gov/pml/div685/grp03/ohno.cfm" class="list-group-item text-center">
-                                <span>Website</span>
-                            </a>
-                        </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="list-group">
+                        <a href="http://www.nist.gov/pml/div685/grp03/ohno.cfm" class="list-group-item text-center">
+                            <span>Website</span>
+                        </a>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <h3>Charles Poynton</h3>
-
-                        <p>
-                            <em class="text-info">Mathematician & Colour Scientist</a></em>
-                        </p>
-
-                        <p>Technical support.</p>
-
-                        <div class="list-group">
-                            <a href="http://www.poynton.com/" class="list-group-item text-center">
-                                <span>Website</span>
-                            </a>
-                        </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="list-group">
+                        <a href="http://www.poynton.com/" class="list-group-item text-center">
+                            <span>Website</span>
+                        </a>
                     </div>
                 </div>
             </div>

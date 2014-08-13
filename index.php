@@ -74,7 +74,7 @@
                 </div>
                 <p>
                     <strong><span class="text-primary">Colour</span></strong> also implements various plotting functions thanks to
-                    <a href="http://matplotlib.org/">matplotlib</a>:
+                    <a href="http://matplotlib.org/">Matplotlib</a>:
                 </p>
 
                 <div class="embed-responsive" style="height: 460px;">

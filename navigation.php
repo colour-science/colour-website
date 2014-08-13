@@ -66,7 +66,7 @@
                     <a href="notebooks.php" class="fa fa-book">&nbsp;Notebooks</a>
                 </li>
                 <li>
-                    <a href="#" class="fa fa-life-ring">&nbsp;Documentation</a>
+                    <a href="documentation.php" class="fa fa-life-ring">&nbsp;Documentation</a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe">&nbsp;News</i><b class="caret"></b></a>

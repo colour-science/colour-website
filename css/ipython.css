@@ -16,6 +16,10 @@ div.prompt {
     min-width: 0;
 }
 
+div.input_area {
+    background: #FFF;
+}
+
 /* Syntax Highlighting - Pygments - github.css */
 .highlight .hll {
     background-color: #ffffcc
