@@ -83,6 +83,7 @@
             </div>
             <div>
                 <h2>Latest News</h2>
+                Nothing to see yet!
             </div>
         </div>
         <!-- <<< Center -->

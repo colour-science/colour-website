@@ -1,45 +1,75 @@
 <!-- >>> Footer -->
-<div class="container">
-    <footer>
+<footer class="footer">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-
-                <ul class="list-unstyled">
-                    <li class="pull-right"><a href="#top">Back to top</a></li>
+            <div class="col-md-2">
+                <a href="#">About</a>
+                <ul class="list-footer">
                     <li>
-                        <a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a>
+                        <a href="contributors.php">Contributors</a>
                     </li>
                     <li>
-                        <a href="http://feeds.feedburner.com/bootswatch">RSS</a>
-                    </li>
-                    <li><a href="https://twitter.com/thomashpark">Twitter</a>
+                        <a href="history.php">History</a>
                     </li>
                     <li>
-                        <a href="https://github.com/thomaspark/bootswatch/">GitHub</a>
-                    </li>
-                    <li><a href="../help/#api">API</a></li>
-                    <li>
-                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=F22JEM3Q78JC2">Donate</a>
+                        <a href="mailto:colour-science@googlegroups.com" class="fa fa-send">&nbsp;Contact Us</a>
                     </li>
                 </ul>
-                <p>Made by
-                    <a href="http://thomaspark.me" rel="nofollow">Thomas Park</a>. Contact him at
-                    <a href="mailto:thomas@bootswatch.com">thomas@bootswatch.com</a>.
-                </p>
-
-                <p>Code released under the
-                    <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.
-                </p>
-
-                <p>Based on
-                    <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from
-                    <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from
-                    <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.
-                </p>
+            </div>
+            <div class="col-md-2">
+                <a href="#">Get Started</a>
+                <ul class="list-footer">
+                    <li>
+                        <a href="contributors.php">Contributors</a>
+                    </li>
+                    <li>
+                        <a href="installation.php">Installation</a>
+                    </li>
+                    <li>
+                        <a href="tutorial.php">Tutorial</a>
+                    </li>
+                    <li>
+                        <a href="faq.php">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <a href="#">Downloads</a>
+                <ul class="list-footer">
+                    <li>
+                        <a href="https://github.com/colour-science/colour/releases">All Releases</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/colour-science/colour" class="fa fa-github">&nbsp;Source Code</a>
+                    </li>
+                    <li>
+                        <a href="http://opensource.org/licenses/BSD-3-Clause">License</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <a href="notebooks.php" class="fa fa-book">&nbsp;Notebooks</a>
 
             </div>
-        </div>
+            <div class="col-md-2">
+                <a href="documentation.php" class="fa fa-life-ring">&nbsp;Documentation</a>
 
-    </footer>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><i class="fa fa-globe">&nbsp;News</i></a>
+                <ul class="list-footer">
+                    <li>
+                        <a href="news.php">Latest News</a>
+                    </li>
+                    <li>
+                        <a href="blog.php">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-copyright text-center">
+    Copyright © 2013 - 2014 – Colour Developers – colour-science@googlegroups.com
 </div>
 <!-- <<< Footer -->
