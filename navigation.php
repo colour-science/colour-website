@@ -86,7 +86,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users">&nbsp;Social</i><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="https://twitter.com/colour_science"><i class="fa fa-twitter">&nbsp;Twiter</i></a>
+                            <a href="https://twitter.com/colour_science"><i class="fa fa-twitter">&nbsp;Twitter</i></a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com/python.colour.science"><i class="fa fa-facebook">&nbsp;Facebook</i></a>

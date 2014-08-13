@@ -8,6 +8,9 @@
 
 </head>
 
+<body>
+<?php include_once("analytics_tracking.php") ?>
+
 <?php include ("navigation.php"); ?>
 
 <!-- >>> Content -->
