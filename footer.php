@@ -12,7 +12,8 @@
                         <a href="history.php">History</a>
                     </li>
                     <li>
-                        <a href="mailto:colour-science@googlegroups.com" class="fa fa-send">&nbsp;Contact Us</a>
+                        <?php include("contact.php") ?>
+                        <i class="fa fa-send"></i>&nbsp;Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -48,12 +49,29 @@
                 </ul>
             </div>
             <div class="col-md-2">
-                <a href="notebooks.php" class="fa fa-book">&nbsp;Notebooks</a>
-
+                <a href="#" class="fa fa-cube">&nbsp;Packages</a>
+                <ul class="list-footer">
+                    <li>
+                        <a href="colour_maya.php">Colour - Maya</a>
+                    </li>
+                    <li>
+                        <a href="colour_nuke.php">Colour - Nuke</a>
+                    </li>
+                    <li>
+                        <a href="colour_spectroscope.php">Colour - Spectroscope</a>
+                    </li>
+                </ul>
             </div>
             <div class="col-md-2">
-                <a href="documentation.php" class="fa fa-life-ring">&nbsp;Documentation</a>
-
+                <a href="#" class="fa fa-life-ring">&nbsp;Documentation</a>
+                <ul class="list-footer">
+                    <li>
+                        <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>
+                    </li>
+                    <li>
+                        <a href="api.php" class="fa fa-life-ring">&nbsp;API</a>
+                    </li>
+                </ul>
             </div>
             <div class="col-md-2">
                 <a href="#"><i class="fa fa-globe">&nbsp;News</i></a>
@@ -65,6 +83,27 @@
                         <a href="blog.php">Blog</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="footer-social">
+                    <ul class="list-inline">
+                        <li>
+                            <?php include("contact.php") ?>
+                            <i class="fa fa-send fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/colour_science"><i class="fa fa-twitter fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/python.colour.science"><i class="fa fa-facebook fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about"><i class="fa fa-google-plus fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

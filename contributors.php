@@ -149,6 +149,8 @@
                 </div>
             </div>
 
+            <?php include("disqus.php") ?>
+
         </div>
         <!-- <<< Center -->
 
@@ -157,6 +159,7 @@
     </div>
 </div>
 <!-- <<< Content -->
+
 
 <?php include ("footer.php"); ?>
 

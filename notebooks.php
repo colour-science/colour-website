@@ -21,6 +21,9 @@
             <h2>IPython Notebooks</h2>
             <br/>
             Nothing to see yet!
+
+            <?php include("disqus.php") ?>
+
         </div>
         <!-- <<< Center -->
 
@@ -29,6 +32,7 @@
     </div>
 </div>
 <!-- <<< Content -->
+
 
 <?php include ("footer.php"); ?>
 

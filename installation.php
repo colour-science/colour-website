@@ -56,6 +56,9 @@
                 <a href="http://github.com/color-science/colour">Github</a> source repository:
             </p>
             <code class="gist" data-gist-id="9c1021b1712d5c976c13" data-gist-file="colour_installation_github.sh" data-gist-hide-footer="true" data-gist-hide-line-numbers="true"></code>
+
+            <?php include("disqus.php") ?>
+
         </div>
         <!-- <<< Center -->
 
@@ -64,6 +67,7 @@
     </div>
 </div>
 <!-- <<< Content -->
+
 
 <?php include ("footer.php"); ?>
 

@@ -29,7 +29,8 @@
                             <a href="history.php">History</a>
                         </li>
                         <li>
-                            <a href="mailto:colour-science@googlegroups.com" class="fa fa-send">&nbsp;Contact Us</a>
+                            <?php include("contact.php") ?>
+                            <i class="fa fa-send">&nbsp;Contact Us</i></a>
                         </li>
                     </ul>
                 </li>
@@ -61,12 +62,30 @@
                         </li>
                     </ul>
                 </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cube">&nbsp;Packages</i><b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="colour_maya.php">Colour - Maya</a>
+                        </li>
+                        <li>
+                            <a href="colour_nuke.php">Colour - Nuke</a>
+                        </li>
+                        <li>
+                            <a href="colour_spectroscope.php">Colour - Spectroscope</a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="notebooks.php" class="fa fa-book">&nbsp;Notebooks</a>
-                </li>
-                <li>
-                    <a href="documentation.php" class="fa fa-life-ring">&nbsp;Documentation</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-life-ring">&nbsp;Documentation</i><b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>
+                        </li>
+                        <li>
+                            <a href="api.php" class="fa fa-life-ring">&nbsp;API</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe">&nbsp;News</i><b class="caret"></b></a>
@@ -85,6 +104,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users">&nbsp;Social</i><b class="caret"></b></a>
                     <ul class="dropdown-menu">
+                        <li>
+                            <?php include("contact.php") ?>
+                            <i class="fa fa-send">&nbsp;Email</i></a>
+                        </li>
                         <li>
                             <a href="https://twitter.com/colour_science"><i class="fa fa-twitter">&nbsp;Twitter</i></a>
                         </li>

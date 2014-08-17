@@ -69,6 +69,9 @@
                 <h2>Latest News</h2>
                 Nothing to see yet!
             </div>
+
+            <?php include("disqus.php") ?>
+
         </div>
         <!-- <<< Center -->
 
@@ -77,6 +80,7 @@
     </div>
 </div>
 <!-- <<< Content -->
+
 
 <?php include ("footer.php"); ?>
 

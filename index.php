@@ -31,11 +31,11 @@
 <div>
     <div class="container">
         <div class="row">
-
             <div class="span12 text-center" id="social">
                 <ul class="list-inline">
                     <li>
-                        <a href="mailto:colour-science@googlegroups.com"><i class="fa fa-send fa-2x"></i></a>
+                        <?php include("contact.php") ?>
+                        <i class="fa fa-send fa-2x"></i></a>
                     </li>
                     <li>
                         <a href="https://twitter.com/colour_science"><i class="fa fa-twitter fa-2x"></i></a>

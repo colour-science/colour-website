@@ -21,14 +21,17 @@
             <h2>Blog</h2>
             <br/>
             Nothing to see yet!
+
+            <?php include("disqus.php") ?>
+
         </div>
         <!-- <<< Center -->
-
         <?php include ("sidebar.php"); ?>
 
     </div>
 </div>
 <!-- <<< Content -->
+
 
 <?php include ("footer.php"); ?>
 
