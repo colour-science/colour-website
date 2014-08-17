@@ -33,7 +33,7 @@
                     <h3>Michael Mauderer</h3>
 
                     <p>
-                        <em class="text-info">Computer Science Researcher</em>
+                        <em class="text-info">HCI Researcher @ University of St Andrews</em>
                     </p>
 
                     <p>Colour appearance models, overall development.</p>
@@ -83,6 +83,27 @@
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="list-group">
+                         <script type="text/javascript" language="javascript">
+                            <!--
+                            {
+                                coded = "MMzuG@SJ-Z8xVDgS.ZT.Xm"
+                                key = "tZuiex0b26rSNqoM3TRgn7JFXLDPEAzKVk4W5lhIya89QdYjOfvspCHmUcGwB1"
+                                shift = coded.length
+                                link = ""
+                                for (i = 0; i < coded.length; i++) {
+                                    if (key.indexOf(coded.charAt(i)) == -1) {
+                                        ltr = coded.charAt(i)
+                                        link += (ltr)
+                                    }
+                                    else {
+                                        ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                                        link += (key.charAt(ltr))
+                                    }
+                                }
+                                document.write("<a class='list-group-item text-center' href='mailto:" + link + "'><span class='fa fa-send'>&nbsp;Email</span></a>")
+                            }
+                            //-->
+                        </script>
                         <a href="http://michaelmauderer.com/" class="list-group-item text-center">
                             <span>Website</span>
                         </a>
