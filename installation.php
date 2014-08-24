@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>Installation</title>
+    <title>Installation Guide</title>
 
     <?php include ("common_header_attributes.php"); ?>
 
@@ -18,7 +18,7 @@
     <div class="row">
         <!-- >>> Center -->
         <div class="col-md-9">
-            <h2>Installation</h2>
+            <h2>Installation Guide</h2>
             <br/>
 
             <p>The following primary dependencies are needed:</p>

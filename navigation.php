@@ -83,7 +83,10 @@
                             <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>
                         </li>
                         <li>
-                            <a href="api.php" class="fa fa-life-ring">&nbsp;API</a>
+                            <a href="api.php" class="fa fa-life-ring">&nbsp;API Reference</a>
+                        </li>
+                        <li>
+                            <a href="features.php" class="fa fa-lightbulb-o">&nbsp;Features</a>
                         </li>
                     </ul>
                 </li>
