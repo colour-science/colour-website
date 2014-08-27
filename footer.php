@@ -21,13 +21,14 @@
                 <a href="#">Get Started</a>
                 <ul class="list-footer">
                     <li>
-                        <a href="contributors.php">Contributors</a>
-                    </li>
-                    <li>
                         <a href="installation.php">Installation</a>
                     </li>
                     <li>
                         <a href="tutorial.php">Tutorial</a>
+                    </li>
+                    <li>
+                        <a href="contributing.php">Contributing</a>
+
                     </li>
                     <li>
                         <a href="faq.php">FAQ</a>

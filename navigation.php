@@ -44,6 +44,9 @@
                             <a href="tutorial.php">Tutorial</a>
                         </li>
                         <li>
+                            <a href="contributing.php">Contributing</a>
+                        </li>
+                        <li>
                             <a href="faq.php">FAQ</a>
                         </li>
                     </ul>

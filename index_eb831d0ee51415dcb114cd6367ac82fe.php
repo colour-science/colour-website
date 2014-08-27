@@ -21,6 +21,10 @@
                 <h2>Colour Science for Python</h2>
                 <br/>
 
+                <h1>!!! UPDATE BADGES LINKS !!!</h1>
+                <h2>!!! UPDATE BADGES LINKS !!!</h2>
+                <h3>!!! UPDATE BADGES LINKS !!!</h3>
+                <h4>!!! UPDATE BADGES LINKS !!!</h4>
                 <p>
                     <strong><span class="text-primary">Colour</span></strong> is a
                     <a href="https://www.python.org/">Python</a> colour science package implementing a

@@ -10,30 +10,6 @@
             </a>
         </div>
         <div>
-            <h2 class="text-center">Developers</h2>
-
-            <div class="list-group">
-                <a href="https://github.com/colour-science/colour/pulls" class="list-group-item text-center">
-                    <span class="fa fa-github">&nbsp;Pull Requests</span>
-                </a>
-                <a href="https://github.com/colour-science/colour/issues" class="list-group-item text-center">
-                    <span class="fa fa-github">&nbsp;Issues</span>
-                </a>
-                <a href="#" class="list-group-item text-center">
-                    <span>Continuous Integration</span>
-                </a>
-                <a href="https://pypi.python.org/pypi/colour-science/" class="list-group-item text-center">
-                    <span>Pypi</span>
-                </a>
-                <a href="#" class="list-group-item text-center">
-                    <span>Contribute</span>
-                </a>
-            </div>
-            <div align="center">
-                <iframe src="http://ghbtns.com/github-btn.html?user=colour-science&repo=colour&type=follow&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="160" height="20"></iframe>
-            </div>
-        </div>
-        <div>
             <h2 class="text-center">Users</h2>
 
             <div class="list-group">
@@ -43,19 +19,44 @@
             </div>
         </div>
         <div>
+            <h2 class="text-center">Developers</h2>
+
+            <div class="list-group">
+                <a href="contributing.php" class="list-group-item text-center">Contributing</a>
+                <a href="https://github.com/colour-science/colour/pulls" class="list-group-item text-center">
+                    <span class="fa fa-github">&nbsp;Pull Requests</span>
+                </a>
+                <a href="https://github.com/colour-science/colour/issues" class="list-group-item text-center">
+                    <span class="fa fa-github">&nbsp;Issues</span>
+                    <br/>
+                    <img src="https://badge.waffle.io/KelSolaar/TravisRamblings.svg?label=ready&title=Ready" alt="Stories in Ready">
+                </a>
+                <a href="https://travis-ci.org/colour-science/colour" class="list-group-item text-center">Continuous Integration<br/>
+                    <img src="https://travis-ci.org/KelSolaar/TravisRamblings.svg?branch=master" alt="Continuous Integration Status">
+                </a>
+                <a href="https://coveralls.io/r/colour-science/colour" class="list-group-item text-center">Coverage<br/>
+                    <img src="https://coveralls.io/repos/KelSolaar/TravisRamblings/badge.png?branch=master" alt="Coverage Status">
+                </a>
+                <a href="https://landscape.io/github/colour-science/colour" class="list-group-item text-center">Code Health<br/>
+                    <img src="https://landscape.io/github/KelSolaar/TravisRamblings/master/landscape.png" alt="Code Health">
+                </a>
+                <a href="https://gemnasium.com/colour-science/colour" class="list-group-item text-center">Dependencies<br/>
+                    <img src="https://gemnasium.com/KelSolaar/TravisRamblings.svg" alt="Dependency Status">
+                </a>
+                <a href="https://pypi.python.org/pypi/colour-science/" class="list-group-item text-center">Pypi</a>
+            </div>
+        </div>
+        <div>
             <h2 class="text-center">Links</h2>
 
             <div class="list-group">
-                <a href="http://www.numpy.org/" class="list-group-item text-center">
-                    <span>NumPy</span>
-                </a>
-                <a href="http://www.scipy.org/" class="list-group-item text-center">
-                    <span>SciPy</span>
-                </a>
-                <a href="http://scikit-image.org/" class="list-group-item text-center">
-                    <span>scikit-image</span>
-                </a>
+                <a href="http://www.numpy.org/" class="list-group-item text-center">NumPy</a>
+                <a href="http://www.scipy.org/" class="list-group-item text-center">SciPy</a>
+                <a href="http://scikit-image.org/" class="list-group-item text-center">scikit-image</a>
             </div>
+        </div>
+        <div align="center">
+            <iframe src="http://ghbtns.com/github-btn.html?user=colour-science&repo=colour&type=follow&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="160" height="20"></iframe>
         </div>
         <div>
             <h2 class="text-center"><i class="fa fa-twitter">&nbsp;Twiter</i>

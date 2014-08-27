@@ -45,17 +45,18 @@
             </ul>
             <p>
                 <strong><span class="text-primary">Colour</span></strong> can be easily installed from the
-                <a href="https://pypi.python.org/pypi/colour-science/">
-                    <span>Python Package Index</span>
-                </a>by issuing this command in a shell:
+                <a href="https://pypi.python.org/pypi/colour-science/"> Python Package Index </a>by issuing this command in a shell:
             </p>
-            <code class="gist" data-gist-id="9c1021b1712d5c976c13" data-gist-file="colour_installation_pip.sh" data-gist-hide-footer="true" data-gist-hide-line-numbers="true"></code>
+            <pre>» pip install colour-science</pre>
 
             <p>
                 Alternatively, you can also install directly from
                 <a href="http://github.com/color-science/colour">Github</a> source repository:
             </p>
-            <code class="gist" data-gist-id="9c1021b1712d5c976c13" data-gist-file="colour_installation_github.sh" data-gist-hide-footer="true" data-gist-hide-line-numbers="true"></code>
+            <pre>
+» git clone git://github.com/color-science/colour.git
+» cd colour
+» python setup.py install</pre>
 
             <?php include("disqus.php") ?>
 
