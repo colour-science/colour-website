@@ -200,6 +200,21 @@
                 <div class="col-md-4 text-center">
                 </div>
             </div>
+
+            <h2 class="text-center">Special Mentions</h2>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Aurélia Sellier</h3>
+
+                    <p><em class="text-info">Line Producer @
+                        <a href="http://www.cube-creative.fr/">http://www.cube-creative.fr/</a>
+                    </em></p>
+
+                    <p>Infinite patience</p>
+                </div>
+            </div>
+
             <?php include("disqus.php") ?>
 
         </div>
