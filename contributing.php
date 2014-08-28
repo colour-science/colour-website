@@ -22,11 +22,8 @@
             <h2>Contributing</h2>
 
             <p>
-                <strong><span class="text-primary">Colour</span></strong> is open source and thus we happily welcome contributions.
+                <strong><span class="text-primary">Colour</span></strong> is open source and we happily welcome contributions. This guide will give you an overview on how to contribute.
             </p>
-
-            <p>This guide will give you an overview on how to contribute to
-                <strong><span class="text-primary">Colour</span></strong></p>
 
             <p>There are many ways to help:</p>
             <ul>
@@ -42,12 +39,13 @@
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+milestone%3Av9.9.9">v9.9.9</a> milestone.
                 </li>
                 <li>
-                    Maintaining the existing code base, improving the code style and quality, improving the coverage, updating the documentation, fixing bugs, etc... Issues with the
+                    Maintaining the existing code base, improving the code style and quality, improving the coverage, updating the documentation, fixing bugs, addressing TODOs, etc... Issues with the
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ADefect">Defect</a> or
-                    <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AEnhancement">Enhancement</a>labels are a good starting point.
+                    <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AEnhancement">Enhancement</a> labels are a good place to start.
                 </li>
                 <li>
-                    Improving the <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>, a lot of them are still to be done.
+                    Improving the
+                    <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>, we aim to provide a good scientific support to the API and there is still a lot to do.
                 </li>
                 <li>
                     Improving related packages like
@@ -71,15 +69,10 @@
                 <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AFeature">Feature</a>.
             </p>
 
-            <p> Here are the labels we are currently using:</p>
+            <p>We currently use a large set of labels to categorise issues:</p>
             <ul>
                 <li>
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ADefect">Defect</a>: Used for any kind of defect reported.
-                </li>
-                <li>
-                    Defect Priority:
-                </li>
-                <li>
                     <ul>
                         <li>
                             <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ACritical">Critical</a>: Used for issues either rendering the software unusable, causing loss of data, or preventing people to work. These issues need to be fixed immediately.
@@ -96,15 +89,10 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AEnhancement">Enhancement</a>: Used for an enhancement of an existing feature, can also be used for new feature suggestion, although <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AFeature">Feature</a> label should be preferred.
+                </li>
+                <li>
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AFeature">Feature</a>: Used for a new feature, functionality suggestion.
-                </li>
-                <li>
-                    <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AEnhancement">Enhancement</a>: Used for an enhancement of an existing feature, can also be used for new feature suggestion, although feature label should be preferred.
-                </li>
-                <li>
-                    Feature &amp; Enhancement Priority:
-                </li>
-                <li>
                     <ul>
                         <li>
                             <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AP1">P1</a>: Used for the highest priority.
@@ -127,7 +115,7 @@
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ATask">Task</a>: Used for a task not directly related to pure programming.
                 </li>
                 <li>
-                    <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ADiscussion">Discussion</a>: Used to discuss any subject, those issues often turn into features.
+                    <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ADiscussion">Discussion</a>: Used to discuss any subject, those issues often turn into features or enhancement.
                 </li>
                 <li>
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AIn Progress">In Progress</a>: Used for an issue started and ongoing with very long development time.
@@ -157,25 +145,26 @@
                 <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ADuplicate">Duplicate</a> and close them.
             </p>
 
-            <p>When reporting a defect please provide the following details if possible:</p>
+            <p>When reporting a defect please provide the following details if possible and makes sense to do so:</p>
             <ul>
                 <li>
                     <strong><span class="text-primary">Colour</span></strong> version.
                 </li>
                 <li>
-                    Python version.
+                    <a href="https://www.python.org/">Python</a> version.
                 </li>
                 <li>
-                    Numpy and scipy versions.
+                    <a href="http://www.numpy.org/">NumPy</a> and
+                    <a href="http://www.scipy.org/">SciPy</a> versions.
                 </li>
             </ul>
-            <p>If you are reporting an exception, please provide the complete traceback, it will help us tremendously to understand what's going on.</p>
+            <p>If you are reporting an exception, please provide the complete traceback, it will tremendously help us understand what happened.</p>
 
             <h4>Features &amp; Enhancements</h4>
 
-            <p>
-                If you would like a new feature to be supported or an enhancement of an existing feature, don't hesitate to link any resources or references you feel like would help its implementation: publications, wikipedia article, etc...
-                If there is an implementation existing in another language, we will be most likely be able to port it although the licence must be compatible with the
+            <p>If you would like a new feature to be supported or an enhancement of an existing feature, don't hesitate to link any resources or references you feel like would help its implementation: publications, wikipedia article, etc...</p>
+
+            <p>If there is an implementation existing in another language, we will be most likely be able to port it although the licence must be compatible with the
                 <a href="http://opensource.org/licenses/BSD-3-Clause">New BSD License</a> terms.
             </p>
 
@@ -186,7 +175,7 @@
 
             <h3>Contributing Code</h3>
 
-            <p>Assuming you have something to work on, you will have to get the code and follow the coding guidelines.</p>
+            <p>Assuming you have something to work on, you will have to get the code and follow the guidelines.</p>
 
             <h4>Development for Colour</h4>
 
@@ -202,7 +191,7 @@
                 </li>
                 <li>
                     Activate
-                    <a href="http://travis-ci.org/">Travis-CI</a> for your fork so that the unit tests, doctests and coverage are run for your changes.
+                    <a href="http://travis-ci.org/">Travis-CI</a> for your <em><span class="text-info">fork</span></em> so that the tests suite is run when you push your changes.
                 </li>
                 <li>
                     Clone the repository locally to your workspace:
@@ -230,7 +219,7 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                 <li>
                     Create a branch for your contribution:
                     <pre>» git checkout -b feature/mie_scattering</pre>
-                    The core developer are using the
+                    The core developers are using the
                     <a href="http://nvie.com/posts/a-successful-git-branching-model/">git flow branching model</a> for most of the development tasks and since the branch name appears in the commit message and for consistency, please use the following branch prefixes:
                     <ul>
                         <li>
@@ -258,7 +247,7 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                     <pre>» git push origin feature/mie_scattering</pre>
                 </li>
                 <li>
-                    Ensure that the everything is all right with
+                    Ensure that the test suite is all right on
                     <a href="http://travis-ci.org/">Travis-CI</a>.
                 </li>
                 <li>
@@ -269,18 +258,20 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                 </li>
             </ol>
 
-            <h3>Code Review</h3>
+            <h3>Code Reviews</h3>
 
             <p>Your pull request will be reviewed by the maintainers and any other developer interested in the project.</p>
 
-            <p>Every single developer has his code reviewed, this is a natural process that helping to raise the codebase quality while having a friendly discussion. Comments will be made on various aspects such as the documentation and references, the code style and its implementation. Those can be discouraging, although they are not meant to criticize but aim at improving the quality of your submission. We all learn from them and the project ultimately benefits from them.</p>
+            <p>Every single developer has his code reviewed, this is a natural process helping to raise the codebase quality while having a friendly discussion. Comments will be made on various aspects such as the documentation and references, the code style and its implementation. Those can be discouraging, although they are not meant to criticize but aim at improving the quality of your submission. We all learn from that process and the project ultimately benefits from them.</p>
 
             <h3>Guidelines</h3>
 
             <p>Most of the conventions used in
                 <strong><span class="text-primary">Colour</span></strong> are the same than
-                <a href="http://www.numpy.org/">NumPy</a> and
-                <a href="http://www.scipy.org/">SciPy</a>.</p>
+                <a href="http://www.numpy.org/">NumPy</a>,
+                <a href="http://www.scipy.org/">SciPy</a> and
+                <a href="http://scikit-image.org/">scikit-image</a>.
+            </p>
 
             <h4>Overview</h4>
 
@@ -291,14 +282,14 @@ upstream  https://github.com/colour-science/colour (push)</pre>
             </p>
 
             <p>The code has to be
-                <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP 8</a> compliant although but before anything else, it needs to be consistent with the Colour Science litterature
+                <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP 8</a> compliant although but before anything else, it needs to be consistent with the Colour Science litterature:
             </p>
 
             <p>
                 For example, the base
                 <strong><span class="text-primary">CIE</span></strong> colourspace is
-                <strong><span class="text-primary">CIE XYZ</span></strong>, it can be converted to chromaticity coordinates
-                <strong><span class="text-primary">xy</span></strong>. If we were to follow the
+                <strong><span class="text-primary">CIE XYZ</span></strong> with upper case notation. It can be converted to chromaticity coordinates
+                <strong><span class="text-primary">xy</span></strong> with lowere case notation. If we were to follow the
                 <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP 8</a> recommendations, we would have written a conversion definition as follows:
             </p>
             <pre>def xyz_to_xy(xyz):
@@ -306,7 +297,7 @@ upstream  https://github.com/colour-science/colour (push)</pre>
     x, y = x / (x + y + z), y / (x + y + z)
     return x, y</pre>
             <p>Abstracting the fact the above definition is totally undocumented, it can be confusing to understand when we are referencing big
-                <strong><span class="text-primary">X</span></strong> tristimulus value and when we are referencing little
+                <strong><span class="text-primary">X</span></strong> tristimulus value or little
                 <strong><span class="text-primary">x</span></strong> chromaticity coordinate.
             </p>
 
@@ -315,7 +306,7 @@ upstream  https://github.com/colour-science/colour (push)</pre>
     X, Y, Z = np.ravel(XYZ)
     x, y = X / (X + Y + Z), Y / (X + Y + Z)
     return x, y</pre>
-            <p>When the reference is using uppercase named variables, we try to follow the same convention, it is unfortunately not
+            <p>When the reference is using upper case named variables, we try to follow the same convention, it is unfortunately not
                 <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP 8</a> compliant but has the benefit of a much easier comparison between the implementation and the reference.
             </p>
 
@@ -325,10 +316,11 @@ upstream  https://github.com/colour-science/colour (push)</pre>
             <ul>
                 <li>All the code must be covered by unit tests and doctests.</li>
                 <li>All the code must be documented to the same standard than
-                    <a href="http://www.numpy.org/">NumPy</a> and
-                    <a href="http://www.scipy.org/">SciPy</a>.
+                    <a href="http://www.numpy.org/">NumPy</a>,
+                    <a href="http://www.scipy.org/">SciPy</a> and
+                    <a href="http://scikit-image.org/">scikit-image</a>.
                 </li>
-                <li>All the code must be checked with the static analysis tool of your choice (we use <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> extensively), <a href="https://pypi.python.org/pypi/flake8">flake8</a> and <a href="https://landscape.io/">Landscape</a> .</li>
+                <li>All the code must be checked with the static analysis tool of your choice (we use <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> extensively), <a href="https://pypi.python.org/pypi/flake8">flake8</a> and <a href="https://landscape.io/">Landscape</a>.</li>
                 <li>No pull request should be merged without being reviewed and ensuring that the tests suite pass in
                     <a href="http://travis-ci.org/">Travis-CI</a>.
                 </li>
@@ -341,14 +333,14 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                 <li>Ensure
                     <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP 8</a> compliance.
                 </li>
-                <li>Please use <em>British English</em> words instead of <em>American English</em> ones as the <strong><span class="text-primary">CIE</span></strong>, the most important of all being <strong><span class="text-primary">colour</span></strong> instead of <strong><span class="text-primary">color</span></strong>. You can consult the <a href="http://eilv.cie.co.at/">CIE Termlist</a> if any doubts.</li>
+                <li>Please use <em>British English</em> words instead of <em>American English</em> ones as the <strong><span class="text-primary">CIE</span></strong> does, the most important of all being <strong><span class="text-primary">colour</span></strong> instead of <strong><span class="text-primary">color</span></strong>. You can consult the <a href="http://eilv.cie.co.at/">CIE Termlist</a> if any doubts.</li>
                 <li>Import
                     <a href="http://www.numpy.org/">NumPy</a> as follows:
                     <pre>import numpy as np</pre>
                 </li>
                 <li>Doctests may need
                     <strong><span class="text-primary">ellipsis</span></strong>, don't rely on global
-                    <strong><span class="text-primary">nose</span></strong> settings and specify it as follows:
+                    <strong><span class="text-primary">nose</span></strong> settings and specify it using the dedicated pragma as follows:
                     <pre>>>> Lab = np.array([100, -7.41787844, -15.85742105])
 >>> Lab_to_LCHab(Lab)  # doctest: +ELLIPSIS
 array([ 100.        ,   17.5066479...,  244.9304684...])</pre>
@@ -360,14 +352,23 @@ array([ 100.        ,   17.5066479...,  244.9304684...])</pre>
                     <strong><span class="text-primary">'Ohno 2013'</span></strong>, while the mapping object holding them is case insensitive, please use the title case form for consistency across the API.
                 </li>
                 <li>Some very big lines sometimes cannot be wrapped (doctests, html links), you can use the
-                    <strong><span class="text-primary"># noqa</span></strong> pragma in those cases, although do it in last resort.
+                    <strong><span class="text-primary"># noqa</span></strong> pragma in those cases, although do it in last resort, we have already too much of them.
                 </li>
                 <li>Avoid
                     <strong><span class="text-primary">/</span></strong> to wrap lines, prefer using the parenthesis
                     <strong><span class="text-primary">()</span></strong>.
                 </li>
                 <li>The code formatting is right now done with
-                    <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> reformat (although there are still some rough corner with it), ensure that you have blank line at the end of the files and that trailing whitespaces are stripped.
+                    <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> reformat (although there are still some rough corner with it), and we may run a pass from time to time.
+                </li>
+                <li>
+                    Inline comments must have two spaces.
+                </li>
+                <li>
+                    Ensure that you have blank line at the end of the files.
+                </li>
+                <li>
+                    Ensure that trailing whitespaces are stripped.
                 </li>
             </ul>
 
@@ -375,7 +376,7 @@ array([ 100.        ,   17.5066479...,  244.9304684...])</pre>
 
             <p>A good commiting strategy implies that separated commits should be done for any particular changes: One should not commit multiple bugs fixes or large change sets at once.</p>
 
-            <p>This unnecessarily increase complexity for any code merge or rollbacks needs and prevent a grainier control over the version control. One exception to this rule is for the initial design steps when creating a new package or feature (please consider squashing the commits), but once the said package is in production, a regular committing strategy should be applied.</p>
+            <p>This unnecessarily increase complexity for any code merge or rollbacks needs and prevent a grainier control over the version control. One exception to this rule is for the initial design steps when creating a new sub-package or feature (please consider squashing the commits), but once the said sub-package is in production, a regular committing strategy should be applied.</p>
 
             <p>Commit messages need to use imperative syntax, the first commit line must be a quick description of the modification content finished by a punctuation mark and can be followed by a detailed description separated by one line break. If the commit fixes a particular issue in the issue tracker, it's advised to state it in the commit message using the following syntax: <strong><span class="text-primary">Closes #32.</span></strong></p>
             <pre>Yes:
