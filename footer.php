@@ -27,8 +27,7 @@
                         <a href="tutorial.php">Tutorial</a>
                     </li>
                     <li>
-                        <a href="contributing.php">Contributing</a>
-
+                        <a href="contributing.php"><span class="fa fa-gears">&nbsp;Contributing</span></a>
                     </li>
                     <li>
                         <a href="faq.php">FAQ</a>
@@ -71,6 +70,9 @@
                     </li>
                     <li>
                         <a href="api.php" class="fa fa-life-ring">&nbsp;API Reference</a>
+                    </li>
+                    <li>
+                        <a href="contributing.php"><span class="fa fa-gears">&nbsp;Contributing</span></a>
                     </li>
                     <li>
                         <a href="features.php" class="fa fa-lightbulb-o">&nbsp;Features</a>

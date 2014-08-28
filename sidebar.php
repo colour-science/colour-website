@@ -22,7 +22,9 @@
             <h2 class="text-center">Developers</h2>
 
             <div class="list-group">
-                <a href="contributing.php" class="list-group-item text-center">Contributing</a>
+                <a href="contributing.php" class="list-group-item text-center">
+                    <span class="fa fa-gears">&nbsp;Contributing</span>
+                </a>
                 <a href="https://github.com/colour-science/colour/pulls" class="list-group-item text-center">
                     <span class="fa fa-github">&nbsp;Pull Requests</span>
                 </a>
