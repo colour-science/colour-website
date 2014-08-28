@@ -1,25 +1,41 @@
+@import url("../bootswatch/colour/bootstrap.css");
+
 body {
     background: #FCFCFC;
+    color: #777777;
     padding: 0;
 }
 
-div#notebook {
+div#notebook #notebook-container {
     padding: 0;
 }
 
 div.cell {
-    padding: 0;
+    border: 0;
+}
+
+div.text_cell_render {
+    color: #777777;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 div.prompt {
-    padding-left: 0;
-    min-width: 0;
+    display: none;
 }
 
 div.input_area {
     background: #FFF;
 }
 
+div.output {
+    border-left: 5px solid #EEE;
+    margin-top: 10px;
+}
+
+.rendered_html h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+}
 /* Syntax Highlighting - Pygments - github.css */
 .highlight .hll {
     background-color: #ffffcc

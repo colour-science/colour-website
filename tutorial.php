@@ -18,9 +18,9 @@
     <div class="row">
         <!-- >>> Center -->
         <div class="col-md-9">
-            <h2>Tutorial</h2>
-            <br/>
-            Nothing to see yet!
+            <div class="embed-responsive" style="height: 16384px;">
+                <iframe class="embed-responsive-item" src="ipython/tutorial.html"></iframe>
+            </div>
 
             <?php include("disqus.php") ?>
 

@@ -50,14 +50,14 @@
                     For example, calculating the colour rendering index of light source can be done as follows:
                 </p>
 
-                <div class="embed-responsive" style="min-height: 95px;">
+                <div class="embed-responsive" style="min-height: 100px;">
                     <iframe class="embed-responsive-item" src="ipython/snippets/colour_cri_snippet.html"></iframe>
                 </div>
                 <p>
                     The correlated colour temperature of a *CIE Standard Illuminant* can be calculated easily:
                 </p>
 
-                <div class="embed-responsive" style="height: 95px;">
+                <div class="embed-responsive" style="height: 100px;">
                     <iframe class="embed-responsive-item" src="ipython/snippets/colour_cct_snippet.html"></iframe>
                 </div>
                 <p>
