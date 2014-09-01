@@ -120,13 +120,13 @@
             <ul class="simple">
                 <li>Glasser (1958)</li>
                 <li>Wyszecki (1964)</li>
-                <li>Lightness 1976</li>
+                <li>CIE (1976)</li>
             </ul>
             <h4>Luminance Computation</h4>
             <ul class="simple">
                 <li>Newhall (1943)</li>
-                <li>Luminance 1976</li>
-                <li>ASTM D1535-08</li>
+                <li>CIE (1976)</li>
+                <li>ASTM D1535-08 (2008)</li>
             </ul>
 
             <h3>Colour Temperature &amp; Correlated Colour Temperature</h3>

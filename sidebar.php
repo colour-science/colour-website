@@ -3,9 +3,9 @@
     <div class="row">
         <div>
             <h2 class="text-center">Releases</h2>
-            <a href="https://github.com/colour-science/colour/archive/v0.2.0.zip">
+            <a href="https://github.com/colour-science/colour/archive/v0.3.0.zip">
                 <button type="button" class="btn btn-primary btn-lg btn-block">
-                    <i class="fa fa-download"></i>&nbsp;Colour 0.2.0 Alpha
+                    <i class="fa fa-download"></i>&nbsp;Colour 0.3.0 Alpha
                 </button>
             </a>
         </div>

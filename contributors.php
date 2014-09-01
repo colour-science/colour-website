@@ -208,7 +208,7 @@
                     <h3>Aurélia Sellier</h3>
 
                     <p><em class="text-info">Line Producer @
-                        <a href="http://www.cube-creative.fr/">http://www.cube-creative.fr/</a>
+                        <a href="http://www.cube-creative.fr/">Cube Creative/</a>
                     </em></p>
 
                     <p>Infinite patience</p>

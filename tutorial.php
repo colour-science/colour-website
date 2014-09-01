@@ -18,7 +18,7 @@
     <div class="row">
         <!-- >>> Center -->
         <div class="col-md-9">
-            <div class="embed-responsive" style="height: 20275px;">
+            <div class="embed-responsive" style="height: 20425px;">
                 <iframe class="embed-responsive-item" src="ipython/tutorial.html"></iframe>
             </div>
 

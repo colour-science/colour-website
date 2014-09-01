@@ -1632,20 +1632,20 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  }
-  div.output_wrapper {
+  } 
+  div.output_wrapper { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
-  div.output {
+  div.output { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
 }
 </style>
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="../css/ipython.css">
+<link rel="stylesheet" href="custom.css">
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
@@ -1704,7 +1704,7 @@ In&nbsp;[1]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="kn">from</span> <span class="nn">colour.plotting</span> <span class="kn">import</span> <span class="o">*</span>
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">colour.plotting</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c"># noqa</span>
 
 <span class="n">visible_spectrum_plot</span><span class="p">()</span>
 </pre></div>
@@ -2051,11 +2051,13 @@ Algebra
 
 
 Appearance
-[&apos;HUNT_VIEWING_CONDITIONS&apos;,
+[&apos;Hunt_InductionFactors&apos;,
+ &apos;HUNT_VIEWING_CONDITIONS&apos;,
  &apos;Hunt_Specification&apos;,
  &apos;XYZ_to_Hunt&apos;,
  &apos;ATD95_Specification&apos;,
  &apos;XYZ_to_ATD95&apos;,
+ &apos;CIECAM02_InductionFactors&apos;,
  &apos;CIECAM02_VIEWING_CONDITIONS&apos;,
  &apos;CIECAM02_Specification&apos;,
  &apos;XYZ_to_CIECAM02&apos;,
@@ -2065,6 +2067,8 @@ Appearance
  &apos;XYZ_to_LLAB&apos;,
  &apos;Nayatani95_Specification&apos;,
  &apos;XYZ_to_Nayatani95&apos;,
+ &apos;RLAB_VIEWING_CONDITIONS&apos;,
+ &apos;RLAB_D_FACTOR&apos;,
  &apos;RLAB_Specification&apos;,
  &apos;XYZ_to_RLAB&apos;]
 
@@ -2103,12 +2107,12 @@ Colorimetry
  &apos;D_illuminant_relative_spd&apos;,
  &apos;mesopic_luminous_efficiency_function&apos;,
  &apos;mesopic_weighting_function&apos;,
- &apos;LIGHTNESS_FUNCTIONS&apos;,
+ &apos;LIGHTNESS_METHODS&apos;,
  &apos;lightness&apos;,
  &apos;lightness_glasser1958&apos;,
  &apos;lightness_wyszecki1964&apos;,
  &apos;lightness_1976&apos;,
- &apos;LUMINANCE_FUNCTIONS&apos;,
+ &apos;LUMINANCE_METHODS&apos;,
  &apos;luminance&apos;,
  &apos;luminance_newhall1943&apos;,
  &apos;luminance_1976&apos;,
@@ -2132,7 +2136,12 @@ Constants
 
 
 Difference
-[&apos;delta_E_CIE_1976&apos;, &apos;delta_E_CIE_1994&apos;, &apos;delta_E_CIE_2000&apos;, &apos;delta_E_CMC&apos;]
+[&apos;DELTA_E_METHODS&apos;,
+ &apos;delta_E&apos;,
+ &apos;delta_E_CIE_1976&apos;,
+ &apos;delta_E_CIE_1994&apos;,
+ &apos;delta_E_CIE_2000&apos;,
+ &apos;delta_E_CMC&apos;]
 
 
 Io
@@ -2209,7 +2218,7 @@ Notation
  &apos;MUNSELL_COLOURS_REAL&apos;,
  &apos;MUNSELL_COLOURS&apos;,
  &apos;munsell_value&apos;,
- &apos;MUNSELL_VALUE_FUNCTIONS&apos;,
+ &apos;MUNSELL_VALUE_METHODS&apos;,
  &apos;munsell_value_priest1920&apos;,
  &apos;munsell_value_munsell1933&apos;,
  &apos;munsell_value_moon1943&apos;,
@@ -2381,7 +2390,7 @@ In&nbsp;[4]:
     &gt;&gt;&gt; Duv = 0.003223690901512735
     &gt;&gt;&gt; CCT_to_uv_ohno2013(CCT, Duv, cmfs)  # doctest: +ELLIPSIS
     (0.1978003..., 0.3122005...)
-
+    
 
 </pre>
 </div>
@@ -2453,12 +2462,12 @@ In&nbsp;[5]:
  &apos;D_illuminant_relative_spd&apos;,
  &apos;mesopic_luminous_efficiency_function&apos;,
  &apos;mesopic_weighting_function&apos;,
- &apos;LIGHTNESS_FUNCTIONS&apos;,
+ &apos;LIGHTNESS_METHODS&apos;,
  &apos;lightness&apos;,
  &apos;lightness_glasser1958&apos;,
  &apos;lightness_wyszecki1964&apos;,
  &apos;lightness_1976&apos;,
- &apos;LUMINANCE_FUNCTIONS&apos;,
+ &apos;LUMINANCE_METHODS&apos;,
  &apos;luminance&apos;,
  &apos;luminance_newhall1943&apos;,
  &apos;luminance_1976&apos;,
@@ -2665,7 +2674,7 @@ In&nbsp;[7]:
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
-&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x107257390&gt;
+&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x107985d50&gt;
 
 </pre>
 </div>
@@ -4009,7 +4018,7 @@ In&nbsp;[20]:
 <div class="highlight"><pre><span class="c"># Extrapolating the cloned sample spectral power distribution with *Linear* method.</span>
 <span class="c"># We first trim the spectral power distribution using the interpolation method,</span>
 <span class="c"># the steps being the same, no interpolation will actually occur.</span>
-<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>
+<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>  
 <span class="n">clone_spd</span><span class="o">.</span><span class="n">extrapolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">340</span><span class="p">,</span> <span class="mi">830</span><span class="p">),</span> <span class="n">method</span><span class="o">=</span><span class="s">&#39;Linear&#39;</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">clone_spd</span><span class="p">[</span><span class="mi">340</span><span class="p">],</span> <span class="n">clone_spd</span><span class="p">[</span><span class="mi">830</span><span class="p">]</span>
 </pre></div>
@@ -4056,7 +4065,7 @@ In&nbsp;[21]:
     <div class="input_area">
 <div class="highlight"><pre><span class="c"># Aligning the cloned sample spectral power distribution.</span>
 <span class="c"># We first trim the spectral power distribution as above.</span>
-<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>
+<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>  
 <span class="n">clone_spd</span><span class="o">.</span><span class="n">align</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">340</span><span class="p">,</span> <span class="mi">830</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 <span class="n">clone_spd</span><span class="p">[</span><span class="mi">340</span><span class="p">],</span> <span class="n">clone_spd</span><span class="p">[</span><span class="mi">830</span><span class="p">]</span>
 </pre></div>
@@ -6454,7 +6463,7 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We hope that this small introduction has been useful and gave you the envy to see more, if you want to explore the API a good place to start is the <a href="http://colour-science.org/notebooks.php">IPython Notebooks</a> page.</p>
+<p>We hope that this small introduction has been useful and gave you the envy to see more, if you want to explore the API a good place to start is the <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb">IPython Notebooks</a> page.</p>
 </div>
 </div>
 </div>

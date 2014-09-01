@@ -49,7 +49,7 @@
                 </ul>
             </div>
             <div class="col-md-2">
-                <a href="#" class="fa fa-cube">&nbsp;Packages</a>
+                <a class="fa fa-cube">&nbsp;Packages</a>
                 <ul class="list-footer">
                     <li>
                         <a href="colour_maya.php">Colour - Maya</a>
@@ -63,13 +63,13 @@
                 </ul>
             </div>
             <div class="col-md-2">
-                <a href="#" class="fa fa-life-ring">&nbsp;Documentation</a>
+                <a class="fa fa-life-ring">&nbsp;Documentation</a>
                 <ul class="list-footer">
                     <li>
-                        <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>
+                        <a href="api/latest/html/index.html" class="fa fa-life-ring">&nbsp;API Reference</a>
                     </li>
                     <li>
-                        <a href="api.php" class="fa fa-life-ring">&nbsp;API Reference</a>
+                        <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb" class="fa fa-book">&nbsp;IPython Notebooks</a>
                     </li>
                     <li>
                         <a href="contributing.php"><span class="fa fa-gears">&nbsp;Contributing</span></a>

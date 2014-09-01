@@ -20,7 +20,7 @@
         <div class="navbar-collapse collapse" id="navbar-main">
             <ul class="nav navbar-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="contributors.php">Contributors</a>
@@ -35,7 +35,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Started<b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown">Get Started<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="installation.php">Installation</a>
@@ -52,7 +52,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads<b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown">Downloads<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="https://github.com/colour-science/colour/releases">All Releases</a>
@@ -66,7 +66,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cube">&nbsp;Packages</i><b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cube">&nbsp;Packages</i><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="colour_maya.php">Colour - Maya</a>
@@ -80,13 +80,16 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-life-ring">&nbsp;Documentation</i><b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-life-ring">&nbsp;Documentation</i><b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li>
-                            <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" class="fa fa-life-ring">&nbsp;API Reference</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="api/0.3.0/html/index.html">Colour 0.3.0</a></li>
+                            </ul>
                         </li>
                         <li>
-                            <a href="api.php" class="fa fa-life-ring">&nbsp;API Reference</a>
+                            <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb" class="fa fa-book">&nbsp;IPython Notebooks</a>
                         </li>
                         <li>
                             <a href="features.php" class="fa fa-lightbulb-o">&nbsp;Features</a>
@@ -97,7 +100,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe">&nbsp;News</i><b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe">&nbsp;News</i><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="news.php">Latest News</a>
@@ -111,7 +114,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users">&nbsp;Social</i><b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users">&nbsp;Social</i><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <?php include("contact.php") ?>

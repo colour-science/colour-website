@@ -45,7 +45,7 @@
                 </li>
                 <li>
                     Improving the
-                    <a href="notebooks.php" class="fa fa-book">&nbsp;IPython Notebooks</a>, we aim to provide a good scientific support to the API and there is still a lot to do.
+                    <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb" class="fa fa-book">&nbsp;IPython Notebooks</a>, we aim to provide a good scientific support to the API and there is still a lot to do.
                 </li>
                 <li>
                     Improving related packages like
@@ -110,6 +110,9 @@
                 </li>
                 <li>
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ADocumentation">Documentation</a>: Used for issues related to the documentation.
+                </li>
+                <li>
+                    <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3AExamples">Examples</a>: Used for issues related to the examples.
                 </li>
                 <li>
                     <a href="https://github.com/colour-science/colour/issues?q=is%3Aopen+is%3Aissue+label%3ATask">Task</a>: Used for a task not directly related to pure programming.
