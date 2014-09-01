@@ -20,7 +20,26 @@
         <div class="col-md-9">
             <h2>Latest News</h2>
             <br/>
-            Nothing to see yet!
+
+            <h3 name="2014_02_09">Tuesday, 2 September 2014</h3>
+
+            <p>
+                We are thrilled to announce that after many months of work, the first public release of
+                <strong><span class="text-primary">Colour</span></strong> is available! Although this is an alpha release, the code is well tested and covered and should be fairly stable.
+            </p>
+
+            <p>You can view the highlights of the project on the
+                <a href="http://colour-science.local/features.php">features</a> page.
+            </p>
+
+            <p>Please follow the
+                <a href="http://colour-science.local/installation.php">installation guide</a> in order to retrieve the code or click the big blue button on the right sidebar.
+            </p>
+
+            <p>
+                We have a few
+                <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb" class="fa fa-book">&nbsp;IPython Notebooks</a> already done to cover the theoretical aspect of the API.
+            </p>
 
             <?php include("disqus.php") ?>
 

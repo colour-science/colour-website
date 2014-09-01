@@ -22,9 +22,12 @@
                 <br/>
 
                 <h1>!!! UPDATE BADGES LINKS !!!</h1>
+
                 <h2>!!! UPDATE BADGES LINKS !!!</h2>
+
                 <h3>!!! UPDATE BADGES LINKS !!!</h3>
                 <h4>!!! UPDATE BADGES LINKS !!!</h4>
+
                 <p>
                     <strong><span class="text-primary">Colour</span></strong> is a
                     <a href="https://www.python.org/">Python</a> colour science package implementing a
@@ -50,14 +53,14 @@
                     For example, calculating the colour rendering index of light source can be done as follows:
                 </p>
 
-                <div class="embed-responsive" style="min-height: 100px;">
+                <div class="embed-responsive" style="min-height: 135px;">
                     <iframe class="embed-responsive-item" src="ipython/snippets/colour_cri_snippet.html"></iframe>
                 </div>
                 <p>
-                    The correlated colour temperature of a *CIE Standard Illuminant* can be calculated easily:
+                    The correlated colour temperature of a CIE Standard Illuminant can be calculated easily:
                 </p>
 
-                <div class="embed-responsive" style="height: 100px;">
+                <div class="embed-responsive" style="height: 135px;">
                     <iframe class="embed-responsive-item" src="ipython/snippets/colour_cct_snippet.html"></iframe>
                 </div>
                 <p>
@@ -65,13 +68,20 @@
                     <a href="http://matplotlib.org/">Matplotlib</a>:
                 </p>
 
-                <div class="embed-responsive" style="height: 460px;">
+                <div class="embed-responsive" style="height: 500px;">
                     <iframe class="embed-responsive-item" src="ipython/snippets/colour_visible_spectrum_plot_snippet.html"></iframe>
                 </div>
             </div>
             <div>
                 <h2>Latest News</h2>
-                Nothing to see yet!
+
+                <ul>
+                    <li>
+                        <strong>Tuesday, 2 September 2014</strong><br/>The first public release of
+                        <strong><span class="text-primary">Colour</span></strong> is available!
+                        <a href="news.php#2014_02_09">Read more...</a>
+                    </li>
+                </ul>
             </div>
 
             <?php include("disqus.php") ?>
