@@ -88,8 +88,6 @@
                                 <li>
                                     <a href="api/0.3.1/html/index.html">Colour 0.3.1</a>
                                 </li>
-                            </ul>
-                            <ul class="dropdown-menu">
                                 <li>
                                     <a href="api/0.3.0/html/index.html">Colour 0.3.0</a>
                                 </li>
