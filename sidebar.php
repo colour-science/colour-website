@@ -49,6 +49,13 @@
             </div>
         </div>
         <div>
+            <h2 class="text-center">Citation</h2>
+
+            <div class="list-group">
+                <a href="http://dx.doi.org/10.5281/zenodo.11565" class="list-group-item text-center"><img src="https://zenodo.org/badge/doi/10.5281/zenodo.11565.png" alt="10.5281/zenodo.11565"></a>
+            </div>
+        </div>
+        <div>
             <h2 class="text-center">Links</h2>
 
             <div class="list-group">
