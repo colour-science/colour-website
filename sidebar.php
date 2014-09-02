@@ -13,7 +13,7 @@
             <h2 class="text-center">Users</h2>
 
             <div class="list-group">
-                <a href="colour-science@googlegroups.com" class="list-group-item text-center">
+                <a href="mailto:colour-science@googlegroups.com" class="list-group-item text-center">
                     <span class="fa fa-life-ring">&nbsp;Mailing List</span>
                 </a>
             </div>
