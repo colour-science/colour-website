@@ -29,11 +29,11 @@
             </p>
 
             <p>You can view the highlights of the project on the
-                <a href="http://colour-science.local/features.php">features</a> page.
+                <a href="http://colour-science.org/features.php">features</a> page.
             </p>
 
             <p>Please follow the
-                <a href="http://colour-science.local/installation.php">installation guide</a> in order to retrieve the code or click the big blue button on the right sidebar.
+                <a href="http://colour-science.org/installation.php">installation guide</a> in order to retrieve the code or click the big blue button on the right sidebar.
             </p>
 
             <p>
