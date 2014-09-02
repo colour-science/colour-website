@@ -21,9 +21,12 @@
             <h2>Installation Guide</h2>
             <br/>
 
+            <h3>Dependencies</h3>
+
             <p>The following primary dependencies are needed:</p>
             <ul>
                 <li>
+                    <a href="https://www.python.org/download/releases/">Python 2.6</a>,
                     <a href="https://www.python.org/download/releases/">Python 2.7</a> or
                     <a href="https://www.python.org/download/releases/">Python 3.4</a>
                 </li>
@@ -34,20 +37,57 @@
                     <a href="http://matplotlib.org/">Matplotlib</a>
                 </li>
             </ul>
-            <p>Some API capabilities or building the documentation requires:</p>
+            <strong><span class="text-primary">Python 2.6</span></strong>
+            and
+            <strong><span class="text-primary">Python 2.7</span></strong> require the following backported dependencies:
+            <ul>
+                <li>
+                    <a href="https://pypi.python.org/pypi/backports.functools_lru_cache/1.0.1">Backports.functools_lru_cache</a>,
+                </li>
+            </ul>
+            <strong><span class="text-primary">Python 2.6</span></strong> requires the following backported dependencies:
+            <ul>
+                <li>
+                    <a href="https://pypi.python.org/pypi/ordereddict">Ordereddict</a>,
+                </li>
+                <li>
+                    <a href="https://pypi.python.org/pypi/unittest2">Unittest2</a>
+                </li>
+            </ul>
+            <p>Various optional capabilities require:</p>
             <ul>
                 <li>
                     <a href="http://www.scipy.org/">SciPy</a>
                 </li>
+            </ul>
+            <p>The testing suite requires the following dependencies:</p>
+            <ul>
+                <li>
+                    <a href="https://nose.readthedocs.org/en/latest">Nose</a>
+                </li>
+                <li>
+                    <a href="https://pypi.python.org/pypi/coverage">Coverage</a>
+                </li>
+                <li>
+                    <a href="https://pypi.python.org/pypi/flake8">Flake8</a>
+                </li>
+            </ul>
+            <p>In order to build the documentation the following packages are required:</p>
+            <ul>
                 <li>
                     <a href="sphinx-doc.org">Sphinx</a>
                 </li>
             </ul>
+
+            <h3>Pypi</h3>
+
             <p>
                 <strong><span class="text-primary">Colour</span></strong> can be easily installed from the
                 <a href="https://pypi.python.org/pypi/colour-science/"> Python Package Index </a>by issuing this command in a shell:
             </p>
             <pre>» pip install colour-science</pre>
+
+            <h3>Github</h3>
 
             <p>
                 Alternatively, you can also install directly from
@@ -56,8 +96,21 @@
             <pre>
 » git clone git://github.com/color-science/colour.git
 » cd colour
-» python setup.py install</pre>
+» pip install .</pre>
+            <p>The optional dependencies are installed by using the following command:</p>
+            <pre>» pip install -e .[optional]</pre>
+            <p>The tests suite dependencies are installed by using the following command:</p>
+            <pre>» pip install -e .[tests]</pre>
+            <p>The documentation dependencies are installed by using the following command:</p>
+            <pre>» pip install -e .[docs]</pre>
 
+            <h3>Anaconda</h3>
+
+            <p>An easy way to get all the pre-requisites at once is to install
+                <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> scientific python distribution from Continuum Analytics and then add
+                <strong><span class="text-primary">Colour</span></strong> to your
+                <strong><span class="text-primary">PYTHONPATH</span></strong>.
+            </p>
             <?php include("disqus.php") ?>
 
         </div>

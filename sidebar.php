@@ -31,19 +31,19 @@
                 <a href="https://github.com/colour-science/colour/issues" class="list-group-item text-center">
                     <span class="fa fa-github">&nbsp;Issues</span>
                     <br/>
-                    <img src="https://badge.waffle.io/KelSolaar/TravisRamblings.svg?label=ready&title=Ready" alt="Stories in Ready">
+                    <img src="https://badge.waffle.io/colour-science/colour.svg?label=ready&title=Ready" alt="Stories in Ready">
                 </a>
                 <a href="https://travis-ci.org/colour-science/colour" class="list-group-item text-center">Continuous Integration<br/>
-                    <img src="https://travis-ci.org/KelSolaar/TravisRamblings.svg?branch=master" alt="Continuous Integration Status">
+                    <img src="https://travis-ci.org/colour-science/colour.svg?branch=master" alt="Continuous Integration Status">
                 </a>
                 <a href="https://coveralls.io/r/colour-science/colour" class="list-group-item text-center">Coverage<br/>
-                    <img src="https://coveralls.io/repos/KelSolaar/TravisRamblings/badge.png?branch=master" alt="Coverage Status">
+                    <img src="https://coveralls.io/repos/colour-science/colour/badge.png?branch=master" alt="Coverage Status">
                 </a>
                 <a href="https://landscape.io/github/colour-science/colour" class="list-group-item text-center">Code Health<br/>
-                    <img src="https://landscape.io/github/KelSolaar/TravisRamblings/master/landscape.png" alt="Code Health">
+                    <img src="https://landscape.io/github/colour-science/colour/master/landscape.png" alt="Code Health">
                 </a>
                 <a href="https://gemnasium.com/colour-science/colour" class="list-group-item text-center">Dependencies<br/>
-                    <img src="https://gemnasium.com/KelSolaar/TravisRamblings.svg" alt="Dependency Status">
+                    <img src="https://gemnasium.com/colour-science/colour.svg" alt="Dependency Status">
                 </a>
                 <a href="https://pypi.python.org/pypi/colour-science/" class="list-group-item text-center">Pypi</a>
             </div>
