@@ -5,61 +5,93 @@
     <title>Colour: Colour Science for Python</title>
 
     <?php include ("common_header_attributes.php"); ?>
-
-    <style>
-        #banner {
-            width: 100%;
-            min-width: 0px;
-            min-height: 0px;
-        }
-
-        #social {
-            padding-bottom: 2.5%;
-            padding-top: 2.5%;
-        }
-
-        .list-inline > li {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-    </style>
 </head>
 
 <body>
 <?php include_once("analytics_tracking.php") ?>
 
-<div>
-    <div class="container">
-        <div class="row">
-            <div class="span12 text-center" id="social">
-                <ul class="list-inline">
-                    <li>
-                        <?php include("contact.php") ?>
-                        <i class="fa fa-send fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/colour_science"><i class="fa fa-twitter fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/python.colour.science"><i class="fa fa-facebook fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about"><i class="fa fa-google-plus fa-2x"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <img src="images/Colour_Logo_Banner_Soon_001.png" id="banner"/>
-</div>
+<?php include ("navigation.php"); ?>
 
+<!-- >>> Content -->
 <div class="container">
     <div class="row">
         <!-- >>> Center -->
-        <div class="col-md-12">
+        <div class="col-md-9">
+            <div>
+                <h2>Colour Science for Python</h2>
+                <br/>
+
+                <p>
+                    <strong><span class="text-primary">Colour</span></strong> is a
+                    <a href="https://www.python.org/">Python</a> colour science package implementing a
+                    comprehensive number of colour theory transformations and algorithms.
+                </p>
+
+                <p>
+                    It is open source and freely available and under the
+                    <a href="http://opensource.org/licenses/BSD-3-Clause">New BSD License</a> terms.
+                </p>
+            </div>
+            <div>
+                <h2>Overview</h2>
+                <br/>
+
+                <p>
+                    Most of the public
+                    <strong><span class="text-primary">Colour</span></strong> API is available from the
+                    <em><span class="text-info">colour</span></em> namespace.
+                </p>
+
+                <p>
+                    For example, calculating the colour rendering index of light source can be done as follows:
+                </p>
+
+                <div class="embed-responsive" style="min-height: 135px;">
+                    <iframe class="embed-responsive-item" src="ipython/snippets/colour_cri_snippet.html"></iframe>
+                </div>
+                <p>
+                    The correlated colour temperature of a CIE Standard Illuminant can be calculated easily:
+                </p>
+
+                <div class="embed-responsive" style="height: 135px;">
+                    <iframe class="embed-responsive-item" src="ipython/snippets/colour_cct_snippet.html"></iframe>
+                </div>
+                <p>
+                    <strong><span class="text-primary">Colour</span></strong> also implements various plotting functions thanks to
+                    <a href="http://matplotlib.org/">Matplotlib</a>:
+                </p>
+
+                <div class="embed-responsive" style="height: 500px;">
+                    <iframe class="embed-responsive-item" src="ipython/snippets/colour_visible_spectrum_plot_snippet.html"></iframe>
+                </div>
+            </div>
+            <div>
+                <h2>Latest News</h2>
+
+                <ul>
+                    <li>
+                        <strong><span class="text-primary">Tuesday, 2 September 2014</span></strong><br/>The first public release of
+                        <strong><span class="text-primary">Colour</span></strong> is available!
+                        <a href="news.php#2014_02_09">Read more...</a>
+                    </li>
+                </ul>
+            </div>
+
             <?php include("disqus.php") ?>
+
         </div>
+        <!-- <<< Center -->
+
+        <?php include ("sidebar.php"); ?>
+
     </div>
 </div>
+<!-- <<< Content -->
+
+
+<?php include ("footer.php"); ?>
+
+<?php include ("common_body_attributes.php"); ?>
+
 </body>
 </html>
