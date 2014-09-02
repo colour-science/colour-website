@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <a href="#">About</a>
+                <a>About</a>
                 <ul class="list-footer">
                     <li>
                         <a href="contributors.php">Contributors</a>
@@ -18,7 +18,7 @@
                 </ul>
             </div>
             <div class="col-md-2">
-                <a href="#">Get Started</a>
+                <a>Get Started</a>
                 <ul class="list-footer">
                     <li>
                         <a href="installation.php">Installation</a>
@@ -35,7 +35,7 @@
                 </ul>
             </div>
             <div class="col-md-2">
-                <a href="#">Downloads</a>
+                <a>Downloads</a>
                 <ul class="list-footer">
                     <li>
                         <a href="https://github.com/colour-science/colour/releases">All Releases</a>
@@ -80,7 +80,7 @@
                 </ul>
             </div>
             <div class="col-md-2">
-                <a href="#"><i class="fa fa-globe">&nbsp;News</i></a>
+                <a><i class="fa fa-globe">&nbsp;News</i></a>
                 <ul class="list-footer">
                     <li>
                         <a href="news.php">Latest News</a>
