@@ -6285,7 +6285,7 @@ distribution.</td>
 
 <dl class="function">
 <dt id="colour.mesopic_luminous_efficiency_function">
-<tt class="descclassname">colour.</tt><tt class="descname">mesopic_luminous_efficiency_function</tt><big>(</big><em>Lp</em>, <em>source=u'Blue Heavy'</em>, <em>method=u'MOVE'</em>, <em>photopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x1038260d0&gt;</em>, <em>scotopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x103826290&gt;</em><big>)</big><a class="headerlink" href="#colour.mesopic_luminous_efficiency_function" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">mesopic_luminous_efficiency_function</tt><big>(</big><em>Lp</em>, <em>source=u'Blue Heavy'</em>, <em>method=u'MOVE'</em>, <em>photopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x102cf8fd0&gt;</em>, <em>scotopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x102e061d0&gt;</em><big>)</big><a class="headerlink" href="#colour.mesopic_luminous_efficiency_function" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the mesopic luminous efficiency function <span class="math">\(V_m(\lambda)\)</span> for
 given photopic luminance <span class="math">\(L_p\)</span>.</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -6320,7 +6320,7 @@ Method to calculate the weighting factor.</li>
 
 <dl class="function">
 <dt id="colour.mesopic_weighting_function">
-<tt class="descclassname">colour.</tt><tt class="descname">mesopic_weighting_function</tt><big>(</big><em>wavelength</em>, <em>Lp</em>, <em>source=u'Blue Heavy'</em>, <em>method=u'MOVE'</em>, <em>photopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x1038260d0&gt;</em>, <em>scotopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x103826290&gt;</em><big>)</big><a class="headerlink" href="#colour.mesopic_weighting_function" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">mesopic_weighting_function</tt><big>(</big><em>wavelength</em>, <em>Lp</em>, <em>source=u'Blue Heavy'</em>, <em>method=u'MOVE'</em>, <em>photopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x102cf8fd0&gt;</em>, <em>scotopic_lef=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x102e061d0&gt;</em><big>)</big><a class="headerlink" href="#colour.mesopic_weighting_function" title="Permalink to this definition">¶</a></dt>
 <dd><p>Calculates the mesopic weighting function factor at given wavelength
 <span class="math">\(\lambda\)</span> using the photopic luminance <span class="math">\(L_p\)</span>.</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -6938,7 +6938,7 @@ this definition is intended for educational purpose.</li>
 
 <dl class="function">
 <dt id="colour.spectral_to_XYZ">
-<tt class="descclassname">colour.</tt><tt class="descname">spectral_to_XYZ</tt><big>(</big><em>spd</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x103812cd0&gt;</em>, <em>illuminant=None</em><big>)</big><a class="headerlink" href="#colour.spectral_to_XYZ" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">spectral_to_XYZ</tt><big>(</big><em>spd</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x102cf5c10&gt;</em>, <em>illuminant=None</em><big>)</big><a class="headerlink" href="#colour.spectral_to_XYZ" title="Permalink to this definition">¶</a></dt>
 <dd><p>Converts given spectral power distribution to <em>CIE XYZ</em> colourspace using
 given colour matching functions and illuminant.</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -8651,7 +8651,7 @@ using given <em>chromatic adaptation</em> method.</p>
 
 <dl class="function">
 <dt id="colour.spectral_to_aces_relative_exposure_values">
-<tt class="descclassname">colour.</tt><tt class="descname">spectral_to_aces_relative_exposure_values</tt><big>(</big><em>spd</em>, <em>illuminant=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x1038186d0&gt;</em><big>)</big><a class="headerlink" href="#colour.spectral_to_aces_relative_exposure_values" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">spectral_to_aces_relative_exposure_values</tt><big>(</big><em>spd</em>, <em>illuminant=&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x102cf8610&gt;</em><big>)</big><a class="headerlink" href="#colour.spectral_to_aces_relative_exposure_values" title="Permalink to this definition">¶</a></dt>
 <dd><p>Converts given spectral power distribution to <em>ACES RGB</em> colourspace
 relative exposure values.</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -8730,7 +8730,7 @@ given illuminant.</p>
 
 <dl class="function">
 <dt id="colour.scattering_cross_section">
-<tt class="descclassname">colour.</tt><tt class="descname">scattering_cross_section</tt><big>(</big><em>wavelength</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102f616e0&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102f619b0&gt;</em><big>)</big><a class="headerlink" href="#colour.scattering_cross_section" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">scattering_cross_section</tt><big>(</big><em>wavelength</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102e5e500&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102e5e7d0&gt;</em><big>)</big><a class="headerlink" href="#colour.scattering_cross_section" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the scattering cross section per molecule <span class="math">\(\sigma\)</span> of dry air
 as function of wavelength <span class="math">\(\lambda\)</span> in centimeters (cm) using given
 <span class="math">\(CO_2\)</span> concentration in parts per million (ppm) and temperature
@@ -8773,7 +8773,7 @@ wavelength <span class="math">\(\lambda\)</span> to be expressed in centimeters 
 
 <dl class="function">
 <dt id="colour.rayleigh_optical_depth">
-<tt class="descclassname">colour.</tt><tt class="descname">rayleigh_optical_depth</tt><big>(</big><em>wavelength</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>pressure=101325</em>, <em>latitude=0</em>, <em>altitude=0</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102f616e0&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102f619b0&gt;</em><big>)</big><a class="headerlink" href="#colour.rayleigh_optical_depth" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">rayleigh_optical_depth</tt><big>(</big><em>wavelength</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>pressure=101325</em>, <em>latitude=0</em>, <em>altitude=0</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102e5e500&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102e5e7d0&gt;</em><big>)</big><a class="headerlink" href="#colour.rayleigh_optical_depth" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the rayleigh optical depth <span class="math">\(T_r(\lambda)\)</span> as function of
 wavelength <span class="math">\(\lambda\)</span> in centimeters (cm).</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -8817,7 +8817,7 @@ wavelength <span class="math">\(\lambda\)</span> to be expressed in centimeters 
 
 <dl class="function">
 <dt id="colour.rayleigh_scattering">
-<tt class="descclassname">colour.</tt><tt class="descname">rayleigh_scattering</tt><big>(</big><em>wavelength</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>pressure=101325</em>, <em>latitude=0</em>, <em>altitude=0</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102f616e0&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102f619b0&gt;</em><big>)</big><a class="headerlink" href="#colour.rayleigh_scattering" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">rayleigh_scattering</tt><big>(</big><em>wavelength</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>pressure=101325</em>, <em>latitude=0</em>, <em>altitude=0</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102e5e500&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102e5e7d0&gt;</em><big>)</big><a class="headerlink" href="#colour.rayleigh_scattering" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the rayleigh optical depth <span class="math">\(T_r(\lambda)\)</span> as function of
 wavelength <span class="math">\(\lambda\)</span> in centimeters (cm).</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -8861,7 +8861,7 @@ wavelength <span class="math">\(\lambda\)</span> to be expressed in centimeters 
 
 <dl class="function">
 <dt id="colour.rayleigh_scattering_spd">
-<tt class="descclassname">colour.</tt><tt class="descname">rayleigh_scattering_spd</tt><big>(</big><em>shape=SpectralShape(360</em>, <em>830</em>, <em>1)</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>pressure=101325</em>, <em>latitude=0</em>, <em>altitude=0</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102f616e0&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102f619b0&gt;</em><big>)</big><a class="headerlink" href="#colour.rayleigh_scattering_spd" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">rayleigh_scattering_spd</tt><big>(</big><em>shape=SpectralShape(360</em>, <em>830</em>, <em>1)</em>, <em>CO2_concentration=300</em>, <em>temperature=288.15</em>, <em>pressure=101325</em>, <em>latitude=0</em>, <em>altitude=0</em>, <em>avogadro_constant=6.02214179e+23</em>, <em>n_s=&lt;function air_refraction_index_bodhaine1999 at 0x102e5e500&gt;</em>, <em>F_air=&lt;function F_air_bodhaine1999 at 0x102e5e7d0&gt;</em><big>)</big><a class="headerlink" href="#colour.rayleigh_scattering_spd" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the rayleigh spectral power distribution for given spectral shape.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -9339,7 +9339,7 @@ If the computation method is not defined.</p>
 
 <dl class="function">
 <dt id="colour.CCT_to_uv_ohno2013">
-<tt class="descclassname">colour.</tt><tt class="descname">CCT_to_uv_ohno2013</tt><big>(</big><em>CCT</em>, <em>Duv=0</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x103812cd0&gt;</em><big>)</big><a class="headerlink" href="#colour.CCT_to_uv_ohno2013" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">CCT_to_uv_ohno2013</tt><big>(</big><em>CCT</em>, <em>Duv=0</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x102cf5c10&gt;</em><big>)</big><a class="headerlink" href="#colour.CCT_to_uv_ohno2013" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the <em>CIE UCS</em> colourspace <em>uv</em> chromaticity coordinates from given
 correlated colour temperature <span class="math">\(T_{cp}\)</span>, <span class="math">\(\Delta_{uv}\)</span> and
 colour matching functions using <em>Yoshi Ohno (2013)</em> method.</p>
@@ -9476,7 +9476,7 @@ If the computation method is not defined.</p>
 
 <dl class="function">
 <dt id="colour.uv_to_CCT_ohno2013">
-<tt class="descclassname">colour.</tt><tt class="descname">uv_to_CCT_ohno2013</tt><big>(</big><em>uv</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x103812cd0&gt;</em>, <em>start=1000</em>, <em>end=100000</em>, <em>count=10</em>, <em>iterations=6</em><big>)</big><a class="headerlink" href="#colour.uv_to_CCT_ohno2013" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.</tt><tt class="descname">uv_to_CCT_ohno2013</tt><big>(</big><em>uv</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x102cf5c10&gt;</em>, <em>start=1000</em>, <em>end=100000</em>, <em>count=10</em>, <em>iterations=6</em><big>)</big><a class="headerlink" href="#colour.uv_to_CCT_ohno2013" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the correlated colour temperature <span class="math">\(T_{cp}\)</span> and
 <span class="math">\(\Delta_{uv}\)</span> from given <em>CIE UCS</em> colourspace <em>uv</em> chromaticity
 coordinates, colour matching functions and temperature range using

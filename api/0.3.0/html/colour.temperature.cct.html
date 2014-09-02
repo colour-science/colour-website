@@ -275,7 +275,7 @@ using <em>Yoshi Ohno (2013)</em> method.</p>
 
 <dl class="function">
 <dt id="colour.temperature.cct.uv_to_CCT_ohno2013">
-<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">uv_to_CCT_ohno2013</tt><big>(</big><em>uv</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x103812cd0&gt;</em>, <em>start=1000</em>, <em>end=100000</em>, <em>count=10</em>, <em>iterations=6</em><big>)</big><a class="reference internal" href="_modules/colour/temperature/cct.html#uv_to_CCT_ohno2013"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.temperature.cct.uv_to_CCT_ohno2013" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">uv_to_CCT_ohno2013</tt><big>(</big><em>uv</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x102cf5c10&gt;</em>, <em>start=1000</em>, <em>end=100000</em>, <em>count=10</em>, <em>iterations=6</em><big>)</big><a class="reference internal" href="_modules/colour/temperature/cct.html#uv_to_CCT_ohno2013"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.temperature.cct.uv_to_CCT_ohno2013" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the correlated colour temperature <span class="math">\(T_{cp}\)</span> and
 <span class="math">\(\Delta_{uv}\)</span> from given <em>CIE UCS</em> colourspace <em>uv</em> chromaticity
 coordinates, colour matching functions and temperature range using
@@ -324,7 +324,7 @@ expansion in order to converge to the exact solution.</p>
 
 <dl class="function">
 <dt id="colour.temperature.cct.CCT_to_uv_ohno2013">
-<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">CCT_to_uv_ohno2013</tt><big>(</big><em>CCT</em>, <em>Duv=0</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x103812cd0&gt;</em><big>)</big><a class="reference internal" href="_modules/colour/temperature/cct.html#CCT_to_uv_ohno2013"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.temperature.cct.CCT_to_uv_ohno2013" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">CCT_to_uv_ohno2013</tt><big>(</big><em>CCT</em>, <em>Duv=0</em>, <em>cmfs=&lt;colour.colorimetry.cmfs.XYZ_ColourMatchingFunctions object at 0x102cf5c10&gt;</em><big>)</big><a class="reference internal" href="_modules/colour/temperature/cct.html#CCT_to_uv_ohno2013"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.temperature.cct.CCT_to_uv_ohno2013" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the <em>CIE UCS</em> colourspace <em>uv</em> chromaticity coordinates from given
 correlated colour temperature <span class="math">\(T_{cp}\)</span>, <span class="math">\(\Delta_{uv}\)</span> and
 colour matching functions using <em>Yoshi Ohno (2013)</em> method.</p>
@@ -467,7 +467,7 @@ page  227.</td></tr>
 
 <dl class="data">
 <dt id="colour.temperature.cct.UV_TO_CCT_METHODS">
-<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">UV_TO_CCT_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'Ohno 2013': &lt;function uv_to_CCT_ohno2013 at 0x103660938&gt;, u'robertson1968': &lt;function uv_to_CCT_robertson1968 at 0x103660a28&gt;, u'ohno2013': &lt;function uv_to_CCT_ohno2013 at 0x103660938&gt;, u'Robertson 1968': &lt;function uv_to_CCT_robertson1968 at 0x103660a28&gt;})</em><a class="headerlink" href="#colour.temperature.cct.UV_TO_CCT_METHODS" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">UV_TO_CCT_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'Ohno 2013': &lt;function uv_to_CCT_ohno2013 at 0x1031d5758&gt;, u'robertson1968': &lt;function uv_to_CCT_robertson1968 at 0x1031d5848&gt;, u'ohno2013': &lt;function uv_to_CCT_ohno2013 at 0x1031d5758&gt;, u'Robertson 1968': &lt;function uv_to_CCT_robertson1968 at 0x1031d5848&gt;})</em><a class="headerlink" href="#colour.temperature.cct.UV_TO_CCT_METHODS" title="Permalink to this definition">¶</a></dt>
 <dd><p>Supported <em>CIE UCS</em> colourspace <em>uv</em> chromaticity coordinates to correlated
 colour temperature <span class="math">\(T_{cp}\)</span> computation methods.</p>
 <dl class="docutils">
@@ -523,7 +523,7 @@ If the computation method is not defined.</p>
 
 <dl class="data">
 <dt id="colour.temperature.cct.CCT_TO_UV_METHODS">
-<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">CCT_TO_UV_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'Ohno 2013': &lt;function CCT_to_uv_ohno2013 at 0x1036609b0&gt;, u'robertson1968': &lt;function CCT_to_uv_robertson1968 at 0x103660aa0&gt;, u'ohno2013': &lt;function CCT_to_uv_ohno2013 at 0x1036609b0&gt;, u'Robertson 1968': &lt;function CCT_to_uv_robertson1968 at 0x103660aa0&gt;})</em><a class="headerlink" href="#colour.temperature.cct.CCT_TO_UV_METHODS" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">CCT_TO_UV_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'Ohno 2013': &lt;function CCT_to_uv_ohno2013 at 0x1031d57d0&gt;, u'robertson1968': &lt;function CCT_to_uv_robertson1968 at 0x1031d58c0&gt;, u'ohno2013': &lt;function CCT_to_uv_ohno2013 at 0x1031d57d0&gt;, u'Robertson 1968': &lt;function CCT_to_uv_robertson1968 at 0x1031d58c0&gt;})</em><a class="headerlink" href="#colour.temperature.cct.CCT_TO_UV_METHODS" title="Permalink to this definition">¶</a></dt>
 <dd><p>Supported correlated colour temperature <span class="math">\(T_{cp}\)</span> to <em>CIE UCS</em> colourspace
 <em>uv</em> chromaticity coordinates computation methods.</p>
 <dl class="docutils">
@@ -724,7 +724,7 @@ page  145.</td></tr>
 
 <dl class="data">
 <dt id="colour.temperature.cct.XY_TO_CCT_METHODS">
-<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">XY_TO_CCT_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'hernandez1999': &lt;function xy_to_CCT_hernandez1999 at 0x103660c80&gt;, u'Hernandez 1999': &lt;function xy_to_CCT_hernandez1999 at 0x103660c80&gt;, u'McCamy 1992': &lt;function xy_to_CCT_mccamy1992 at 0x103660c08&gt;, u'mccamy1992': &lt;function xy_to_CCT_mccamy1992 at 0x103660c08&gt;})</em><a class="headerlink" href="#colour.temperature.cct.XY_TO_CCT_METHODS" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">XY_TO_CCT_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'hernandez1999': &lt;function xy_to_CCT_hernandez1999 at 0x1031d5aa0&gt;, u'Hernandez 1999': &lt;function xy_to_CCT_hernandez1999 at 0x1031d5aa0&gt;, u'McCamy 1992': &lt;function xy_to_CCT_mccamy1992 at 0x1031d5a28&gt;, u'mccamy1992': &lt;function xy_to_CCT_mccamy1992 at 0x1031d5a28&gt;})</em><a class="headerlink" href="#colour.temperature.cct.XY_TO_CCT_METHODS" title="Permalink to this definition">¶</a></dt>
 <dd><p>Supported <em>CIE XYZ</em> colourspace <em>xy</em> chromaticity coordinates to correlated
 colour temperature <span class="math">\(T_{cp}\)</span> computation methods.</p>
 <dl class="docutils">
@@ -766,7 +766,7 @@ colour temperature <span class="math">\(T_{cp}\)</span> computation methods.</p>
 
 <dl class="data">
 <dt id="colour.temperature.cct.CCT_TO_XY_METHODS">
-<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">CCT_TO_XY_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'cie_d': &lt;function CCT_to_xy_illuminant_D at 0x103660d70&gt;, u'CIE Illuminant D Series': &lt;function CCT_to_xy_illuminant_D at 0x103660d70&gt;, u'kang2002': &lt;function CCT_to_xy_kang2002 at 0x103660cf8&gt;, u'Kang 2002': &lt;function CCT_to_xy_kang2002 at 0x103660cf8&gt;})</em><a class="headerlink" href="#colour.temperature.cct.CCT_TO_XY_METHODS" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">colour.temperature.cct.</tt><tt class="descname">CCT_TO_XY_METHODS</tt><em class="property"> = CaseInsensitiveMapping({u'cie_d': &lt;function CCT_to_xy_illuminant_D at 0x1031d5b90&gt;, u'CIE Illuminant D Series': &lt;function CCT_to_xy_illuminant_D at 0x1031d5b90&gt;, u'kang2002': &lt;function CCT_to_xy_kang2002 at 0x1031d5b18&gt;, u'Kang 2002': &lt;function CCT_to_xy_kang2002 at 0x1031d5b18&gt;})</em><a class="headerlink" href="#colour.temperature.cct.CCT_TO_XY_METHODS" title="Permalink to this definition">¶</a></dt>
 <dd><p>Supported correlated colour temperature <span class="math">\(T_{cp}\)</span> to <em>CIE XYZ</em> colourspace
 <em>xy</em> chromaticity coordinates computation methods.</p>
 <dl class="docutils">
