@@ -118,13 +118,13 @@
             </ul>
             <h4>Lightness Computation</h4>
             <ul class="simple">
-                <li>Glasser (1958)</li>
-                <li>Wyszecki (1964)</li>
+                <li>Glasser et al. (1958)</li>
+                <li>G. Wyszecki (1964)</li>
                 <li>CIE (1976)</li>
             </ul>
             <h4>Luminance Computation</h4>
             <ul class="simple">
-                <li>Newhall (1943)</li>
+                <li>Sidney M. Newhall, Dorothy Nickerson, and Deane B. Judd (1943)</li>
                 <li>CIE (1976)</li>
                 <li>ASTM D1535-08 (2008)</li>
             </ul>
@@ -132,11 +132,11 @@
             <h3>Colour Temperature &amp; Correlated Colour Temperature</h3>
             <h4>Correlated Colour Temperature Computation Methods</h4>
             <ul class="simple">
-                <li>Roberston (1968)</li>
+                <li>Alan R. Roberston (1968)</li>
                 <li>Yoshi Ohno (2013)</li>
-                <li>McCamy (1992)</li>
-                <li>Hernandez-Andres, Lee &amp; Romero (1999)</li>
-                <li>Kang, Moon, Hong, Lee, Cho and Kim (2002)</li>
+                <li>C. S. McCamy (1992)</li>
+                <li>Javier Hernandez-Andres, Raymond L. Lee, Jr., and Javier Romero (1999)</li>
+                <li>Bongsoon Kang Ohak Moon, Changhee Hong, Honam Lee, Bonghwan Cho and Youngsun Kim (2002)</li>
                 <li>CIE Illuminant D Series</li>
             </ul>
 
@@ -175,6 +175,8 @@
                 <li>Lab to XYZ</li>
                 <li>Lab to LCHab</li>
                 <li>LCHab to Lab</li>
+                <li>IPT to XYZ</li>
+                <li>XYZ to IPT</li>
             </ul>
             <h4>RGB Colourspaces Derivation</h4>
             <h4>RGB Colourspaces</h4>
