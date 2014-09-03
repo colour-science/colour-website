@@ -1704,7 +1704,7 @@ In&nbsp;[1]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="kn">from</span> <span class="nn">colour.plotting</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c"># noqa</span>
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">colour.plotting</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="n">visible_spectrum_plot</span><span class="p">()</span>
 </pre></div>
@@ -1963,7 +1963,7 @@ In&nbsp;[2]:
     <div class="input_area">
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">colour</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">__all__</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="s">&quot;...&quot;</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">__all__</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="s">&#39;...&#39;</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -2011,7 +2011,7 @@ In&nbsp;[3]:
                     <span class="s">&#39;quality&#39;</span><span class="p">,</span> <span class="s">&#39;temperature&#39;</span><span class="p">,</span> <span class="s">&#39;utilities&#39;</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="n">sub_package</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
     <span class="n">pprint</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">colour</span><span class="p">,</span> <span class="n">sub_package</span><span class="p">)</span><span class="o">.</span><span class="n">__all__</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -2127,12 +2127,12 @@ Colorimetry
 
 
 Constants
-[u&apos;CIE_E&apos;,
- u&apos;CIE_K&apos;,
- u&apos;AVOGADRO_CONSTANT&apos;,
- u&apos;BOLTZMANN_CONSTANT&apos;,
- u&apos;LIGHT_SPEED&apos;,
- u&apos;PLANCK_CONSTANT&apos;]
+[&apos;CIE_E&apos;,
+ &apos;CIE_K&apos;,
+ &apos;AVOGADRO_CONSTANT&apos;,
+ &apos;BOLTZMANN_CONSTANT&apos;,
+ &apos;LIGHT_SPEED&apos;,
+ &apos;PLANCK_CONSTANT&apos;]
 
 
 Difference
@@ -2378,8 +2378,9 @@ In&nbsp;[4]:
 
     References
     ----------
-    .. [3]  **Yoshi Ohno**, &#96;Practical Use and Calculation of CCT and Duv
-            &lt;http://dx.doi.org/10.1080/15502724.2014.839020&gt;&#96;_
+    .. [4]  **Yoshi Ohno**, &#96;Practical Use and Calculation of CCT and Duv
+            &lt;http://dx.doi.org/10.1080/15502724.2014.839020&gt;&#96;_,
+            DOI: http://dx.doi.org/10.1080/15502724.2014.839020
 
     Examples
     --------
@@ -2659,7 +2660,7 @@ In&nbsp;[7]:
     <span class="mi">775</span><span class="p">:</span> <span class="mf">0.432</span><span class="p">,</span>
     <span class="mi">780</span><span class="p">:</span> <span class="mf">0.421</span><span class="p">}</span>
 
-<span class="n">spd</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">SpectralPowerDistribution</span><span class="p">(</span><span class="s">&quot;Sample&quot;</span><span class="p">,</span> <span class="n">sample_spd_data</span><span class="p">)</span>
+<span class="n">spd</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">SpectralPowerDistribution</span><span class="p">(</span><span class="s">&#39;Sample&#39;</span><span class="p">,</span> <span class="n">sample_spd_data</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">spd</span><span class="p">)</span>
 </pre></div>
 
@@ -2674,7 +2675,7 @@ In&nbsp;[7]:
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
-&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x107985d50&gt;
+&lt;colour.colorimetry.spectrum.SpectralPowerDistribution object at 0x107884a90&gt;
 
 </pre>
 </div>
@@ -4110,7 +4111,7 @@ In&nbsp;[22]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">spd</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">SpectralPowerDistribution</span><span class="p">(</span><span class="s">&quot;Sample&quot;</span><span class="p">,</span> <span class="p">{</span><span class="mi">410</span><span class="p">:</span> <span class="mf">0.50</span><span class="p">,</span> <span class="mi">420</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">,</span> <span class="mi">430</span><span class="p">:</span> <span class="mf">1.</span><span class="p">,</span> <span class="mi">440</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">,</span> <span class="mi">450</span><span class="p">:</span> <span class="mf">0.50</span><span class="p">})</span>
+<div class="highlight"><pre><span class="n">spd</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">SpectralPowerDistribution</span><span class="p">(</span><span class="s">&#39;Sample&#39;</span><span class="p">,</span> <span class="p">{</span><span class="mi">410</span><span class="p">:</span> <span class="mf">0.50</span><span class="p">,</span> <span class="mi">420</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">,</span> <span class="mi">430</span><span class="p">:</span> <span class="mf">1.</span><span class="p">,</span> <span class="mi">440</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">,</span> <span class="mi">450</span><span class="p">:</span> <span class="mf">0.50</span><span class="p">})</span>
 <span class="k">print</span><span class="p">((</span><span class="n">spd</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
 <span class="k">print</span><span class="p">((</span><span class="n">spd</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
 <span class="k">print</span><span class="p">((</span><span class="n">spd</span> <span class="o">*</span> <span class="p">[</span><span class="mf">0.35</span><span class="p">,</span> <span class="mf">1.55</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">,</span> <span class="mf">2.55</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">])</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
@@ -4209,9 +4210,9 @@ In&nbsp;[24]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">spd</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">SpectralPowerDistribution</span><span class="p">(</span><span class="s">&quot;Sample&quot;</span><span class="p">,</span> <span class="n">sample_spd_data</span><span class="p">)</span>
-<span class="n">cmfs</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">STANDARD_OBSERVERS_CMFS</span><span class="p">[</span><span class="s">&quot;CIE 1931 2 Degree Standard Observer&quot;</span><span class="p">]</span>
-<span class="n">illuminant</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">ILLUMINANTS_RELATIVE_SPDS</span><span class="p">[</span><span class="s">&quot;D65&quot;</span><span class="p">]</span>
+<div class="highlight"><pre><span class="n">spd</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">SpectralPowerDistribution</span><span class="p">(</span><span class="s">&#39;Sample&#39;</span><span class="p">,</span> <span class="n">sample_spd_data</span><span class="p">)</span>
+<span class="n">cmfs</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">STANDARD_OBSERVERS_CMFS</span><span class="p">[</span><span class="s">&#39;CIE 1931 2 Degree Standard Observer&#39;</span><span class="p">]</span>
+<span class="n">illuminant</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">ILLUMINANTS_RELATIVE_SPDS</span><span class="p">[</span><span class="s">&#39;D65&#39;</span><span class="p">]</span>
 
 <span class="c"># Calculating the sample spectral power distribution *CIE XYZ* tristimulus values.</span>
 <span class="n">XYZ</span> <span class="o">=</span> <span class="n">colour</span><span class="o">.</span><span class="n">spectral_to_XYZ</span><span class="p">(</span><span class="n">spd</span><span class="p">,</span> <span class="n">cmfs</span><span class="p">,</span> <span class="n">illuminant</span><span class="p">)</span>
@@ -4238,6 +4239,17 @@ In&nbsp;[24]:
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote>
+<p>Note: Output <em>CIE XYZ</em> colourspace matrix is in domain [0, 100].</p>
+</blockquote>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -5009,14 +5021,14 @@ In&nbsp;[32]:
 
 <span class="c"># Plotting the *xy* chromaticity coordinates.</span>
 <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">xy</span>
-<span class="n">pylab</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s">&quot;o-&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">&quot;white&quot;</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s">&#39;o-&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">&#39;white&#39;</span><span class="p">)</span>
 
 <span class="c"># Annotating the plot.</span>
 <span class="n">pylab</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="n">patch_spd</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">(),</span>
                <span class="n">xy</span><span class="o">=</span><span class="n">xy</span><span class="p">,</span>
                <span class="n">xytext</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="mi">50</span><span class="p">,</span> <span class="mi">30</span><span class="p">),</span>
-               <span class="n">textcoords</span><span class="o">=</span><span class="s">&quot;offset points&quot;</span><span class="p">,</span>
-               <span class="n">arrowprops</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">arrowstyle</span><span class="o">=</span><span class="s">&quot;-&gt;&quot;</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s">&quot;arc3, rad=-0.2&quot;</span><span class="p">))</span>
+               <span class="n">textcoords</span><span class="o">=</span><span class="s">&#39;offset points&#39;</span><span class="p">,</span>
+               <span class="n">arrowprops</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">arrowstyle</span><span class="o">=</span><span class="s">&#39;-&gt;&#39;</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s">&#39;arc3, rad=-0.2&#39;</span><span class="p">))</span>
 
 <span class="c"># Displaying the plot.</span>
 <span class="n">display</span><span class="p">(</span><span class="n">standalone</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
