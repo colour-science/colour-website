@@ -86,6 +86,9 @@
                             <a tabindex="-1" class="fa fa-life-ring">&nbsp;API Reference</a>
                             <ul class="dropdown-menu">
                                 <li>
+                                    <a href="api/0.3.2/html/index.html">Colour 0.3.2</a>
+                                </li>
+                                <li>
                                     <a href="api/0.3.1/html/index.html">Colour 0.3.1</a>
                                 </li>
                                 <li>
