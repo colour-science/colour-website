@@ -75,7 +75,13 @@
             <p>In order to build the documentation the following packages are required:</p>
             <ul>
                 <li>
-                    <a href="sphinx-doc.org">Sphinx</a>
+                    <a href="https://sphinx-doc.org">Sphinx</a>
+                </li>
+                <li>
+                    <a href="https://pypi.python.org/pypi/sphinxcontrib-napoleon">Sphinxcontrib-napoleon</a>
+                </li>
+                <li>
+                    <a href="https://pypi.python.org/pypi/sphinx-bootstrap-theme">Sphinx-bootstrap-theme</a>
                 </li>
             </ul>
 
