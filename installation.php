@@ -110,12 +110,15 @@
             <p>The documentation dependencies are installed by using the following command:</p>
             <pre>» pip install -e .[docs]</pre>
 
-            <h3>Anaconda</h3>
+            <h3>Vagrant</h3>
 
-            <p>An easy way to get all the pre-requisites at once is to install
-                <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> scientific python distribution from Continuum Analytics and then add
-                <strong><span class="text-primary">Colour</span></strong> to your
-                <strong><span class="text-primary">PYTHONPATH</span></strong>.
+            <p>An easy way to get all the pre-requisites at once is to use our
+                <a href="https://github.com/colour-science/colour-vagrant">colour-vagrant</a> environment for
+                <a href="https://www.vagrantup.com/">Vagrant</a>.
+            </p>
+
+            <p>Please refer to the dedicated blog post for more details about its deployment:
+                <a href="blog_pycharm_vagrant_fabric_anaconda.php">PyCharm, Vagrant, Fabric & Anaconda</a>
             </p>
             <?php include("disqus.php") ?>
 
