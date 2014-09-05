@@ -21,7 +21,7 @@
             <h2>Latest News</h2>
             <br/>
 
-            <h3 name="2014_02_09">Tuesday, 2 September 2014</h3>
+            <h3 name="2014_09_02">Tuesday, 2 September 2014</h3>
 
             <p>
                 We are thrilled to announce that after many months of work, the first public release of

@@ -72,7 +72,7 @@
                     <li>
                         <strong><span class="text-primary">Tuesday, 2 September 2014</span></strong><br/>The first public release of
                         <strong><span class="text-primary">Colour</span></strong> is available!
-                        <a href="news.php#2014_02_09">Read more...</a>
+                        <a href="news.php#2014_09_02">Read more...</a>
                     </li>
                 </ul>
             </div>

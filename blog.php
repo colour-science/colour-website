@@ -20,7 +20,12 @@
         <div class="col-md-9">
             <h2>Blog</h2>
             <br/>
-            Nothing to see yet!
+
+            <h3 name="2014_09_05">Friday, 5 September 2014</h3>
+
+            <h4>
+                <a href="blog_pycharm_vagrant_fabric_anaconda.php">PyCharm, Vagrant, Fabric & Anaconda</a>
+            </h4>
 
             <?php include("disqus.php") ?>
 
