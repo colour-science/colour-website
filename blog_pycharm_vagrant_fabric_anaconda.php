@@ -263,9 +263,22 @@ drwxrwxr-x 11 vagrant vagrant 4096 Sep  5 09:58 python3.4/
 <ul>
     <li>
         <p>Add the various remote Python interpreters to
-            <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> following its quickstart guide:
+            <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> following the quickstart guide:
             <a href="http://www.jetbrains.com/pycharm/quickstart/configuring_interpreter.html">Remote interpreter via virtual box: 2</a>
         </p>
+
+        <p>The remote Python interpreters paths are as follows:</p>
+        <ul>
+            <li>
+                /home/vagrant/anaconda/envs/python2.6/bin/python
+            </li>
+            <li>
+                /home/vagrant/anaconda/envs/python2.7/bin/python
+            </li>
+            <li>
+                /home/vagrant/anaconda/envs/python3.4/bin/python
+            </li>
+        </ul>
     </li>
     <li>
         <p>Add the paths mappings from the
