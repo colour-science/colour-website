@@ -158,15 +158,20 @@
     </li>
     <li>
         <p>
-            <a href="https://www.virtualbox.org/">VirtualBox</a> directories syncing performance degrades quickly with large number of files as a result the directories syncing is done with
+            <a href="https://www.virtualbox.org/">VirtualBox</a> directories syncing performance degrades quickly with large number of files.
+        </p>
+
+        <p>As a result the directories syncing is done with
             <strong><span class="text-primary">NFS</span></strong>.
         </p>
 
         <p>You will however be asked for your
-            <strong><span class="text-primary">Mac Os X</span></strong> password at each virtual machine spin up.
+            <strong><span class="text-primary">Mac Os X</span></strong> password at each virtual machine spin up because
+            <a href="https://www.vagrantup.com/">Vagrant</a> needs to modify configuration files on the
+            <strong><span class="text-primary">Mac Os X</span></strong> host.
         </p>
 
-        <p> in order to avoid that and following the
+        <p>In order to avoid that and following the
             <a href="https://docs.vagrantup.com/v2/synced-folders/nfs.html">Vagrant Documentation</a>, you can edit your
             <strong><span class="text-primary">Mac Os X</span></strong>
             <strong><span class="text-primary">/etc/sudoers</span></strong> file and append the following content:
@@ -177,7 +182,6 @@ Cmnd_Alias VAGRANT_EXPORTS_REMOVE = /usr/bin/sed -E -e /*/ d -ibak /etc/exports
 %admin ALL=(root) NOPASSWD: VAGRANT_EXPORTS_ADD, VAGRANT_NFSD, VAGRANT_EXPORTS_REMOVE</pre>
     </li>
 </ul>
-
 
 <h3>PyCharm Vagrant Configuration</h3>
 
