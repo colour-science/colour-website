@@ -309,24 +309,25 @@ drwxrwxr-x 11 vagrant vagrant 4096 Sep  5 09:58 python3.4/
     <strong><span class="text-primary">'vagrant'</span></strong> without the quotes.
 </p>
 
-<p>You will also need to add the virtual machine to the X11 hosts by issuing the following command on
-    <strong><span class="text-primary">Mac Os X</span></strong> (and not in the virtual machine):
+<p>You will also need to add the virtual machine to the X11 hosts by issuing the following command on the
+    <strong><span class="text-primary">Mac Os X</span></strong> host:
 </p>
 <pre>» xhost + 192.168.32.64</pre>
 
 <h4>IPython Notebooks</h4>
 
 <p>The
-    <a href="http://ipython.org/notebook.html">IPython Notebooks</a> server needs to be run by issuing the following commands:
+    <a href="http://ipython.org/notebook.html">IPython Notebooks</a> server is started as follows:
 </p>
 <pre>» cd /colour-science/colour-ipython/notebooks
 » ipython notebook --pylab=inline --ip=0.0.0.0</pre>
-<p>Then you can access it from the following url:
+<p>Then you can access it on the
+    <strong><span class="text-primary">Mac Os X</span></strong> host at the following url:
     <a href="http://localhost:8888/">http://localhost:8888/</a></p>
 
 <h4>Remote Python Environments &amp; Interpreters</h4>
 
-<p>You can activate the remote Python environments by issuing those commands:</p>
+<p>You can activate the remote Python environments in the virtual machine by issuing those commands:</p>
 For <strong><span class="text-primary">python2.6</span></strong>:
 <pre>» source activate python2.6</pre>
 For <strong><span class="text-primary">python2.7</span></strong>:
