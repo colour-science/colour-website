@@ -156,6 +156,26 @@
             <a href="http://matplotlib.org/">Matplotlib</a>.
         </p>
     </li>
+    <li>
+        <p>
+            <a href="https://www.virtualbox.org/">VirtualBox</a> directories syncing performance degrades quickly with large number of files as a result the directories syncing is done with
+            <strong><span class="text-primary">NFS</span></strong>.
+        </p>
+
+        <p>You will however be asked for your
+            <strong><span class="text-primary">Mac Os X</span></strong> password at each virtual machine spin up.
+        </p>
+
+        <p> in order to avoid that and following the
+            <a href="https://docs.vagrantup.com/v2/synced-folders/nfs.html">Vagrant Documentation</a>, you can edit your
+            <strong><span class="text-primary">Mac Os X</span></strong>
+            <strong><span class="text-primary">/etc/sudoers</span></strong> file and append the following content:
+        </p>
+        <pre>Cmnd_Alias VAGRANT_EXPORTS_ADD = /usr/bin/tee -a /etc/exports
+Cmnd_Alias VAGRANT_NFSD = /sbin/nfsd restart
+Cmnd_Alias VAGRANT_EXPORTS_REMOVE = /usr/bin/sed -E -e /*/ d -ibak /etc/exports
+%admin ALL=(root) NOPASSWD: VAGRANT_EXPORTS_ADD, VAGRANT_NFSD, VAGRANT_EXPORTS_REMOVE</pre>
+    </li>
 </ul>
 
 
@@ -163,7 +183,7 @@
 
 <p>The canonical way is to use
     <a href="https://www.vagrantup.com/">Vagrant</a> from the command line as described in
-    <a href="https://docs.vagrantup.com/v2/getting-started/">Vagrant Online Documentation</a>, but here we will leverage the
+    <a href="https://docs.vagrantup.com/v2/getting-started/">Vagrant Documentation</a>, but here we will leverage the
     <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> integration.
 </p>
 <ul>
