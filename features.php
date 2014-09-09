@@ -175,8 +175,6 @@
                 <li>Lab to XYZ</li>
                 <li>Lab to LCHab</li>
                 <li>LCHab to Lab</li>
-                <li>IPT to XYZ</li>
-                <li>XYZ to IPT</li>
             </ul>
             <h4>RGB Colourspaces Derivation</h4>
             <h4>RGB Colourspaces</h4>
