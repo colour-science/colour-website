@@ -62,6 +62,7 @@
                 <a href="http://www.numpy.org/" class="list-group-item text-center">NumPy</a>
                 <a href="http://www.scipy.org/" class="list-group-item text-center">SciPy</a>
                 <a href="http://scikit-image.org/" class="list-group-item text-center">scikit-image</a>
+                <a href="http://www.colorpipe.org/" class="list-group-item text-center">ColorPipe</a>
             </div>
         </div>
         <div align="center">
