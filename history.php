@@ -35,7 +35,7 @@
 
             <p>
                 <a href="http://matplotlib.org/">Matplotlib</a> implementation idea is coming from the excellent
-                <a href="http://markkness.net/colorpy/ColourPy.html">Mark Kness's ColorPy</a> Python package.
+                <a href="http://markkness.net/colorpy/ColorPy.html">Mark Kness's ColorPy</a> Python package.
             </p>
             <br/>
             Thomas M.
