@@ -37,6 +37,10 @@ div.output {
     font-weight: inherit;
 }
 
+div.MathJax_Display {
+    color: #444;
+}
+
 /* Syntax Highlighting - Pygments - github.css */
 .highlight .hll {
     background-color: #ffffcc

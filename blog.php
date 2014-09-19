@@ -21,6 +21,12 @@
             <h2>Blog</h2>
             <br/>
 
+            <h3 name="2014_09_19">Friday, 19 September 2014</h3>
+
+            <h4>
+                <a href="blog_about_rendering_engines_colourspaces_agnosticism.php">About Rendering Engines Colourspaces Agnosticism</a>
+            </h4>
+
             <h3 name="2014_09_05">Friday, 5 September 2014</h3>
 
             <h4>
