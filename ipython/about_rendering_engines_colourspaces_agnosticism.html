@@ -1724,6 +1724,10 @@ div#notebook {
 <p>An interesting thread with some VFX industry veterans about the <a href="http://www.oscars.org/science-technology/council/projects/aces.html">Academy Color Encoding System</a> has been ignited by Steve Agland.</p>
 <p>He was describing issues while rendering in ACES RGB colourspace where the rendering equation could generate some very saturated colours, colour clipping and loss of details. Since we have starting writting this notebook, Steve has written a post illustrating those issues, I suggest that you take a look at his <a href="http://nbviewer.ipython.org/gist/sagland/3c791e79353673fd24fa">notebook</a>.</p>
 <p>As we were discussing, <a href="http://mentalraytips.blogspot.fr/">Zap 'Master' Anderson</a> pointed that he was assumming primaries wouldn't matter but that it was wrong.</p>
+<p>The <a href="https://groups.google.com/d/msg/academyaces/9b4VuqPcOHQ/Hg8c9V6flOYJ">TL;DR; version</a> of <em>Rick Sayre</em> from <a href="http://www.pixar.com/">Pixar</a></p>
+<blockquote>
+<p>The RGB basis vectors typically become non-orthogonal when transformed to XYZ, and definitely so in this case. Thus there should be no surprise that component-wise multiply does not yield a proper transform between two non-orthogonal spaces.</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -1742,7 +1746,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We will demonstrate the issue in the following section, notice that it doesn't actually just only concern rendering but compositing, etc...</p>
+<p>We will demonstrate the issue in the following section, notice that it doesn't actually just only concern rendering but compositing, etc... Elle Stone has for example written an article about that problem in the context of image editing in <a href="http://ninedegreesbelow.com/photography/unbounded-srgb-as-universal-working-space.html">unbound <em>sRGB</em> colourspace</a>.</p>
 <p>We choose some references colours in <em>CIE XYZ</em> colourspace (<em>dark skin</em> and <em>green</em>) from <em>ColorChecker 2005</em>. A unique colour is enough to showcase the issue but we will use two in order to be closer of the rendering context where multiple colours interact together. We can for instance assume that <em>dark skin</em> is a texture and <em>green</em> a light.</p>
 <p>We convert them to <em>sRGB</em> and <em>Adobe RGB 1998</em> colourspaces. We have chosen those 2 colourspaces because they have the same whitepoint and thus discount chromatic adaptation, essentially removing a problem from the equation so that it is easier to understand:</p>
 </div>
@@ -5612,7 +5616,7 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The slopes are obviously very different now, <em>ACES RGB</em> slope is steeper than the <em>sRGB</em> one which leads to colour approaching the spectral locus boundaries faster than <em>sRGB</em>. It is the reason why in some instances secondary bounces quickly lead to very saturated colours.</p>
+<p>The slopes are obviously very different now, <em>ACES RGB</em> is steeper than <em>sRGB</em>. This is the result of the respective colourspaces basis vectors not being orthogonal. In this case it leads to colours approaching the spectral locus boundaries in <em>ACES RGB</em> faster than <em>sRGB</em>. It is the reason why in some instances secondary bounces quickly lead to very saturated colours.</p>
 <p>This can be again demonstrated by multiplying our <em>dark skin</em> and <em>green</em> colours from above computations and plotting them:</p>
 </div>
 </div>
@@ -7796,7 +7800,7 @@ True
 <p>The root cause of those issues is linked to the current \(RGB\) lighting model that <em>most</em> rendering engines use. There are a lot of practical reasons to use the \(RGB\) lighting model instead of a full spectral model, especially when our data representation is based on a \(RGB\) triplet. It is indeed very hard to measure reflectance data in large volumes and with enough control and resolution for production work. Applications to manipulate that reflectance data don't exist or are tools dedicated to scientists, thus not really useful for content creation. As of today, it is impossible to launch <em>Spectral Photoshop</em> in order to apply a <em>Spectral Gaussian Blur</em> on a <em>Spectral Textures</em> dataset.</p>
 <p>Plates and photographs are often shot with a lighting setup that doesn't match any known illuminant or worse, mixes multiple light sources with different relative spectral power distributions. HDRI images used for lighting are no exception and cannot convey properly the illumination of a scene.</p>
 <p>We may be often tempted to think of photographs as <em>true</em> reflectance data, but they are actually reflected spectra: They have already been multiplied by the spectra of multiple different light sources and by the reflected spectra from neightbour surfaces. They should be considered as simple scaling factors of a given \(RGB\) colourspace primaries instead of being assimilated to a quantity meaningful in accurate colorimetry computations. In the same way, lights in the rendering context essentially act as a multiplier of the \(RGB\) factors represented by the textures.</p>
-<p>Another issue is that artists are able to specify colours from the whole curent colourspace volume without acounting for the fact that their chromaticities can be outside the boundary of any real object colour gamuts like Pointer's Gamut, ISO TC130 or Xun Li's Gamut, thus almost systematically yielding unplausible colours. It seems a necessity to have tools allowing to check that:</p>
+<p>Another issue is that artists are able to specify colours from the whole curent colourspace volume without acounting for the fact that their chromaticities can be outside the boundary of any real object colour gamuts like Pointer's Gamut, ISO 12640-3 or Xun Li's Gamut, thus almost systematically yielding unplausible colours. It seems a necessity to have tools allowing to check that:</p>
 <ul>
 <li>Picked colours are within the volume of a real object colours gamut (Pointer's Gamut for instance).</li>
 <li>At any moment, displayed colours on a device are within the volume of a real object colours gamut.</li>
