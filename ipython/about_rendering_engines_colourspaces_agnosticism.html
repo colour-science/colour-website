@@ -1723,7 +1723,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>An interesting thread with some VFX industry veterans about the <a href="http://www.oscars.org/science-technology/council/projects/aces.html">Academy Color Encoding System</a> has been ignited by Steve Agland.</p>
 <p>He was describing issues while rendering in ACES RGB colourspace where the rendering equation could generate some very saturated colours, colour clipping and loss of details. Since we have starting writting this notebook, Steve has written a post illustrating those issues, I suggest that you take a look at his <a href="http://nbviewer.ipython.org/gist/sagland/3c791e79353673fd24fa">notebook</a>.</p>
-<p>As we were discussing, <a href="http://mentalraytips.blogspot.fr/">Zap 'Master' Anderson</a> pointed that he was assumming primaries wouldn't matter but that it was wrong.</p>
+<p>As we were discussing, <a href="http://mentalraytips.blogspot.fr/">Zap 'Master' Anderson</a> pointed that he was assuming primaries wouldn't matter but that it was wrong.</p>
 <p>The <a href="https://groups.google.com/d/msg/academyaces/9b4VuqPcOHQ/Hg8c9V6flOYJ">TL;DR; version</a> of <em>Rick Sayre</em> from <a href="http://www.pixar.com/">Pixar</a></p>
 <blockquote>
 <p>The RGB basis vectors typically become non-orthogonal when transformed to XYZ, and definitely so in this case. Thus there should be no surprise that component-wise multiply does not yield a proper transform between two non-orthogonal spaces.</p>
@@ -2088,7 +2088,7 @@ True
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The <em>CIE XYZ</em> colourspace tristimulus values are not equal!</p>
-<p>The consquence of this is that if two renders are done while using the same dataset in two different colourspaces, they will not yield the same image.</p>
+<p>The consequence of this is that if two renders are done while using the same dataset in two different colourspaces, they will not yield the same image.</p>
 <p>In order to visualise the discrepancy, the two <em>dark_skin</em> colours lit by the <em>green</em> light in the different colourspaces are plotted:</p>
 </div>
 </div>
@@ -4531,7 +4531,7 @@ In&nbsp;[51]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Converting from a colourspace \(RGB_1\) to another colourspace \(RGB_2\) is done by applying a serie of linear transformations (matrices) as follows:</p>
+<p>Converting from a colourspace \(RGB_1\) to another colourspace \(RGB_2\) is done by applying a series of linear transformations (matrices) as follows:</p>
 <p>\[
 \begin{equation}
 \begin{vmatrix}
@@ -5071,7 +5071,7 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>They match each other very well, which is the expected and correct behavior, now we replot the functions while only incrementing the \(R\) component:</p>
+<p>They match each other very well, which is the expected and correct behavior, now we re-plot the functions while only incrementing the \(R\) component:</p>
 </div>
 </div>
 </div>
@@ -7796,18 +7796,18 @@ True
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>While most of this is tied to basic linear algebra, it has been overlooked by most of VFX industry veterans. We were assuming wrongly that rendering engines are colourspaces agnostic.</p>
 <p>On a strictly technical point of view, rendering engines are indeed colourspaces agnostic. They just chew through whatever data you throw at them without making any consideration of the colourspace the data is stored into.</p>
-<p>However the choice of colourspace and its primaries is critical to achieve a faithful rendering. In rendering context, wide gamut colour spaces are prone to create colours with very high chroma and this can be a major issue when trying to achieve photorealistic output. In many instances colours are computed outside the boundaries of the colourspace, and it is too easy to converge to imaginary colours sitting outside the boundaries of the spectral locus.</p>
+<p>However the choice of colourspace and its primaries is critical to achieve a faithful rendering. In rendering context, wide gamut colour spaces are prone to create colours with very high chroma and this can be a major issue when trying to achieve photo-realistic output. In many instances colours are computed outside the boundaries of the colourspace, and it is too easy to converge to imaginary colours sitting outside the boundaries of the spectral locus.</p>
 <p>The root cause of those issues is linked to the current \(RGB\) lighting model that <em>most</em> rendering engines use. There are a lot of practical reasons to use the \(RGB\) lighting model instead of a full spectral model, especially when our data representation is based on a \(RGB\) triplet. It is indeed very hard to measure reflectance data in large volumes and with enough control and resolution for production work. Applications to manipulate that reflectance data don't exist or are tools dedicated to scientists, thus not really useful for content creation. As of today, it is impossible to launch <em>Spectral Photoshop</em> in order to apply a <em>Spectral Gaussian Blur</em> on a <em>Spectral Textures</em> dataset.</p>
 <p>Plates and photographs are often shot with a lighting setup that doesn't match any known illuminant or worse, mixes multiple light sources with different relative spectral power distributions. HDRI images used for lighting are no exception and cannot convey properly the illumination of a scene.</p>
-<p>We may be often tempted to think of photographs as <em>true</em> reflectance data, but they are actually reflected spectra: They have already been multiplied by the spectra of multiple different light sources and by the reflected spectra from neightbour surfaces. They should be considered as simple scaling factors of a given \(RGB\) colourspace primaries instead of being assimilated to a quantity meaningful in accurate colorimetry computations. In the same way, lights in the rendering context essentially act as a multiplier of the \(RGB\) factors represented by the textures.</p>
-<p>Another issue is that artists are able to specify colours from the whole curent colourspace volume without acounting for the fact that their chromaticities can be outside the boundary of any real object colour gamuts like Pointer's Gamut, ISO 12640-3 or Xun Li's Gamut, thus almost systematically yielding unplausible colours. It seems a necessity to have tools allowing to check that:</p>
+<p>We may be often tempted to think of photographs as <em>true</em> reflectance data, but they are actually reflected spectra: They have already been multiplied by the spectra of multiple different light sources and by the reflected spectra from neighbour surfaces. They should be considered as simple scaling factors of a given \(RGB\) colourspace primaries instead of being assimilated to a quantity meaningful in accurate colorimetry computations. In the same way, lights in the rendering context essentially act as a multiplier of the \(RGB\) factors represented by the textures.</p>
+<p>Another issue is that artists are able to specify colours from the whole current colourspace volume without accounting for the fact that their chromaticities can be outside the boundary of any real object colour gamuts like Pointer's Gamut, ISO 12640-3 or Xun Li's Gamut, thus almost systematically yielding implausible colours. It seems a necessity to have tools allowing to check that:</p>
 <ul>
 <li>Picked colours are within the volume of a real object colours gamut (Pointer's Gamut for instance).</li>
 <li>At any moment, displayed colours on a device are within the volume of a real object colours gamut.</li>
 <li>Existing colours in a texture or a photo are within the volume of a real object colours gamut.</li>
 </ul>
-<p>The \(RGB\) lighting model doesn't allow precise colorimetric value computations but we still can produce images faithful and pleasing thanks to our artistic sense. We have been doing that for years and this is probably the most important thing for the entertainement industry.</p>
-<p>Ultimately, the solution will be the switch to spectral rendering, it will happen. Question is when? There are already quite a lot of spectral renderers outside. Weta Digital has been using <a href="http://www.fxguide.com/featured/manuka-weta-digitals-new-renderer/">Manuka</a> on a few movies already. We still need to adress the issues with reflectance data before they become mainstream. While its theoretically impossible to reconstruct a spectral power distribution from a single \(RGB\) triplet because an infinity of spectral power distributions yield to the same tristimulus values, some research has been done on the problem and a few methods exists. For example, <em>Brian Smits (1999)</em> describes a method that leads to <a href="http://nbviewer.ipython.org/github/colour-science/colour-website/blob/master/ipython/about_reflectance_recovery.ipynb">very good results</a>. The recovered reflectance data is not useful for precise colorimetry but it yields very good results in the context of computer graphics imagery.</p>
+<p>The \(RGB\) lighting model doesn't allow precise colorimetric value computations but we still can produce images faithful and pleasing thanks to our artistic sense. We have been doing that for years and this is probably the most important thing for the entertainment industry.</p>
+<p>Ultimately, the solution will be the switch to spectral rendering, it will happen. Question is when? There are already quite a lot of spectral renderers outside. Weta Digital has been using <a href="http://www.fxguide.com/featured/manuka-weta-digitals-new-renderer/">Manuka</a> on a few movies already. We still need to address the issues with reflectance data before they become mainstream. While its theoretically impossible to reconstruct a spectral power distribution from a single \(RGB\) triplet because an infinity of spectral power distributions yield to the same tristimulus values, some research has been done on the problem and a few methods exists. For example, <em>Brian Smits (1999)</em> describes a method that leads to <a href="http://nbviewer.ipython.org/github/colour-science/colour-website/blob/master/ipython/about_reflectance_recovery.ipynb">very good results</a>. The recovered reflectance data is not useful for precise colorimetry but it yields very good results in the context of computer graphics imagery.</p>
 <p>As of now, we continue discussing what colourspace is the best for computations in the \(RGB\) lighting model and the issue has also been raised on the <a href="https://groups.google.com/forum/#!topic/academyaces/9b4VuqPcOHQ">ACES mailing list</a>.</p>
 </div>
 </div>
