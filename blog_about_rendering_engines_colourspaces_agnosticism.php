@@ -18,7 +18,7 @@
     <div class="row">
         <!-- >>> Center -->
         <div class="col-md-9">
-            <div class="embed-responsive" style="height: 16665px;">
+            <div class="embed-responsive" style="height: 16600px;">
                 <iframe class="embed-responsive-item" src="ipython/about_rendering_engines_colourspaces_agnosticism.html"></iframe>
             </div>
 
