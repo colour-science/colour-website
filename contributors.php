@@ -221,24 +221,24 @@
 <div class="row">
     <div class="col-md-4 text-center">
         <div class="list-group">
-            <a href="mailto:AcademyACES@googlegroups.com"
-               class="list-group-item text-center">
-                <span class='fa fa-send'>&nbsp;Mailing List</span>
-            </a>
-        </div>
-    </div>
-    <div class="col-md-4 text-center">
-        <div class="list-group">
-            <a href="mailto:AcademyACES@googlegroups.com"
-               class="list-group-item text-center">
-                <span class='fa fa-send'>&nbsp;Mailing List</span>
-            </a>
-        </div>
-    </div>
-    <div class="col-md-4 text-center">
-        <div class="list-group">
             <a href="http://www.poynton.com/"
                class="list-group-item text-center">Website</a>
+        </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="list-group">
+            <a href="mailto:AcademyACES@googlegroups.com"
+               class="list-group-item text-center">
+                <span class='fa fa-send'>&nbsp;Mailing List</span>
+            </a>
+        </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="list-group">
+            <a href="mailto:AcademyACES@googlegroups.com"
+               class="list-group-item text-center">
+                <span class='fa fa-send'>&nbsp;Mailing List</span>
+            </a>
         </div>
     </div>
 </div>
