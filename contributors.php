@@ -33,7 +33,8 @@
         <h3>Michael Mauderer</h3>
 
         <p>
-            <em class="text-info">HCI Researcher @ University of St Andrews</em>
+            <em class="text-info">HCI Researcher @ University of St
+                Andrews</em>
         </p>
 
         <p>Colour appearance models, overall development.</p>
@@ -43,7 +44,8 @@
 
         <p>
             <em class="text-info">Colour Scientist @
-                <a href="http://www.moving-picture.com/">The Moving Picture Company</a></em>
+                <a href="http://www.moving-picture.com/">The Moving Picture
+                    Company</a></em>
         </p>
 
         <p>Continuous technical support.</p>
@@ -73,8 +75,10 @@
                 }
                 //-->
             </script>
-            <a href="http://www.thomasmansencal.com" class="list-group-item text-center">Website</a>
-            <a href="http://thomasmansencal.blogspot.fr/" class="list-group-item text-center">Blog</a>
+            <a href="http://www.thomasmansencal.com"
+               class="list-group-item text-center">Website</a>
+            <a href="http://thomasmansencal.blogspot.fr/"
+               class="list-group-item text-center">Blog</a>
         </div>
     </div>
     <div class="col-md-4 text-center">
@@ -100,10 +104,26 @@
                 }
                 //-->
             </script>
-            <a href="http://michaelmauderer.com/" class="list-group-item text-center">Website</a>
+            <a href="http://michaelmauderer.com/"
+               class="list-group-item text-center">Website</a>
         </div>
     </div>
     <div class="col-md-4 text-center">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 text-center">
+        <h3>Luke Canavan</h3>
+
+        <p>Colour Quality Scale, Luminous Flux.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 text-center">
+        <div class="list-group">
+            <a href="https://twitter.com/canavandl"
+               class="list-group-item text-center"><span class='fa fa-twitter'>&nbsp;Twitter</span></a>
+        </div>
     </div>
 </div>
 
@@ -128,14 +148,16 @@
         </p>
 
         <p>
-            <em class="text-info">Ohno (2013)</em> correlated colour temperature calculation technical support.
+            <em class="text-info">Ohno (2013)</em> correlated colour
+            temperature calculation technical support.
         </p>
     </div>
     <div class="col-md-4 text-center">
         <h3>Mark D. Fairchild</h3>
 
         <p>
-            <em class="text-info">Director @ Munsell Color Science Lab, Director @ Program of Color Science</em>
+            <em class="text-info">Director @ Munsell Color Science Lab,
+                Director @ Program of Color Science</em>
         </p>
 
         <p>Technical support.</p>
@@ -144,17 +166,20 @@
 <div class="row">
     <div class="col-md-4 text-center">
         <div class="list-group">
-            <a href="http://99main.com/~centore/" class="list-group-item text-center">Website</a>
+            <a href="http://99main.com/~centore/"
+               class="list-group-item text-center">Website</a>
         </div>
     </div>
     <div class="col-md-4 text-center">
         <div class="list-group">
-            <a href="http://www.nist.gov/pml/div685/grp03/ohno.cfm" class="list-group-item text-center">Website</a>
+            <a href="http://www.nist.gov/pml/div685/grp03/ohno.cfm"
+               class="list-group-item text-center">Website</a>
         </div>
     </div>
     <div class="col-md-4 text-center">
         <div class="list-group">
-            <a href="http://rit-mcsl.org/fairchild/" class="list-group-item text-center">Website</a>
+            <a href="http://rit-mcsl.org/fairchild/"
+               class="list-group-item text-center">Website</a>
         </div>
     </div>
 </div>
@@ -173,7 +198,8 @@
 
         <p>
             <em class="text-info">Image Engineering Manager</em> @
-            <a href="http://www.oscars.org">Academy of Motion Picture Arts and Sciences</a>
+            <a href="http://www.oscars.org">Academy of Motion Picture Arts and
+                Sciences</a>
         </p>
 
         <p><em>ACES RGB IDT</em> technical support.</p>
@@ -183,7 +209,8 @@
 
         <p>
             <em class="text-info">Image Engineering</em> @
-            <a href="http://www.oscars.org">Academy of Motion Picture Arts and Sciences</a>
+            <a href="http://www.oscars.org">Academy of Motion Picture Arts and
+                Sciences</a>
         </p>
 
         <p><em>ACES RGB IDT</em> technical support.</p>
@@ -194,21 +221,24 @@
 <div class="row">
     <div class="col-md-4 text-center">
         <div class="list-group">
-            <a href="mailto:AcademyACES@googlegroups.com" class="list-group-item text-center">
+            <a href="mailto:AcademyACES@googlegroups.com"
+               class="list-group-item text-center">
                 <span class='fa fa-send'>&nbsp;Mailing List</span>
             </a>
         </div>
     </div>
     <div class="col-md-4 text-center">
         <div class="list-group">
-            <a href="mailto:AcademyACES@googlegroups.com" class="list-group-item text-center">
+            <a href="mailto:AcademyACES@googlegroups.com"
+               class="list-group-item text-center">
                 <span class='fa fa-send'>&nbsp;Mailing List</span>
             </a>
         </div>
     </div>
     <div class="col-md-4 text-center">
         <div class="list-group">
-            <a href="http://www.poynton.com/" class="list-group-item text-center">Website</a>
+            <a href="http://www.poynton.com/"
+               class="list-group-item text-center">Website</a>
         </div>
     </div>
 </div>
