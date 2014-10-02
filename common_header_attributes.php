@@ -13,4 +13,5 @@
 <script src="bootswatch/bower_components/html5shiv/dist/html5shiv.js"></script>
 <script src="bootswatch/bower_components/respond/dest/respond.min.js"></script>
 <![endif]-->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <!-- <<< Common Header Attributes -->

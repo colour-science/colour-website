@@ -336,6 +336,17 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                 <li>Ensure
                     <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP 8</a> compliance.
                 </li>
+                <li>
+                    <p>Try using a close to
+                        <em>Latex</em> syntax for variables names so that they are easier to compare to the reference.
+                    </p>
+
+                    <p>For instance, a variable defined \(D_{uv}\) in a paper would be defined as
+                        <em>D_uv</em> in the code, \(L^*\) as
+                        <em>Lstar</em> and \(X_{ab}^{\prime}\) as
+                        <em>Xp_ab</em>.
+                    </p>
+                </li>
                 <li>Please use <em>British English</em> words instead of <em>American English</em> ones as the <strong><span class="text-primary">CIE</span></strong> does, the most important of all being <strong><span class="text-primary">colour</span></strong> instead of <strong><span class="text-primary">color</span></strong>. You can consult the <a href="http://eilv.cie.co.at/">CIE Termlist</a> if any doubts.</li>
                 <li>Import
                     <a href="http://www.numpy.org/">NumPy</a> as follows:
@@ -374,6 +385,20 @@ array([ 100.        ,   17.5066479...,  244.9304684...])</pre>
                     Ensure that trailing whitespaces are stripped.
                 </li>
             </ul>
+
+            <h4>Citations</h4>
+
+            <p>It's likely that the code you contribute will be based upon references, we are using the
+                <a href="http://www.apastyle.org/">APA 6th Edition</a> citation style:
+            </p>
+
+            <pre>Davis, W., & Ohno, Y. (2010). Color quality scale. Optical Engineering, 49(3), 33602–33616. doi:10.1117/1.3360335</pre>
+            <pre>Wyszecki, G., & Stiles, W. S. (2000). Table I(6.5.3) Whiteness Formulae (Whiteness Measure Denoted by W). In Color Science: Concepts and Methods, Quantitative Data and Formulae (pp. 837–839). Wiley. ISBN:978-0471399186</pre>
+            <pre>Lindbloom, B. (2014). RGB Working Space Information. Retrieved April 11, 2014, from http://www.brucelindbloom.com/WorkingSpaceInfo.html</pre>
+
+            <p>We are storing all our citations in a database maintained by
+                <a href="http://www.mendeley.com/">Mendeley</a>.
+            </p>
 
             <h4>Commits</h4>
 
