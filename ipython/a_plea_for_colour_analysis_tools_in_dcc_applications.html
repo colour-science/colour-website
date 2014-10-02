@@ -1649,7 +1649,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -1691,9 +1691,6 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="http://colour-science.org">colour-science.org</a> - September 30, 2014</p>
-<blockquote>
-<p>Note: This document is not final.</p>
-</blockquote>
 <p>As we are increasingly using wide gamut colourspaces (<em>ACES RGB</em>, <em>Rec. 2020</em>, <em>ProPhoto RGB</em>) in the VFX industry, the need for better colour analysis tools is more important than ever. Today, nothing prevents an artist to generate or pick colours outside a given volume.</p>
 <p>We think that people working with DCC applications from <a href="http://www.autodesk.com/">Autodesk</a>, <a href="http://www.adobe.com/">Adobe</a> and <a href="http://www.thefoundry.co.uk/">The Foundry</a> need better tools to work with colour. This is especially true when we tend to work in scene referred lighting with floating point values.</p>
 </div>
@@ -11933,7 +11930,7 @@ hAkTJkyYMGHCnwL/A4rTaS8KLS0kAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="#to-sRGB-Colourspace">... to sRGB Colourspace<a class="anchor-link" href="#to-sRGB-Colourspace">&#182;</a></h2>
+<h2 id="##...-to-sRGB-Colourspace">... to sRGB Colourspace<a class="anchor-link" href="###...-to-sRGB-Colourspace">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -26541,7 +26538,7 @@ iIiIiIj43f8BAlnaB7lWemoAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Unsurprisingly, <em>sRGB</em> colourspace doesn't hold all the colours of the image, however it is interesting to note that the chromaticities are partially outside the spectral locus, illustrating a potential problem with the image.</p>
+<p>Unsurprisingly, <em>sRGB</em> colourspace doesn't hold all the colours of the image, however it is interesting to note that the chromaticities are partially outside the spectral locus, illustrating a potential problem with the image: the S-Log1 black level set to code 64 is yielding negative values in that case.</p>
 <p>A lot of them are also not contained within <em>Pointer's Gamut</em>, which again is not surprising, we are not dealing with true reflectance data but reflected spectra: Reflectance values have already been multiplied by the spectra of multiple different light sources and by the reflected spectra from neighbour surfaces. Pointer's Gamut also doesn't take in account refracted spectra.</p>
 </div>
 </div>
