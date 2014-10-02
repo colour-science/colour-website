@@ -22,15 +22,12 @@
             <br/>
 
             <p>
-                <strong><span class="text-primary">Colour</span></strong> started in 2013 as a raw conversion building block for
-                <a href="http://www.moving-picture.com/">The Moving Picture Company</a> stills ingestion pipeline.
+                <strong><span class="text-primary">Colour</span></strong> started in 2013 as personal API shared with
+                <a href="http://www.moving-picture.com/">The Moving Picture Company</a>.
             </p>
 
             <p>
-                Generic objects have been extracted, reorganised and are now provided as a nice packaged API while keeping the undisclosable code private. The original
-                <a href="http://www.moving-picture.com/">MPC</a>
-                <em><span class="text-info">camelCase</span></em> naming convention and code style has been changed for
-                <a href="http://legacy.python.org/dev/peps/pep-0008/">Pep8</a> compliance.
+                Generic objects have been extracted, reorganised and are now provided as a nice packaged API while keeping the undisclosable code private.
             </p>
 
             <p>
