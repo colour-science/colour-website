@@ -36,6 +36,9 @@
                 <li>
                     <a href="http://matplotlib.org/">Matplotlib</a>
                 </li>
+                <li>
+                    <a href="http://www.latex-project.org/">LaTex</a>
+                </li>
             </ul>
             <strong><span class="text-primary">Python 2.6</span></strong>
             and
