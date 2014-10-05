@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Chromatic Induction</title>
+    <title>Chromatic Induction - Experiment 001</title>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
     <style>
@@ -206,10 +206,6 @@
 <div id="guide">
     <h2 id="title" class="center">Chromatic Induction - Experiment 001</h2>
 
-    <h3>Definition</h3>
-
-    <p>Chromatic induction is the modification of the visual response that occurs when 2 colour stimuli (of any spectral irradiance distribution) are viewed side-by-side in which each stimulus alters the appearance of the other.</p>
-
     <h3>Usage</h3>
     <ul>
         <li>
@@ -219,6 +215,10 @@
             Drag to rotate the black lines.
         </li>
     </ul>
+    <h3>Definition</h3>
+
+    <p>Chromatic induction is the modification of the visual response that occurs when 2 colour stimuli (of any spectral irradiance distribution) are viewed side-by-side in which each stimulus alters the appearance of the other.</p>
+
     <h3 class="center">
         <a href="http://colour-science.org">colour-science.org</a>
     </h3>
