@@ -5,17 +5,44 @@
     <title>Chromatic Induction</title>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
-    <style media="screen">
-        * {
+    <style>
+        @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+        body {
+            background: black;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            height: 100%;
             margin: 0;
             padding: 0;
         }
 
-        body {
-            background: black;
-            height: 100%;
+        #guide {
+            color: rgba(255, 255, 255, 0.85);
+            background-color: rgba(0, 0, 0, 0.85);
+            bottom: 10%;
+            padding: 10px;
+            position: absolute;
+            right: 10%;
+            width: 400px;
+            z-index: 1;
         }
+
+        #title {
+            font-size: 1.75em;
+            text-align: center;
+        }
+
     </style>
+    <script>
+        $(window).mousedown(function () {
+            $(window).mousemove(function () {
+                $("#guide").animate({
+                    opacity: 0
+                }, 500);
+            });
+        });
+    </script>
     <script>
         window.onload = function () {
             WIDTH = $(window).width();
@@ -29,10 +56,10 @@
             function black_lines_on_drag(x, y) {
                 x = x + LAST_DX;
                 y = y + LAST_DY;
-//                this.transform(Snap.format("t{x},{y}r{z},s1,10",
-//                        {x: x / 50, y: 0, z: y / 100}));
-                this.transform(Snap.format("skewX({x})",
-                        {x: y / 100}));
+                this.transform(Snap.format("t{x},{y}r{z},s1,10",
+                        {x: x / 50, y: 0, z: y / 100}));
+//                this.transform(Snap.format("skewX({x})",
+//                        {x: y / 100}));
                 BLACK_LINES_DX = x;
                 BLACK_LINES_DY = y;
             };
@@ -58,13 +85,13 @@
             }
 
             var red_lines = CANVAS.rect(0, 0, WIDTH, HEIGHT);
-            var red_vertical_lines = vertical_lines(THICKNESS * 3, HEIGHT, '#FF0000', THICKNESS);
+            var red_vertical_lines = vertical_lines(THICKNESS * 3, HEIGHT, '#DD0000', THICKNESS);
             red_lines.attr({
                 fill: red_vertical_lines
             });
 
             var green_lines = CANVAS.rect(0, 0, WIDTH, HEIGHT);
-            var green_vertical_lines = vertical_lines(THICKNESS * 3, HEIGHT, '#00FF00', THICKNESS);
+            var green_vertical_lines = vertical_lines(THICKNESS * 3, HEIGHT, '#00DD00', THICKNESS);
             green_lines.attr({
                 fill: green_vertical_lines
             });
@@ -72,14 +99,15 @@
             green_lines.transform(Snap.format("t{x},{y}", {x: THICKNESS, y: 0}));
 
             var blue_lines = CANVAS.rect(0, 0, WIDTH, HEIGHT);
-            var blue_vertical_lines = vertical_lines(THICKNESS * 3, HEIGHT, '#0000FF', THICKNESS);
+            var blue_vertical_lines = vertical_lines(THICKNESS * 3, HEIGHT, '#0000DD', THICKNESS);
             blue_lines.attr({
                 fill: blue_vertical_lines
             });
 
             blue_lines.transform(Snap.format("t{x},{y}", {x: THICKNESS * 2, y: 0}));
 
-            var black_lines = CANVAS.rect(0, (HEIGHT / 2) - (HEIGHT / 2) / 2, WIDTH, HEIGHT / 2);
+//            var black_lines = CANVAS.rect(0, (HEIGHT / 2) - (HEIGHT / 2) / 2, WIDTH, HEIGHT / 2);
+            var black_lines = CANVAS.rect(0, 0, WIDTH, HEIGHT);
             var black_vertical_lines = vertical_lines(THICKNESS * 20, HEIGHT, '#000000', THICKNESS * 2);
             black_lines.attr({
                 fill: black_vertical_lines
@@ -90,5 +118,25 @@
     </script>
 </head>
 <body>
+<div id="guide">
+    <h2 id="title">Chromatic Induction - Experiment 001</h2>
+    <!--<br/>-->
+
+    <h3>Definition</h3>
+    <!--<br/>-->
+
+    <p>Chromatic induction is the modification of the visual response that occurs when 2 colour stimuli (of any spectral irradiance distribution) are viewed side-by-side in which each stimulus alters the appearance of the other.</p>
+    <!--<br/>-->
+
+    <h3>Usage</h3>
+    <ul>
+        <li>
+            Horizontal drag to offset the black lines.
+        </li>
+        <li>
+            Vertical drag to rotate the black lines.
+        </li>
+    </ul>
+</div>
 </body>
 </html>
