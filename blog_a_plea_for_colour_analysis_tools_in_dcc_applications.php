@@ -18,7 +18,7 @@
     <div class="row">
         <!-- >>> Center -->
         <div class="col-md-9">
-            <div class="embed-responsive" style="height: 9550px;">
+            <div class="embed-responsive" style="height: 9500px;">
                 <iframe class="embed-responsive-item" src="ipython/a_plea_for_colour_analysis_tools_in_dcc_applications.html"></iframe>
             </div>
 
