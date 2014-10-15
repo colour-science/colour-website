@@ -123,7 +123,7 @@
             <pre>» pip install -e .[plotting]</pre>
             <p>The tests suite dependencies are installed as follows:</p>
             <pre>» pip install -e .[tests]</pre>
-            <p>The documentation building dependencies are as follows:</p>
+            <p>The documentation building dependencies are installed as follows:</p>
             <pre>» pip install -e .[docs]</pre>
 
             <h3>Vagrant</h3>
