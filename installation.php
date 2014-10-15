@@ -23,7 +23,12 @@
 
             <h3>Dependencies</h3>
 
-            <p>The following primary dependencies are needed:</p>
+            <p>
+                <strong><span class="text-primary">Colour</span></strong> requires
+                various dependencies in order to run. Depending your usage you
+                may not need to install all of them.
+            </p>
+            <h4>Primary Dependencies</h4>
             <ul>
                 <li>
                     <a href="https://www.python.org/download/releases/">Python 2.6</a>,
@@ -32,12 +37,6 @@
                 </li>
                 <li>
                     <a href="http://www.numpy.org/">NumPy</a>
-                </li>
-                <li>
-                    <a href="http://matplotlib.org/">Matplotlib</a>
-                </li>
-                <li>
-                    <a href="http://www.latex-project.org/">LaTex</a>
                 </li>
             </ul>
             <strong><span class="text-primary">Python 2.6</span></strong>
@@ -57,25 +56,37 @@
                     <a href="https://pypi.python.org/pypi/unittest2">Unittest2</a>
                 </li>
             </ul>
-            <p>Various optional capabilities require:</p>
+            <h4>Optional Features Dependencies</h4>
             <ul>
                 <li>
                     <a href="http://www.scipy.org/">SciPy</a>
                 </li>
             </ul>
-            <p>The testing suite requires the following dependencies:</p>
+            <h4>Optional Figures Plotting Dependencies</h4>
             <ul>
                 <li>
-                    <a href="https://nose.readthedocs.org/en/latest">Nose</a>
+                    <a href="http://matplotlib.org/">Matplotlib</a>
                 </li>
+                <li>
+                    <a href="http://www.latex-project.org/">LaTex</a>
+                </li>
+            </ul>
+            <h4>Testing Suite Dependencies</h4>
+            <ul>
                 <li>
                     <a href="https://pypi.python.org/pypi/coverage">Coverage</a>
                 </li>
                 <li>
                     <a href="https://pypi.python.org/pypi/flake8">Flake8</a>
                 </li>
+                <li>
+                    <a href="https://pypi.python.org/pypi/mock">Mock</a>
+                </li>
+                <li>
+                    <a href="https://nose.readthedocs.org/en/latest">Nose</a>
+                </li>
             </ul>
-            <p>In order to build the documentation the following packages are required:</p>
+            <h4>Documentation Building Dependencies</h4>
             <ul>
                 <li>
                     <a href="https://sphinx-doc.org">Sphinx</a>
@@ -106,11 +117,13 @@
 » git clone git://github.com/color-science/colour.git
 » cd colour
 » pip install .</pre>
-            <p>The optional dependencies are installed by using the following command:</p>
+            <p>The optional features dependencies are installed as follows:</p>
             <pre>» pip install -e .[optional]</pre>
-            <p>The tests suite dependencies are installed by using the following command:</p>
+            <p>The figures plotting dependencies are installed as follows:</p>
+            <pre>» pip install -e .[plotting]</pre>
+            <p>The tests suite dependencies are installed as follows:</p>
             <pre>» pip install -e .[tests]</pre>
-            <p>The documentation dependencies are installed by using the following command:</p>
+            <p>The documentation building dependencies are as follows:</p>
             <pre>» pip install -e .[docs]</pre>
 
             <h3>Vagrant</h3>
