@@ -38,10 +38,12 @@
                 <a>Downloads</a>
                 <ul class="list-footer">
                     <li>
-                        <a href="https://github.com/colour-science/colour/releases">All Releases</a>
+                        <a href="https://github.com/colour-science/colour/releases">All
+                            Releases</a>
                     </li>
                     <li>
-                        <a href="https://github.com/colour-science/colour" class="fa fa-github">&nbsp;Source Code</a>
+                        <a href="https://github.com/colour-science/colour"
+                           class="fa fa-github">&nbsp;Source Code</a>
                     </li>
                     <li>
                         <a href="http://opensource.org/licenses/BSD-3-Clause">License</a>
@@ -58,7 +60,8 @@
                         <a href="colour_nuke.php">Colour - Nuke</a>
                     </li>
                     <li>
-                        <a href="colour_spectroscope.php">Colour - Spectroscope</a>
+                        <a href="colour_spectroscope.php">Colour -
+                            Spectroscope</a>
                     </li>
                 </ul>
             </div>
@@ -66,10 +69,12 @@
                 <a class="fa fa-life-ring">&nbsp;Documentation</a>
                 <ul class="list-footer">
                     <li>
-                        <a href="api/latest/html/index.html" class="fa fa-life-ring">&nbsp;API Reference</a>
+                        <a href="api/latest/html/index.html"
+                           class="fa fa-life-ring">&nbsp;API Reference</a>
                     </li>
                     <li>
-                        <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb" class="fa fa-book">&nbsp;IPython Notebooks</a>
+                        <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb"
+                           class="fa fa-book">&nbsp;IPython Notebooks</a>
                     </li>
                     <li>
                         <a href="contributing.php"><span class="fa fa-gears">&nbsp;Contributing</span></a>
@@ -100,13 +105,16 @@
                             <i class="fa fa-send fa-2x"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/colour_science"><i class="fa fa-twitter fa-2x"></i></a>
+                            <a href="https://twitter.com/colour_science"><i
+                                    class="fa fa-twitter fa-2x"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/python.colour.science"><i class="fa fa-facebook fa-2x"></i></a>
+                            <a href="https://www.facebook.com/python.colour.science"><i
+                                    class="fa fa-facebook fa-2x"></i></a>
                         </li>
                         <li>
-                            <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about"><i class="fa fa-google-plus fa-2x"></i></a>
+                            <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about"><i
+                                    class="fa fa-google-plus fa-2x"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -115,6 +123,7 @@
     </div>
 </footer>
 <div class="footer-copyright text-center">
-    Copyright © 2013 - 2014 – Colour Developers – colour-science@googlegroups.com
+    Copyright © 2013 - 2014 – Colour Developers –
+    colour-science@googlegroups.com
 </div>
 <!-- <<< Footer -->

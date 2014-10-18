@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>Colour - Spectroscope</title>
 
-    <?php include ("common_header_attributes.php"); ?>
+    <?php include("common_header_attributes.php"); ?>
 
 </head>
 
 <body>
 <?php include_once("analytics_tracking.php") ?>
 
-<?php include ("navigation.php"); ?>
+<?php include("navigation.php"); ?>
 
 <!-- >>> Content -->
 <div class="container">
@@ -22,10 +22,13 @@
             <br/>
 
             <p>
-                <strong><span class="text-primary">Colour - Spectroscope</span></strong> provides an implementation
+                <strong><span class="text-primary">Colour - Spectroscope</span></strong>
+                provides an implementation
                 of
                 <strong><span class="text-primary">Colour</span></strong> for
-                <a href="http://thomasmansencal.blogspot.fr/2014/07/a-homemade-spectroscope.html">The Homemade Spectroscope</a>.
+                <a href="http://thomasmansencal.blogspot.fr/2014/07/a-homemade-spectroscope.html">The
+                    Homemade
+                    Spectroscope</a>.
             </p>
 
             <h3>Features</h3>
@@ -40,7 +43,8 @@
             <h3>Downloads</h3>
             <ul>
                 <li>
-                    <a href="http://github.com/colour-science/colour-spectroscope">colour-spectroscope on Github</a>
+                    <a href="http://github.com/colour-science/colour-spectroscope">colour-spectroscope
+                        on Github</a>
                 </li>
             </ul>
 
@@ -49,16 +53,16 @@
         </div>
         <!-- <<< Center -->
 
-        <?php include ("sidebar.php"); ?>
+        <?php include("sidebar.php"); ?>
 
     </div>
 </div>
 <!-- <<< Content -->
 
 
-<?php include ("footer.php"); ?>
+<?php include("footer.php"); ?>
 
-<?php include ("common_body_attributes.php"); ?>
+<?php include("common_body_attributes.php"); ?>
 
 </body>
 </html>

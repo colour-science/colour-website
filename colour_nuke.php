@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>Colour - Nuke</title>
 
-    <?php include ("common_header_attributes.php"); ?>
+    <?php include("common_header_attributes.php"); ?>
 
 </head>
 
 <body>
 <?php include_once("analytics_tracking.php") ?>
 
-<?php include ("navigation.php"); ?>
+<?php include("navigation.php"); ?>
 
 <!-- >>> Content -->
 <div class="container">
@@ -22,21 +22,28 @@
             <br/>
 
             <p>
-                <strong><span class="text-primary">Colour - Nuke</span></strong> provides an implementation
+                <strong><span
+                        class="text-primary">Colour - Nuke</span></strong>
+                provides an implementation
                 of
-                <strong><span class="text-primary">Colour</span></strong> within
-                <a href="http://www.thefoundry.co.uk/products/nuke-product-family/nuke/">The Foundry Nuke</a>.
+                <strong><span class="text-primary">Colour</span></strong>
+                within
+                <a href="http://www.thefoundry.co.uk/products/nuke-product-family/nuke/">The
+                    Foundry Nuke</a>.
             </p>
 
             <p>
                 This is historically where
-                <strong><span class="text-primary">Colour</span></strong> started as
+                <strong><span class="text-primary">Colour</span></strong>
+                started as
                 a raw images colour conversion plugin for
-                <a href="http://www.moving-picture.com/">The Moving Picture Company</a> stills ingestion pipeline.
+                <a href="http://www.moving-picture.com/">The Moving Picture
+                    Company</a> stills ingestion pipeline.
             </p>
 
             <p>
-                Most of the code being under NDA, it has been removed from the repository.
+                Most of the code being under NDA, it has been removed from the
+                repository.
             </p>
 
             <h3>Features</h3>
@@ -54,7 +61,8 @@
             <h3>Downloads</h3>
             <ul>
                 <li>
-                    <a href="http://github.com/colour-science/colour-nuke">colour-nuke on Github</a>
+                    <a href="http://github.com/colour-science/colour-nuke">colour-nuke
+                        on Github</a>
                 </li>
             </ul>
 
@@ -63,16 +71,16 @@
         </div>
         <!-- <<< Center -->
 
-        <?php include ("sidebar.php"); ?>
+        <?php include("sidebar.php"); ?>
 
     </div>
 </div>
 <!-- <<< Content -->
 
 
-<?php include ("footer.php"); ?>
+<?php include("footer.php"); ?>
 
-<?php include ("common_body_attributes.php"); ?>
+<?php include("common_body_attributes.php"); ?>
 
 </body>
 </html>

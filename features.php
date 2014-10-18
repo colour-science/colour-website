@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>Features</title>
 
-    <?php include ("common_header_attributes.php"); ?>
+    <?php include("common_header_attributes.php"); ?>
 
 </head>
 
 <body>
 <?php include_once("analytics_tracking.php") ?>
 
-<?php include ("navigation.php"); ?>
+<?php include("navigation.php"); ?>
 
 <!-- >>> Content -->
 <div class="container">
@@ -21,7 +21,10 @@
             <h2>Features</h2>
             <br/>
 
-            <p><strong><span class="text-primary">Colour</span></strong> features a rich dataset and collection of objects, here are some highlights:</p>
+            <p><strong><span class="text-primary">Colour</span></strong>
+                features a rich dataset and collection of
+                objects, here are some highlights:</p>
+
             <h3>Algebra</h3>
             <h4>Sprague Interpolation</h4>
 
@@ -39,20 +42,35 @@
             </ul>
             <h4>RGB and XYZ Colour Matching Functions Spectral Dataset</h4>
             <ul class="simple">
-                <li>Wright &amp; Guild 1931 2° RGB CMFs RGB colour matching functions</li>
-                <li>Stiles &amp; Burch 1955 2° RGB CMFs RGB colour matching functions</li>
-                <li>Stiles &amp; Burch 1959 10° RGB CMFs RGB colour matching functions</li>
-                <li>CIE 1931 2° Standard Observer XYZ colour matching functions</li>
-                <li>CIE 1964 10° Standard Observer XYZ colour matching functions</li>
-                <li>CIE 2012 2° Standard Observer XYZ colour matching functions</li>
-                <li>CIE 2012 10° Standard Observer XYZ colour matching functions</li>
+                <li>Wright &amp; Guild 1931 2° RGB CMFs RGB colour matching
+                    functions
+                </li>
+                <li>Stiles &amp; Burch 1955 2° RGB CMFs RGB colour matching
+                    functions
+                </li>
+                <li>Stiles &amp; Burch 1959 10° RGB CMFs RGB colour matching
+                    functions
+                </li>
+                <li>CIE 1931 2° Standard Observer XYZ colour matching
+                    functions
+                </li>
+                <li>CIE 1964 10° Standard Observer XYZ colour matching
+                    functions
+                </li>
+                <li>CIE 2012 2° Standard Observer XYZ colour matching
+                    functions
+                </li>
+                <li>CIE 2012 10° Standard Observer XYZ colour matching
+                    functions
+                </li>
             </ul>
             <h4>Cone Fundamentals Spectral Dataset</h4>
             <ul class="simple">
                 <li>Stockman &amp; Sharpe 2° Cone Fundamentals</li>
                 <li>Stockman &amp; Sharpe 10° Cone Fundamentals</li>
             </ul>
-            <h4>Photopic &amp; Scotopic Luminous Efficiency Functions Spectral Dataset</h4>
+            <h4>Photopic &amp; Scotopic Luminous Efficiency Functions Spectral
+                Dataset</h4>
             <ul class="simple">
                 <li>CIE 1924 Photopic Standard Observer</li>
                 <li>Judd Modified CIE 1951 Photopic Standard Observer</li>
@@ -108,13 +126,24 @@
                 <li>HP5</li>
             </ul>
             <h4>Illuminants Chromaticity Coordinates</h4>
-            <h4>Colour Matching Functions Conversions for Educational Purpose</h4>
+            <h4>Colour Matching Functions Conversions for Educational
+                Purpose</h4>
             <ul class="simple">
-                <li>Wright &amp; Guild 1931 2° RGB CMFs to CIE 1931 2° Standard Observer</li>
-                <li>Stiles &amp; Burch 1959 10° RGB CMFs to CIE 1964 10° Standard Observer</li>
-                <li>Stiles &amp; Burch 1959 10° RGB CMFs to Stockman &amp; Sharpe 10° Cone Fundamentals</li>
-                <li>Stockman &amp; Sharpe 2° Cone Fundamentals to CIE 2012 2° Standard Observer</li>
-                <li>Stockman &amp; Sharpe 10° Cone Fundamentals to CIE 2012 10° Standard Observer</li>
+                <li>Wright &amp; Guild 1931 2° RGB CMFs to CIE 1931 2° Standard
+                    Observer
+                </li>
+                <li>Stiles &amp; Burch 1959 10° RGB CMFs to CIE 1964 10°
+                    Standard Observer
+                </li>
+                <li>Stiles &amp; Burch 1959 10° RGB CMFs to Stockman &amp;
+                    Sharpe 10° Cone Fundamentals
+                </li>
+                <li>Stockman &amp; Sharpe 2° Cone Fundamentals to CIE 2012 2°
+                    Standard Observer
+                </li>
+                <li>Stockman &amp; Sharpe 10° Cone Fundamentals to CIE 2012 10°
+                    Standard Observer
+                </li>
             </ul>
             <h4>Lightness Computation</h4>
             <ul class="simple">
@@ -124,7 +153,9 @@
             </ul>
             <h4>Luminance Computation</h4>
             <ul class="simple">
-                <li>Sidney M. Newhall, Dorothy Nickerson, and Deane B. Judd (1943)</li>
+                <li>Sidney M. Newhall, Dorothy Nickerson, and Deane B. Judd
+                    (1943)
+                </li>
                 <li>CIE (1976)</li>
                 <li>ASTM D1535-08 (2008)</li>
             </ul>
@@ -135,8 +166,12 @@
                 <li>Alan R. Roberston (1968)</li>
                 <li>Yoshi Ohno (2013)</li>
                 <li>C. S. McCamy (1992)</li>
-                <li>Javier Hernandez-Andres, Raymond L. Lee, Jr., and Javier Romero (1999)</li>
-                <li>Bongsoon Kang Ohak Moon, Changhee Hong, Honam Lee, Bonghwan Cho and Youngsun Kim (2002)</li>
+                <li>Javier Hernandez-Andres, Raymond L. Lee, Jr., and Javier
+                    Romero (1999)
+                </li>
+                <li>Bongsoon Kang Ohak Moon, Changhee Hong, Honam Lee, Bonghwan
+                    Cho and Youngsun Kim (2002)
+                </li>
                 <li>CIE Illuminant D Series</li>
             </ul>
 
@@ -292,16 +327,16 @@
         </div>
         <!-- <<< Center -->
 
-        <?php include ("sidebar.php"); ?>
+        <?php include("sidebar.php"); ?>
 
     </div>
 </div>
 <!-- <<< Content -->
 
 
-<?php include ("footer.php"); ?>
+<?php include("footer.php"); ?>
 
-<?php include ("common_body_attributes.php"); ?>
+<?php include("common_body_attributes.php"); ?>
 
 </body>
 </html>
