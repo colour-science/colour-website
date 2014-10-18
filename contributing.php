@@ -257,13 +257,13 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                     Visit your repository fork on
                     <a href="http://github.com/">Github</a>. Your branch should have a green
                     <em><span class="text-info">Pull Request</span></em> button, this will open a
-                    <em><span class="text-info">Pull Request</span></em> and let us know that we have some code to review :)
+                    <em><span class="text-info">pull request</span></em> and let us know that we have some code to review :)
                 </li>
             </ol>
 
             <h3>Code Reviews</h3>
 
-            <p>Your pull request will be reviewed by the maintainers and any other developer interested in the project.</p>
+            <p>Your <em><span class="text-info">pull request</span></em> will be reviewed by the maintainers and any other developer interested in the project.</p>
 
             <p>Every single developer has his code reviewed, this is a natural process helping to raise the codebase quality while having a friendly discussion. Comments will be made on various aspects such as the documentation and references, the code style and its implementation. Those can be discouraging, although they are not meant to criticize but aim at improving the quality of your submission. We all learn from that process and the project ultimately benefits from them.</p>
 
@@ -324,7 +324,7 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                     <a href="http://scikit-image.org/">scikit-image</a>.
                 </li>
                 <li>All the code must be checked with the static analysis tool of your choice (we use <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> extensively), <a href="https://pypi.python.org/pypi/flake8">flake8</a> and <a href="https://landscape.io/">Landscape</a>.</li>
-                <li>No pull request should be merged without being reviewed and ensuring that the tests suite pass in
+                <li>No <em><span class="text-info">pull request</span></em> should be merged without being reviewed and ensuring that the tests suite pass in
                     <a href="http://travis-ci.org/">Travis-CI</a>.
                 </li>
                 <li>Examples should be provided for new features.</li>
@@ -414,6 +414,19 @@ Closes #32.
 This implementation allows for a more precise correlated colour temperature calculation by using a two solutions hybrid approach.</pre>
             <pre>No:
 Coded new cool cct method</pre>
+
+            <h4>Feature Branches & History</h4>
+
+            <p>History should never be re-written, although while working on your local
+                <strong>feature</strong> branch, you may want to provide a cleaner commits history before submitting a <em><span class="text-info">pull request</span></em>. It is perfectly fine to modify your local branch as you wish.
+            </p>
+
+            <p>However, if you need to change history on a public and used
+                <strong>feature</strong> branch, please inform the
+                <a href="mailto:colour-science@googlegroups.com">
+                    Colour developers
+                </a> in order to avoid commit losses or a merging disaster.
+            </p>
 
             <?php include("disqus.php") ?>
 
