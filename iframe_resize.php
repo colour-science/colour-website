@@ -4,7 +4,7 @@
     iFrameResize({
         log: false,                  // Enable console logging
         enablePublicMethods: true,                  // Enable methods within iframe hosted page
-        heightCalculationMethod: 'max',
+        heightCalculationMethod: 'grow',
         resizedCallback: function (messageData) { // Callback fn when resize is received
             $('p#callback').html(
                             '<b>Frame ID:</b> ' + messageData.iframe.id +
