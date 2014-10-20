@@ -52,19 +52,17 @@
                     light source can be done as follows:
                 </p>
 
-                <div class="embed-responsive" style="min-height: 135px;">
-                    <iframe class="embed-responsive-item"
-                            src="ipython/snippets/colour_cri_snippet.html"></iframe>
-                </div>
+                <iframe src="ipython/snippets/colour_cri_snippet.html"
+                        width="100%" scrolling="no" frameBorder="0"></iframe>
+
                 <p>
                     The correlated colour temperature of a CIE Standard
                     Illuminant can be calculated easily:
                 </p>
 
-                <div class="embed-responsive" style="height: 135px;">
-                    <iframe class="embed-responsive-item"
-                            src="ipython/snippets/colour_cct_snippet.html"></iframe>
-                </div>
+                <iframe src="ipython/snippets/colour_cct_snippet.html"
+                        width="100%" scrolling="no" frameBorder="0"></iframe>
+
                 <p>
                     <strong><span class="text-primary">Colour</span></strong>
                     also implements various plotting functions
@@ -72,17 +70,16 @@
                     <a href="http://matplotlib.org/">Matplotlib</a>:
                 </p>
 
-                <div class="embed-responsive" style="height: 500px;">
-                    <iframe class="embed-responsive-item"
-                            src="ipython/snippets/colour_visible_spectrum_plot_snippet.html"></iframe>
-                </div>
+                <iframe src="ipython/snippets/colour_visible_spectrum_plot_snippet.html"
+                        width="100%" scrolling="no" frameBorder="0"></iframe>
             </div>
             <div>
                 <h2>Latest News</h2>
 
                 <ul>
                     <li>
-                        <strong><span class="text-primary">Tuesday, 2 September 2014</span></strong><br/>The
+                        <strong><span
+                                class="text-primary">Tuesday, 2 September 2014</span></strong><br/>The
                         first
                         public release of
                         <strong><span
@@ -108,6 +105,8 @@
 <?php include("footer.php"); ?>
 
 <?php include("common_body_attributes.php"); ?>
+
+<?php include("iframe_resize.php"); ?>
 
 </body>
 </html>

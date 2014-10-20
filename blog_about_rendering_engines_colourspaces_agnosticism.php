@@ -18,10 +18,9 @@
     <div class="row">
         <!-- >>> Center -->
         <div class="col-md-9">
-            <div class="embed-responsive" style="height: 16600px;">
-                <iframe class="embed-responsive-item"
-                        src="ipython/about_rendering_engines_colourspaces_agnosticism.html"></iframe>
-            </div>
+
+            <iframe src="ipython/about_rendering_engines_colourspaces_agnosticism.html"
+                    width="100%" scrolling="no" frameBorder="0"></iframe>
 
             <?php include("disqus.php") ?>
 
@@ -38,6 +37,8 @@
 <?php include("footer.php"); ?>
 
 <?php include("common_body_attributes.php"); ?>
+
+<?php include("iframe_resize.php"); ?>
 
 </body>
 </html>
