@@ -74,9 +74,6 @@
                 <li>
                     <a href="http://matplotlib.org/">Matplotlib</a>
                 </li>
-                <li>
-                    <a href="http://www.latex-project.org/">LaTex</a>
-                </li>
             </ul>
             <h4>Testing Suite Dependencies</h4>
             <ul>
