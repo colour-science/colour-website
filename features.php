@@ -36,7 +36,7 @@
                 <li>Interpolation</li>
                 <li>Extrapolation</li>
             </ul>
-            <h4>Spectral bandpass correction</h4>
+            <h4>Spectral Bandpass Correction</h4>
             <ul class="simple">
                 <li>Stearns and Stearns (1988)</li>
             </ul>
@@ -126,6 +126,65 @@
                 <li>HP5</li>
             </ul>
             <h4>Illuminants Chromaticity Coordinates</h4>
+            <h4>Light Sources Dataset</h4>
+            <ul>
+                <li>Natural</li>
+                <li>Philips TL-84</li>
+                <li>T8 Luxline Plus White</li>
+                <li>SA</li>
+                <li>SC</li>
+                <li>T8 Polylux 3000</li>
+                <li>T8 Polylux 4000</li>
+                <li>Thorn Kolor-rite</li>
+                <li>Cool White FL</li>
+                <li>Daylight FL</li>
+                <li>HPS</li>
+                <li>Incandescent</li>
+                <li>LPS</li>
+                <li>Mercury</li>
+                <li>Metal Halide</li>
+                <li>Neodimium Incandescent</li>
+                <li>Super HPS</li>
+                <li>Triphosphor FL</li>
+                <li>3-LED-1 (457/540/605)</li>
+                <li>3-LED-2 (473/545/616)</li>
+                <li>3-LED-2 Yellow</li>
+                <li>3-LED-3 (465/546/614)</li>
+                <li>3-LED-4 (455/547/623)</li>
+                <li>4-LED No Yellow</li>
+                <li>4-LED Yellow</li>
+                <li>4-LED-1 (461/526/576/624)</li>
+                <li>4-LED-2 (447/512/573/627)</li>
+                <li>Luxeon WW 2880</li>
+                <li>PHOS-1</li>
+                <li>PHOS-2</li>
+                <li>PHOS-3</li>
+                <li>PHOS-4</li>
+                <li>Phosphor LED YAG</li>
+                <li>60 A/W (Soft White)</li>
+                <li>C100S54 (HPS)</li>
+                <li>C100S54C (HPS)</li>
+                <li>F32T8/TL830 (Triphosphor)</li>
+                <li>F32T8/TL835 (Triphosphor)</li>
+                <li>F32T8/TL841 (Triphosphor)</li>
+                <li>F32T8/TL850 (Triphosphor)</li>
+                <li>F32T8/TL865 /PLUS (Triphosphor)</li>
+                <li>F34/CW/RS/EW (Cool White FL)</li>
+                <li>F34T12/LW/RS /EW</li>
+                <li>F34T12WW/RS /EW (Warm White FL)</li>
+                <li>F40/C50 (Broadband FL)</li>
+                <li>F40/C75 (Broadband FL)</li>
+                <li>F40/CWX (Broadband FL)</li>
+                <li>F40/DX (Broadband FL)</li>
+                <li>F40/DXTP (Delux FL)</li>
+                <li>F40/N (Natural FL)</li>
+                <li>H38HT-100 (Mercury)</li>
+                <li>H38JA-100/DX (Mercury DX)</li>
+                <li>MHC100/U/MP /3K</li>
+                <li>MHC100/U/MP /4K</li>
+                <li>SDW-T 100W/LV (Super HPS)</li>
+            </ul>
+            <h4>Light Sources Chromaticity Coordinates</h4>
             <h4>Colour Matching Functions Conversions for Educational
                 Purpose</h4>
             <ul class="simple">
@@ -147,42 +206,70 @@
             </ul>
             <h4>Lightness Computation</h4>
             <ul class="simple">
-                <li>Glasser et al. (1958)</li>
-                <li>G. Wyszecki (1964)</li>
-                <li>CIE (1976)</li>
+                <li>Glasser, McKinney, Reilly and Schnelle (1958)</li>
+                <li>Wyszecki (1963)</li>
+                <li>CIE 1976</li>
             </ul>
             <h4>Luminance Computation</h4>
             <ul class="simple">
-                <li>Sidney M. Newhall, Dorothy Nickerson, and Deane B. Judd
-                    (1943)
-                </li>
-                <li>CIE (1976)</li>
-                <li>ASTM D1535-08 (2008)</li>
+                <li>Newhall, Nickerson and Judd (1943)</li>
+                <li>CIE 1976</li>
+                <li>ASTM D1535-08</li>
             </ul>
+            <h4>Whiteness Computation</h4>
+            <ul class="simple">
+                <li>Berger (1959)</li>
+                <li>Taube (1960)</li>
+                <li>Stensby (1968)</li>
+                <li>ASTM 313</li>
+                <li>Ganz and Griesser (1979)</li>
+                <li>CIE 2004</li>
+            </ul>
+            <h4>Luminous Flux Computation</h4>
 
             <h3>Colour Temperature &amp; Correlated Colour Temperature</h3>
             <h4>Correlated Colour Temperature Computation Methods</h4>
             <ul class="simple">
-                <li>Alan R. Roberston (1968)</li>
-                <li>Yoshi Ohno (2013)</li>
-                <li>C. S. McCamy (1992)</li>
-                <li>Javier Hernandez-Andres, Raymond L. Lee, Jr., and Javier
-                    Romero (1999)
-                </li>
-                <li>Bongsoon Kang Ohak Moon, Changhee Hong, Honam Lee, Bonghwan
-                    Cho and Youngsun Kim (2002)
-                </li>
+                <li>Roberston (1968)</li>
+                <li>Ohno (2013)</li>
+                <li>McCamy (1992)</li>
+                <li>Hernández-Andrés, Lee and Romero (1999)</li>
+                <li>Kang et al. (2002)</li>
                 <li>CIE Illuminant D Series</li>
             </ul>
 
             <h3>Chromatic Adaptation</h3>
+            <h4>Chromatic Adaptation Models</h4>
+            <ul class="simple">
+                <li>Von Kries</li>
+                <li>Fairchild (1990)</li>
+                <li>CIE 1994</li>
+                <li>CMCCAT2000</li>
+            </ul>
             <h4>Chromatic Adaptation Transforms</h4>
             <ul class="simple">
                 <li>XYZ Scaling</li>
-                <li>Bradford</li>
                 <li>Von Kries</li>
+                <li>Bradford</li>
+                <li>Sharp</li>
                 <li>Fairchild</li>
+                <li>CMCCAT97</li>
+                <li>CMCCAT2000</li>
                 <li>CAT02</li>
+                <li>Brill and Süsstrunk (2008) corrected CAT02</li>
+                <li>Bianco and Schettini (2010)</li>
+                <li>Bianco and Schettini (2010) PC</li>
+            </ul>
+            <h4>Corresponding Chromaticities Computations</h4>
+
+            <h3>Colour Appearance Models</h3>
+            <ul class="simple">
+                <li>ATD95</li>
+                <li>CIECAM02</li>
+                <li>Hunt</li>
+                <li>LLAB</li>
+                <li>Nayatani95</li>
+                <li>RLAB</li>
             </ul>
 
             <h3>Colour Models</h3>
@@ -195,6 +282,8 @@
                 <li>XYZ to RGB</li>
                 <li>RGB to XYZ</li>
                 <li>RGB to RGB</li>
+                <li>XYZ to sRGB</li>
+                <li>sRGB to XYZ</li>
                 <li>XYZ to UCS</li>
                 <li>UCS to XYZ</li>
                 <li>UCS to uv</li>
@@ -210,6 +299,8 @@
                 <li>Lab to XYZ</li>
                 <li>Lab to LCHab</li>
                 <li>LCHab to Lab</li>
+                <li>XYZ to IPT</li>
+                <li>IPT to XYZ</li>
             </ul>
             <h4>RGB Colourspaces Derivation</h4>
             <h4>RGB Colourspaces</h4>
@@ -252,8 +343,6 @@
                 <li>CMY to RGB</li>
                 <li>CMY to CMYK</li>
                 <li>CMYK to CMY</li>
-                <li>RGB to HEX</li>
-                <li>HEX to RGB</li>
             </ul>
 
             <h3>Colour Difference</h3>
@@ -263,16 +352,6 @@
                 <li>ΔE CIE 1994</li>
                 <li>ΔE CIE 2000</li>
                 <li>ΔE CMC</li>
-            </ul>
-
-            <h3>Colour Appearance Models</h3>
-            <ul class="simple">
-                <li>ATD95</li>
-                <li>CIECAM02</li>
-                <li>Hunt</li>
-                <li>LLAB</li>
-                <li>Nayatani95</li>
-                <li>RLAB</li>
             </ul>
 
             <h3>Colour Notation Systems</h3>
@@ -297,6 +376,11 @@
                 <li>Munsell Colours Real</li>
                 <li>Munsell Colours 1929</li>
             </ul>
+            <h4>Hexadecimal</h4>
+            <ul class="simple">
+                <li>RGB to HEX</li>
+                <li>HEX to RGB</li>
+            </ul>
 
             <h3>Characterisation</h3>
             <h4>Colour Rendition Charts Spectral Dataset</h4>
@@ -313,14 +397,29 @@
             <h4>First Order Colour Fit</h4>
 
             <h3>Light Quality</h3>
-            <h4>Colour rendering index computation</h4>
+            <ul class="simple">
+                <li>Colour Rendering Index computation</li>
+                <li>Colour Quality Scale computation</li>
+            </ul>
 
             <h3>Optical Phenomenons</h3>
             <ul class="simple">
                 <li>Rayleigh Optical Depth</li>
             </ul>
 
+            <h3>Reflectance Recovery</h3>
+            <ul class="simple">
+                <li>Smits (1999)</li>
+            </ul>
+
             <h3>Comprehensive Plotting Capabilities</h3>
+
+            <h3>Input / Output</h3>
+            <ul class="simple">
+                <li>CSV tabular data files</li>
+                <li>IES TM-27-14 spectral data XML files</li>
+                <li>X-Rite spectral data files</li>
+            </ul>
 
             <?php include("disqus.php") ?>
 
