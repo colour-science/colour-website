@@ -23,7 +23,11 @@
 
             <p>
                 <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">Colour 0.3.3</a> is
-                available! We would like to thanks <a
+                available!
+            </p>
+
+            <p>
+                We would like to thanks <a
                     href="https://github.com/canavandl">Luke Canavan</a> and <a
                     href="https://github.com/sagland">Steve Agland</a> for their contributions and help.
             </p>
