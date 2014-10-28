@@ -120,6 +120,10 @@
                                class="fa fa-book">&nbsp;IPython Notebooks</a>
                         </li>
                         <li>
+                            <a href="bibliography.php" class="fa fa-quote-right">
+                                &nbsp;Bibliography</a>
+                        </li>
+                        <li>
                             <a href="features.php" class="fa fa-lightbulb-o">
                                 &nbsp;Features</a>
                         </li>
@@ -161,12 +165,12 @@
                         <li>
                             <a href="https://www.facebook.com/python.colour.science"><i
                                     class="fa fa-facebook">
-                                    &nbsp;Facebook</i></a>
+                                &nbsp;Facebook</i></a>
                         </li>
                         <li>
                             <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about"><i
                                     class="fa fa-google-plus">&nbsp;Google
-                                    Plus</i></a>
+                                Plus</i></a>
                         </li>
                     </ul>
                 </li>

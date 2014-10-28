@@ -80,6 +80,19 @@
                             <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb"
                                class="fa fa-book">&nbsp;IPython Notebooks</a>
                         </li>
+                        <li>
+                            <a href="bibliography.php"
+                               class="fa fa-quote-right">
+                                &nbsp;Bibliography</a>
+                        </li>
+                        <li>
+                            <a href="features.php" class="fa fa-lightbulb-o">
+                                &nbsp;Features</a>
+                        </li>
+                        <li>
+                            <a href="contributing.php"><span
+                                    class="fa fa-gears">&nbsp;Contributing</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
