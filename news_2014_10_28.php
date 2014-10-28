@@ -88,20 +88,17 @@
 
             <p>
                 A lot of object names have been changed, especially the ones
-                featuring an author name that have been partially title-cased.
-            </p>
-
-            <p>
+                featuring an author name that are now partially title-cased.
                 Please take a look at the
                 <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">release page</a> for exact details.
             </p>
 
             <p>
                 Michael and myself won't have too much time in the coming weeks,
-                thus the project may look slightly stalled. We have started
-                working toward the next major milestone which will centered around
-                code optimisation and vectorisation. The initial results are
-                exciting with computations speed
+                thus the project may look slightly stalled. Still, we have started
+                working toward the next major milestone which will be centered
+                around code optimisation and vectorisation. The initial results
+                are exciting with computations speed
                 <a href="https://docs.google.com/spreadsheets/d/10O344GaDbZaS9dNLIhP-uSPIgJXEMgz0MKEPPECtTy0/edit?usp=sharing">being over 95 times faster on average</a>!
             </p>
 
