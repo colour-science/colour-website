@@ -260,7 +260,7 @@
 
                     <p><em class="text-info">Line Producer @
                             <a href="http://www.cube-creative.fr/">Cube
-                                Creative/</a>
+                                Creative</a>
                         </em></p>
 
                     <p>Infinite patience</p>
