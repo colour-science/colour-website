@@ -7,6 +7,15 @@ body {
     margin-top: 20px;
 }
 
+.center-pills {
+    display: inline-block;
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 /* Navigation */
 #navbar-top {
     margin: 0;

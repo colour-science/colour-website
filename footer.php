@@ -3,7 +3,7 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-12">
-                <div class="col-md-2">
+                <div class="col-md-2 no-padding">
                     <ul class="nav nav-pills center-pills nav-stacked">
                         <li class="active">
                             <a>About</a>
@@ -14,7 +14,7 @@
                             <i class="fa fa-send"></i>&nbsp;Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 no-padding">
                     <ul class="nav nav-pills center-pills nav-stacked">
                         <li class="active">
                             <a>Get Started</a>
@@ -27,7 +27,7 @@
                         <li><a href="faq.php">FAQ</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 no-padding">
                     <ul class="nav nav-pills center-pills nav-stacked">
                         <li class="active">
                             <a>Downloads</a>
@@ -42,10 +42,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 no-padding">
                     <ul class="nav nav-pills center-pills nav-stacked">
                         <li class="active">
-                            <a class="fa fa-cube">&nbsp;Packages</a>
+                            <a>
+                                <span class="fa fa-cube"></span>
+                                Packages
+                            </a>
                         </li>
                         <li><a href="colour_maya.php">Colour - Maya</a></li>
                         <li><a href="colour_nuke.php">Colour - Nuke</a></li>
@@ -53,10 +56,15 @@
                             Spectroscope</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 no-padding">
                     <ul class="nav nav-pills center-pills nav-stacked">
                         <li class="active">
-                            <a class="fa fa-life-ring">&nbsp;Documentation</a>
+                            <a>
+                                <nobr>
+                                    <span class="fa fa-life-ring"></span>
+                                    Documentation
+                                </nobr>
+                            </a>
                         </li>
                         <li><a href="api/latest/html/index.html"
                                class="fa fa-life-ring">&nbsp;API Reference</a>
@@ -80,10 +88,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 no-padding">
                     <ul class="nav nav-pills center-pills nav-stacked">
                         <li class="active">
-                            <a class="fa fa-globe">&nbsp;News</a>
+                            <a>
+                                <span class="fa fa-globe"></span>
+                                News
+                            </a>
                         </li>
                         <li><a href="news.php">Latest News</a></li>
                         <li><a href="blog.php">Blog</a></li>
