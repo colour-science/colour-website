@@ -4,11 +4,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li>
-                            <strong>
-                                <span class="text-primary">About</span>
-                            </strong>
+                    <ul class="nav nav-pills center-pills nav-stacked">
+                        <li class="active">
+                            <a>About</a>
                         </li>
                         <li><a href="contributors.php">Contributors</a></li>
                         <li><a href="history.php">History</a></li>
@@ -17,11 +15,9 @@
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li>
-                            <strong>
-                                <span class="text-primary">Get Started</span>
-                            </strong>
+                    <ul class="nav nav-pills center-pills nav-stacked">
+                        <li class="active">
+                            <a>Get Started</a>
                         </li>
                         <li><a href="installation.php">Installation</a></li>
                         <li><a href="tutorial.php">Tutorial</a></li>
@@ -32,11 +28,9 @@
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li>
-                            <strong>
-                                <span class="text-primary">Downloads</span>
-                            </strong>
+                    <ul class="nav nav-pills center-pills nav-stacked">
+                        <li class="active">
+                            <a>Downloads</a>
                         </li>
                         <li>
                             <a href="https://github.com/colour-science/colour/releases">All
@@ -49,9 +43,9 @@
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li>
-                            <span class="fa fa-cube text-primary">&nbsp;<strong>Packages</strong></span>
+                    <ul class="nav nav-pills center-pills nav-stacked">
+                        <li class="active">
+                            <a class="fa fa-cube">&nbsp;Packages</a>
                         </li>
                         <li><a href="colour_maya.php">Colour - Maya</a></li>
                         <li><a href="colour_nuke.php">Colour - Nuke</a></li>
@@ -60,18 +54,9 @@
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li>
-                            <span class="fa fa-globe text-primary">&nbsp;<strong>News</strong></span>
-                        </li>
-                        <li><a href="news.php">Latest News</a></li>
-                        <li><a href="blog.php">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li>
-                            <span class="fa fa-life-ring text-primary">&nbsp;<strong>Documentation</strong></span>
+                    <ul class="nav nav-pills center-pills nav-stacked">
+                        <li class="active">
+                            <a class="fa fa-life-ring">&nbsp;Documentation</a>
                         </li>
                         <li><a href="api/latest/html/index.html"
                                class="fa fa-life-ring">&nbsp;API Reference</a>
@@ -93,6 +78,15 @@
                             <a href="contributing.php"><span
                                     class="fa fa-gears">&nbsp;Contributing</span></a>
                         </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="nav nav-pills center-pills nav-stacked">
+                        <li class="active">
+                            <a class="fa fa-globe">&nbsp;News</a>
+                        </li>
+                        <li><a href="news.php">Latest News</a></li>
+                        <li><a href="blog.php">Blog</a></li>
                     </ul>
                 </div>
             </div>
