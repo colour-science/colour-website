@@ -70,10 +70,10 @@
             <h2 class="text-center">Citation</h2>
 
             <div class="list-group">
-                <a href="http://dx.doi.org/10.5281/zenodo.11565"
+                <a href="http://dx.doi.org/10.5281/zenodo.12449"
                    class="list-group-item text-center"><img
-                        src="https://zenodo.org/badge/doi/10.5281/zenodo.11565.png"
-                        alt="10.5281/zenodo.11565"></a>
+                        src="https://zenodo.org/badge/doi/10.5281/zenodo.12449.png"
+                        alt="10.5281/zenodo.12449"></a>
             </div>
         </div>
         <div>
