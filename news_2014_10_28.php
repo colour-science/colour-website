@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>Colour v0.3.3 is available!</title>
+    <title>Colour 0.3.3 is available!</title>
 
     <?php include("common_header_attributes.php"); ?>
 
@@ -22,7 +22,7 @@
             <h2>Tuesday, 28 October 2014</h2>
 
             <p>
-                <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">Colour v0.3.3</a> is
+                <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">Colour 0.3.3</a> is
                 available! We would like to thanks <a
                     href="https://github.com/canavandl">Luke Canavan</a> and <a
                     href="https://github.com/sagland">Steve Agland</a> for their contributions and help.

@@ -23,7 +23,7 @@
             <h3>Tuesday, 28 October 2014</h3>
 
             <h4>
-                <a href="news_2014_10_28.php">Colour v0.3.3 is available!</a>
+                <a href="news_2014_10_28.php">Colour 0.3.3 is available!</a>
             </h4>
 
             <h3>Tuesday, 2 September 2014</h3>
