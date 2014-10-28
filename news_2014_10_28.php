@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>2014_10_28</title>
+    <title>Colour v0.3.3 is available!</title>
 
     <?php include("common_header_attributes.php"); ?>
 

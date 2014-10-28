@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>2014_09_02</title>
+    <title>The first public release of Colour is available!</title>
 
     <?php include("common_header_attributes.php"); ?>
 
