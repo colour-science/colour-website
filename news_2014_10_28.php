@@ -50,10 +50,10 @@
 
                 </li>
                 <li>
-                    Corresponding chromaticities with figures.
+                    Corresponding chromaticities with figures
                 </li>
                 <li>
-                    Over 50 new light sources relative spectral power distributions.
+                    Over 50 new light sources relative spectral power distributions
                 </li>
                 <li>
                     Whiteness computation with the following methods:
@@ -67,37 +67,41 @@
                     </ul>
                 </li>
                 <li>
-                    Luminous Flux computation.
+                    Luminous Flux computation
                 </li>
                 <li>
-                    IES TM-27-14 spectral data files I/O.
+                    IES TM-27-14 spectral data files I/O
                 </li>
                 <li>
-                    IPT colourspace model computations.
+                    IPT colourspace model computations
                 </li>
                 <li>
-                    Colour Quality Scale computation and figures.
+                    Colour Quality Scale computation and figures
                 </li>
                 <li>
-                    Reflectance recovery using Smits (1999) method.
+                    Reflectance recovery using Smits (1999) method
                 </li>
                 <li>
-                    Bibliography using APA 6 citation style.
+                    Bibliography using APA 6 citation style
                 </li>
             </ul>
 
             <p>
-                There has been a lot of object name changes, especially the ones
-                featuring an author name have been partially title-cased. Please
-                take a look at the
+                A lot of object names have been changed, especially the ones
+                featuring an author name that have been partially title-cased.
+            </p>
+
+            <p>
+                Please take a look at the
                 <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">release page</a> for exact details.
             </p>
 
             <p>
                 Michael and myself won't have too much time in the coming weeks,
-                so the project will not progress much. However, the next major
-                milestone will be working toward code optimisation and vectorisation
-                and the initial results are exciting with computations speed
+                thus the project may look slightly stalled. We have started
+                working toward the next major milestone which will centered around
+                code optimisation and vectorisation. The initial results are
+                exciting with computations speed
                 <a href="https://docs.google.com/spreadsheets/d/10O344GaDbZaS9dNLIhP-uSPIgJXEMgz0MKEPPECtTy0/edit?usp=sharing">being over 95 times faster on average</a>!
             </p>
 
