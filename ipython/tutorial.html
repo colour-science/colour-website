@@ -1632,14 +1632,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -2093,8 +2093,8 @@ In&nbsp;[4]:
 <span class="kn">import</span> <span class="nn">colour.plotting</span>
 
 <span class="k">for</span> <span class="n">sub_package</span> <span class="ow">in</span> <span class="p">(</span><span class="s">&#39;adaptation&#39;</span><span class="p">,</span> <span class="s">&#39;algebra&#39;</span><span class="p">,</span> <span class="s">&#39;appearance&#39;</span><span class="p">,</span> <span class="s">&#39;characterisation&#39;</span><span class="p">,</span>
-                    <span class="s">&#39;colorimetry&#39;</span><span class="p">,</span> <span class="s">&#39;constants&#39;</span><span class="p">,</span> <span class="s">&#39;corresponding&#39;</span><span class="p">,</span> <span class="s">&#39;difference&#39;</span><span class="p">,</span> 
-                    <span class="s">&#39;io&#39;</span><span class="p">,</span> <span class="s">&#39;models&#39;</span><span class="p">,</span> <span class="s">&#39;notation&#39;</span><span class="p">,</span> <span class="s">&#39;optimal&#39;</span><span class="p">,</span> <span class="s">&#39;phenomenons&#39;</span><span class="p">,</span> 
+                    <span class="s">&#39;colorimetry&#39;</span><span class="p">,</span> <span class="s">&#39;constants&#39;</span><span class="p">,</span> <span class="s">&#39;corresponding&#39;</span><span class="p">,</span> <span class="s">&#39;difference&#39;</span><span class="p">,</span>
+                    <span class="s">&#39;io&#39;</span><span class="p">,</span> <span class="s">&#39;models&#39;</span><span class="p">,</span> <span class="s">&#39;notation&#39;</span><span class="p">,</span> <span class="s">&#39;optimal&#39;</span><span class="p">,</span> <span class="s">&#39;phenomenons&#39;</span><span class="p">,</span>
                     <span class="s">&#39;plotting&#39;</span><span class="p">,</span> <span class="s">&#39;quality&#39;</span><span class="p">,</span> <span class="s">&#39;recovery&#39;</span><span class="p">,</span> <span class="s">&#39;temperature&#39;</span><span class="p">,</span> <span class="s">&#39;utilities&#39;</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="n">sub_package</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
     <span class="n">pprint</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">colour</span><span class="p">,</span> <span class="n">sub_package</span><span class="p">)</span><span class="o">.</span><span class="n">__all__</span><span class="p">)</span>
@@ -2548,7 +2548,7 @@ In&nbsp;[5]:
     &gt;&gt;&gt; D_uv = 0.003223690901512735
     &gt;&gt;&gt; CCT_to_uv_Ohno2013(CCT, D_uv, cmfs)  # doctest: +ELLIPSIS
     (0.1978003..., 0.3122005...)
-    
+
 
 </pre>
 </div>
@@ -4519,7 +4519,7 @@ In&nbsp;[21]:
 <div class="highlight"><pre><span class="c"># Extrapolating the cloned sample spectral power distribution with *Linear* method.</span>
 <span class="c"># We first trim the spectral power distribution using the interpolation method,</span>
 <span class="c"># the steps being the same, no interpolation will actually occur.</span>
-<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>  
+<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>
 <span class="n">clone_spd</span><span class="o">.</span><span class="n">extrapolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">340</span><span class="p">,</span> <span class="mi">830</span><span class="p">),</span> <span class="n">method</span><span class="o">=</span><span class="s">&#39;Linear&#39;</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">clone_spd</span><span class="p">[</span><span class="mi">340</span><span class="p">],</span> <span class="n">clone_spd</span><span class="p">[</span><span class="mi">830</span><span class="p">]</span>
 </pre></div>
@@ -4566,7 +4566,7 @@ In&nbsp;[22]:
     <div class="input_area">
 <div class="highlight"><pre><span class="c"># Aligning the cloned sample spectral power distribution.</span>
 <span class="c"># We first trim the spectral power distribution as above.</span>
-<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>  
+<span class="n">clone_spd</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">700</span><span class="p">))</span>
 <span class="n">clone_spd</span><span class="o">.</span><span class="n">align</span><span class="p">(</span><span class="n">colour</span><span class="o">.</span><span class="n">SpectralShape</span><span class="p">(</span><span class="mi">340</span><span class="p">,</span> <span class="mi">830</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 <span class="n">clone_spd</span><span class="p">[</span><span class="mi">340</span><span class="p">],</span> <span class="n">clone_spd</span><span class="p">[</span><span class="mi">830</span><span class="p">]</span>
 </pre></div>
@@ -4689,7 +4689,7 @@ In&nbsp;[24]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p id="###...-to-Tristimulus-Values">###... to Tristimulus Values<a class="anchor-link" href="####...-to-Tristimulus-Values">&#182;</a></p>
+<h2 id="-to-Tristimulus-Values">... to Tristimulus Values<a class="anchor-link" href="#-to-Tristimulus-Values">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -4821,7 +4821,7 @@ In&nbsp;[26]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p id="###...-to-Screen-Colours">###... to Screen Colours<a class="anchor-link" href="####...-to-Screen-Colours">&#182;</a></p>
+<h2 id="-to-Screen-Colours">... to Screen Colours<a class="anchor-link" href="#-to-Screen-Colours">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -5031,7 +5031,7 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p id="###...-to-Colour-Rendition-Charts">###... to Colour Rendition Charts<a class="anchor-link" href="####...-to-Colour-Rendition-Charts">&#182;</a></p>
+<h2 id="-to-Colour-Rendition-Charts">... to Colour Rendition Charts<a class="anchor-link" href="#-to-Colour-Rendition-Charts">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -5567,7 +5567,7 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p id="###...-to-Chromaticity-Coordinates">###... to Chromaticity Coordinates<a class="anchor-link" href="####...-to-Chromaticity-Coordinates">&#182;</a></p>
+<h2 id="-to-Chromaticity-Coordinates">... to Chromaticity Coordinates<a class="anchor-link" href="#-to-Chromaticity-Coordinates">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -10147,7 +10147,7 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p id="###...-to-More">###... to More<a class="anchor-link" href="####...-to-More">&#182;</a></p>
+<h2 id="-to-More">... to More<a class="anchor-link" href="#-to-More">&#182;</a></h2>
 </div>
 </div>
 </div>

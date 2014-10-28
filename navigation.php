@@ -102,6 +102,10 @@
                                 Reference</a>
                             <ul class="dropdown-menu">
                                 <li>
+                                    <a href="api/0.3.3/html/index.html">Colour
+                                        0.3.3</a>
+                                </li>
+                                <li>
                                     <a href="api/0.3.2/html/index.html">Colour
                                         0.3.2</a>
                                 </li>
@@ -120,7 +124,8 @@
                                class="fa fa-book">&nbsp;IPython Notebooks</a>
                         </li>
                         <li>
-                            <a href="bibliography.php" class="fa fa-quote-right">
+                            <a href="bibliography.php"
+                               class="fa fa-quote-right">
                                 &nbsp;Bibliography</a>
                         </li>
                         <li>

@@ -19,35 +19,18 @@
         <!-- >>> Center -->
         <div class="col-md-9">
             <h2>Latest News</h2>
-            <br/>
 
-            <h3 name="2014_09_02">Tuesday, 2 September 2014</h3>
+            <h3>Tuesday, 28 October 2014</h3>
 
-            <p>
-                We are thrilled to announce that after many months of work, the
-                first public release of
-                <strong><span class="text-primary">Colour</span></strong> is
-                available! Although this is an alpha release, the code is well
-                tested and covered and should be fairly stable.
-            </p>
+            <h4>
+                <a href="news_2014_10_28.php">Colour v0.3.3 is available!</a>
+            </h4>
 
-            <p>You can view the highlights of the project on the
-                <a href="http://colour-science.org/features.php">features</a>
-                page.
-            </p>
+            <h3>Tuesday, 2 September 2014</h3>
 
-            <p>Please follow the
-                <a href="http://colour-science.org/installation.php">installation
-                    guide</a> in order to retrieve the code or click the big
-                blue button on the right sidebar.
-            </p>
-
-            <p>
-                We have a few
-                <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb"
-                   class="fa fa-book">&nbsp;IPython Notebooks</a> already done
-                to cover the theoretical aspect of the API.
-            </p>
+            <h4>
+                <a href="news_2014_09_02.php">The first public release of Colour is available!</a>
+            </h4>
 
             <?php include("disqus.php") ?>
 

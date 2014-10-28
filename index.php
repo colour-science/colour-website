@@ -76,18 +76,17 @@
             <div>
                 <h2>Latest News</h2>
 
-                <ul>
-                    <li>
-                        <strong><span
-                                class="text-primary">Tuesday, 2 September 2014</span></strong><br/>The
-                        first
-                        public release of
-                        <strong><span
-                                class="text-primary">Colour</span></strong> is
-                        available!
-                        <a href="news.php#2014_09_02">Read more...</a>
-                    </li>
-                </ul>
+                <h3>Tuesday, 28 October 2014</h3>
+
+                <h4>
+                    <a href="news_2014_10_28.php">Colour v0.3.3 is available!</a>
+                </h4>
+
+                <h3>Tuesday, 2 September 2014</h3>
+
+                <h4>
+                    <a href="news_2014_09_02.php">The first public release of Colour is available!</a>
+                </h4>
             </div>
 
             <?php include("disqus.php") ?>

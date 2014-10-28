@@ -20,21 +20,21 @@
         <div class="col-md-9">
             <h2>Blog</h2>
 
-            <h3 name="2014_10_01">Wednesday, 1 October 2014</h3>
+            <h3>Wednesday, 1 October 2014</h3>
 
             <h4>
                 <a href="blog_a_plea_for_colour_analysis_tools_in_dcc_applications.php">A
                     Plea for Colour Analysis Tools in DCC Applications</a>
             </h4>
 
-            <h3 name="2014_09_19">Friday, 19 September 2014</h3>
+            <h3>Friday, 19 September 2014</h3>
 
             <h4>
                 <a href="blog_about_rendering_engines_colourspaces_agnosticism.php">About
                     Rendering Engines Colourspaces Agnosticism</a>
             </h4>
 
-            <h3 name="2014_09_05">Friday, 5 September 2014</h3>
+            <h3>Friday, 5 September 2014</h3>
 
             <h4>
                 <a href="blog_pycharm_vagrant_fabric_anaconda.php">PyCharm,
