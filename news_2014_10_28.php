@@ -81,6 +81,9 @@
                 <li>
                     Reflectance recovery using Smits (1999) method.
                 </li>
+                <li>
+                    Bibliography using APA 6 citation style.
+                </li>
             </ul>
 
             <p>
