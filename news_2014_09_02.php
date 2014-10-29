@@ -42,9 +42,9 @@
 
             <p>
                 We have a few
-                <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb"
-                   class="fa fa-book">&nbsp;IPython Notebooks</a> already done
-                to cover the theoretical aspect of the API.
+                <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb">
+                    <span class="fa fa-book"></span>IPython Notebooks
+                </a> already done to cover the theoretical aspect of the API.
             </p>
 
             <?php include("disqus.php") ?>

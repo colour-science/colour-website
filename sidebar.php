@@ -5,7 +5,8 @@
             <h2 class="text-center">Releases</h2>
             <a href="https://github.com/colour-science/colour/archive/v0.3.3.zip">
                 <button type="button" class="btn btn-primary btn-lg btn-block">
-                    <i class="fa fa-download"></i>&nbsp;Colour 0.3.3 Alpha
+                    <span class="fa fa-download"></span>
+                    Colour 0.3.3 Alpha
                 </button>
             </a>
         </div>
@@ -15,7 +16,8 @@
             <div class="list-group">
                 <a href="mailto:colour-science@googlegroups.com"
                    class="list-group-item text-center">
-                    <span class="fa fa-life-ring">&nbsp;Mailing List</span>
+                    <span class="fa fa-life-ring"></span>
+                    Mailing List
                 </a>
             </div>
         </div>
@@ -24,19 +26,21 @@
 
             <div class="list-group">
                 <a href="contributing.php" class="list-group-item text-center">
-                    <span class="fa fa-gears">&nbsp;Contributing</span>
+                    <span class="fa fa-gears"></span>
+                    Contributing
                 </a>
                 <a href="https://github.com/colour-science/colour/pulls"
                    class="list-group-item text-center">
-                    <span class="fa fa-github">&nbsp;Pull Requests</span>
+                    <span class="fa fa-github"></span>
+                    Pull Requests
                 </a>
                 <a href="https://github.com/colour-science/colour/issues"
                    class="list-group-item text-center">
-                    <span class="fa fa-github">&nbsp;Issues</span>
+                    <span class="fa fa-github"></span>
+                    Issues
                     <br/>
-                    <img
-                            src="https://badge.waffle.io/colour-science/colour.svg?label=ready&title=Ready"
-                            alt="Stories in Ready">
+                    <img src="https://badge.waffle.io/colour-science/colour.svg?label=ready&title=Ready"
+                         alt="Stories in Ready">
                 </a>
                 <a href="https://travis-ci.org/colour-science/colour"
                    class="list-group-item text-center">Continuous
@@ -91,17 +95,15 @@
             </div>
         </div>
         <div align="center">
-            <iframe
-                    src="http://ghbtns.com/github-btn.html?user=colour-science&repo=colour&type=follow&count=true"
-                    allowtransparency="true" frameborder="0" scrolling="0"
-                    width="160" height="20"></iframe>
-        </div>
-        <div align="center">
-            <h2 class="text-center"><i class="fa fa-twitter">&nbsp;Twiter</i>
+            <h2 class="text-center">
+                <span class="fa fa-twitter"></span>
+                Twiter
             </h2>
             <a class="twitter-timeline"
                href="https://twitter.com/colour_science"
-               data-widget-id="499223432198758400">Tweets by
+               data-link-color="#4183c4"
+               data-widget-id="499223432198758400"
+               data-chrome="nofooter noheader">Tweets by
                 @colour_science</a>
             <script>!function (d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
@@ -114,7 +116,7 @@
             }(document, "script", "twitter-wjs");</script>
         </div>
         <!--<div>-->
-        <!--<h2 class="text-center"><i class="fa fa-facebook">&nbsp;Facebook</i></h2>-->
+        <!--<h2 class="text-center"><span class="fa fa-facebook"></span>Facebook</h2>-->
         <!--<div id="fb-root"></div>-->
         <!--<script>(function (d, s, id) {-->
         <!--var js, fjs = d.getElementsByTagName(s)[0];-->

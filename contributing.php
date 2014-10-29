@@ -32,8 +32,9 @@
             <ul>
                 <li>Reporting a defect, proposing a new feature or enhancement
                     or commenting existing issues on the
-                    <a href="https://github.com/colour-science/colour/issues"><span
-                            class="fa fa-github">&nbsp;Issue Tracker</span>
+                    <a href="https://github.com/colour-science/colour/issues">
+                        <span class="fa fa-github"></span>
+                        Issue Tracker
                     </a>
                 </li>
                 <li>
@@ -61,7 +62,7 @@
                 <li>
                     Improving the
                     <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb"
-                       class="fa fa-book">&nbsp;IPython Notebooks</a>, we aim
+                       class="fa fa-book"></a>IPython Notebooks, we aim
                     to provide a good scientific support to
                     the API and there is still a lot to do.
                 </li>
@@ -74,7 +75,8 @@
                 <li>
                     Participating in discussions on the
                     <a href="colour-science@googlegroups.com">
-                        <span class="fa fa-life-ring">&nbsp;Mailing List</span>
+                        <span class="fa fa-life-ring"></span>
+                        Mailing List
                     </a>.
                 </li>
             </ul>
@@ -195,8 +197,8 @@
             <p>You encountered a problem while using
                 <strong><span class="text-primary">Colour</span></strong>,
                 please consider reporting it on the
-                <a href="https://github.com/colour-science/colour/issues"><span
-                        class="fa fa-github">&nbsp;Issue Tracker</span>
+                <a href="https://github.com/colour-science/colour/issues">
+                    <span class="fa fa-github"></span>Issue Tracker
                 </a>.
             </p>
 
@@ -263,16 +265,18 @@
             <ol>
                 <li>
                     <a href="https://github.com/colour-science/colour/fork">
-                        <span class="fa fa-code-fork">&nbsp;Fork</span>
+                        <span class="fa fa-code-fork"></span>
+                        Fork
                     </a> the
                     <a href="https://github.com/colour-science/colour">
-                        <span class="fa fa-github">&nbsp;Colour</span>
+                        <span class="fa fa-github"></span>
+                        Colour
                     </a> repository.
                 </li>
                 <li>
                     Activate
                     <a href="http://travis-ci.org/">Travis-CI</a> for your <em><span
-                            class="text-info">fork</span></em>
+                        class="text-info">fork</span></em>
                     so that the tests suite is run when you push your changes.
                 </li>
                 <li>
@@ -451,9 +455,9 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                 </li>
                 <li>All the code must be checked with the static analysis tool
                     of your choice (we use <a
-                        href="http://www.jetbrains.com/pycharm/">PyCharm</a>
+                            href="http://www.jetbrains.com/pycharm/">PyCharm</a>
                     extensively), <a
-                        href="https://pypi.python.org/pypi/flake8">flake8</a>
+                            href="https://pypi.python.org/pypi/flake8">flake8</a>
                     and <a href="https://landscape.io/">Landscape</a>.
                 </li>
                 <li>No <em><span class="text-info">pull request</span></em>
@@ -486,14 +490,14 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                     </p>
                 </li>
                 <li>Please use <em>British English</em> words instead of <em>American
-                        English</em> ones as the
+                    English</em> ones as the
                     <strong><span class="text-primary">CIE</span></strong>
                     does, the most important of all being
                     <strong><span class="text-primary">colour</span></strong>
                     instead of <strong><span
                             class="text-primary">color</span></strong>. You can
                     consult the <a
-                        href="http://eilv.cie.co.at/">CIE Termlist</a> if any
+                            href="http://eilv.cie.co.at/">CIE Termlist</a> if any
                     doubts.
                 </li>
                 <li>Import
@@ -514,7 +518,8 @@ array([ 100.        ,   17.5066479...,  244.9304684...])</pre>
                     <strong><span
                             class="text-primary">'cie_2_1931'</span></strong>
                     for
-                    <strong><span class="text-primary">'CIE 1931 2 Degree Standard Observer'</span></strong>.
+                    <strong><span
+                            class="text-primary">'CIE 1931 2 Degree Standard Observer'</span></strong>.
                     Those are
                     provided for convenience and are reserved for external
                     usage, please use the long form for

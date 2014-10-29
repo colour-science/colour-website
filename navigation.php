@@ -35,7 +35,9 @@
                         </li>
                         <li>
                             <?php include("contact.php") ?>
-                            <i class="fa fa-send">&nbsp;Contact Us</i></a>
+                            <span class="fa fa-send"></span>
+                            Contact Us
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -50,8 +52,10 @@
                             <a href="tutorial.php">Tutorial</a>
                         </li>
                         <li>
-                            <a href="contributing.php"><span
-                                    class="fa fa-gears">&nbsp;Contributing</span></a>
+                            <a href="contributing.php">
+                                <span class="fa fa-gears"></span>
+                                Contributing
+                            </a>
                         </li>
                         <li>
                             <a href="faq.php">FAQ</a>
@@ -67,8 +71,10 @@
                                 Releases</a>
                         </li>
                         <li>
-                            <a href="https://github.com/colour-science/colour"
-                               class="fa fa-github">&nbsp;Source Code</a>
+                            <a href="https://github.com/colour-science/colour">
+                                <span class="fa fa-github"></span>
+                                Source Code
+                            </a>
                         </li>
                         <li>
                             <a href="http://opensource.org/licenses/BSD-3-Clause">License</a>
@@ -76,9 +82,10 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown"><i
-                            class="fa fa-cube">&nbsp;Packages</i><b
-                            class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-cube"></span>
+                        Packages
+                        <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="colour_maya.php">Colour - Maya</a>
@@ -93,16 +100,20 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown"><i
-                            class="fa fa-life-ring">&nbsp;Documentation</i><b
-                            class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-life-ring"></span>
+                        Documentation
+                        <b class="caret"></b>
+                    </a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-submenu">
-                            <a tabindex="-1" class="fa fa-life-ring">&nbsp;API
-                                Reference</a>
+                            <a tabindex="-1">
+                                <span class="fa fa-life-ring"></span>
+                                API Reference
+                            </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="api/0.3.3/html/index.html">Colour
+                                    <a href="api/0.3.2/html/index.html">Colour
                                         0.3.3</a>
                                 </li>
                                 <li>
@@ -120,28 +131,37 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb"
-                               class="fa fa-book">&nbsp;IPython Notebooks</a>
+                            <a href="http://nbviewer.ipython.org/github/colour-science/colour-ipython/blob/master/notebooks/colour.ipynb">
+                                <span class="fa fa-book"></span>
+                                IPython Notebooks
+                            </a>
                         </li>
                         <li>
-                            <a href="bibliography.php"
-                               class="fa fa-quote-right">
-                                &nbsp;Bibliography</a>
+                            <a href="bibliography.php">
+                                <span class="fa fa-quote-right"></span>
+                                Bibliography
+                            </a>
                         </li>
                         <li>
-                            <a href="features.php" class="fa fa-lightbulb-o">
-                                &nbsp;Features</a>
+                            <a href="features.php">
+                                <span class="fa fa-lightbulb-o"></span>
+                                Features
+                            </a>
                         </li>
                         <li>
-                            <a href="contributing.php"><span
-                                    class="fa fa-gears">&nbsp;Contributing</span></a>
+                            <a href="contributing.php">
+                                <span class="fa fa-gears"></span>
+                                Contributing
+                            </a>
                         </li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown"><i
-                            class="fa fa-globe">&nbsp;News</i><b
-                            class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-globe"></span>
+                        News
+                        <b class="caret"></b>
+                    </a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="news.php">Latest News</a>
@@ -155,27 +175,35 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown"><i
-                            class="fa fa-users">&nbsp;Social</i><b
-                            class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-users"></span>
+                        Social
+                        <b class="caret"></b>
+                    </a>
                     <ul class="dropdown-menu">
                         <li>
                             <?php include("contact.php") ?>
-                            <i class="fa fa-send">&nbsp;Email</i></a>
+                            <span class="fa fa-send"></span>
+                            Email
+                            </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/colour_science"><i
-                                    class="fa fa-twitter">&nbsp;Twitter</i></a>
+                            <a href="https://twitter.com/colour_science">
+                                <span class="fa fa-twitter"></span>
+                                Twitter
+                            </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/python.colour.science"><i
-                                    class="fa fa-facebook">
-                                &nbsp;Facebook</i></a>
+                            <a href="https://www.facebook.com/python.colour.science">
+                                <span class="fa fa-facebook"></span>
+                                Facebook
+                            </a>
                         </li>
                         <li>
-                            <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about"><i
-                                    class="fa fa-google-plus">&nbsp;Google
-                                Plus</i></a>
+                            <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about">
+                                <span class="fa fa-google-plus"></span>
+                                Google Plus
+                            </a>
                         </li>
                     </ul>
                 </li>
