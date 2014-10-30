@@ -103,34 +103,25 @@
                 </div>
             </div>
         </div>
-
-        <hr>
-
-        <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4">
-                <ul class="nav nav-justified">
-                    <li><?php include("contact.php") ?>
-                        <span class="fa fa-send fa-2x"></span></a>
-                    </li>
-                    <li><a href="https://twitter.com/colour_science">
-                        <span class="fa fa-twitter fa-2x"></span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/python.colour.science">
-                            <span class="fa fa-facebook fa-2x"></span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about">
-                            <span class="fa fa-google-plus fa-2x"></span></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-4"></div>
-        </div>
     </div>
 </footer>
 <div class="footer-copyright text-center">
+    <ul class="list-inline">
+        <li><?php include("contact.php") ?>
+            <span class="fa fa-send fa-2x footer-links"></span></a>
+        </li>
+        <li><a href="https://twitter.com/colour_science">
+            <span class="fa fa-twitter fa-2x footer-links"></span></a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/python.colour.science">
+                <span class="fa fa-facebook fa-2x footer-links"></span></a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/u/0/b/101380914519940603334/101380914519940603334/about">
+                <span class="fa fa-google-plus fa-2x footer-links"></span></a>
+        </li>
+    </ul>
     Copyright © 2013 - 2014 – Colour Developers –
     colour-science@googlegroups.com
 </div>

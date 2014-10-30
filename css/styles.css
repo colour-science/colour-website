@@ -1,10 +1,26 @@
 /* Overall */
 body {
     padding-top: 0;
+    color: #444444;
 }
 
-.spacer-20 {
-    margin-top: 20px;
+/* Colour Fixes */
+.navbar-default .navbar-brand {
+    color: #444444;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #444444;
+}
+
+.list-group-item {
+    border: 1px solid #EEE;
+    color: #444444;
+}
+
+pre {
+    background: #FFF;
+    border: 1px solid #EEE;
 }
 
 /* Navigation */
@@ -24,19 +40,24 @@ body {
 }
 
 /* Cascading Menus */
-
 .dropdown-submenu {
     position: relative;
 }
 
+.dropdown-menu {
+    border: 1px solid #EEE;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
 .dropdown-submenu > .dropdown-menu {
-    top: 0;
+    border-radius: 0 4px 4px 4px;
     left: 100%;
     margin-top: -6px;
     margin-left: -1px;
-    -webkit-border-radius: 0 6px 6px 6px;
-    -moz-border-radius: 0 6px 6px;
-    border-radius: 0 6px 6px 6px;
+    top: 0;
+    -webkit-border-radius: 0 4px 4px 4px;
+    -moz-border-radius: 0 4px 4px;
 }
 
 .dropdown-submenu:hover > .dropdown-menu {
@@ -75,7 +96,6 @@ body {
 
 /* Footer */
 .footer {
-    background: #FFF;
     border-bottom: solid 1px #EEE;
     border-top: solid 1px #EEE;
     padding-bottom: 1.5em;
@@ -83,14 +103,19 @@ body {
     margin-bottom: 0;
 }
 
-footer li {
-    margin-bottom: 0;
-}
-
 .footer-copyright {
-    background: #FCFCFC;
+    background: #4183C4;
+    color: #FFF;
     padding-bottom: 1.5em;
     padding-top: 1.5em;
+}
+
+.footer-links {
+    color: #FFF;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 /* Disqus */
@@ -98,4 +123,9 @@ footer li {
     padding-top: 20px;
     margin-top: 20px;
     border-top: solid 1px #EEE;
+}
+
+/* Others */
+.spacer-20 {
+    margin-top: 20px;
 }

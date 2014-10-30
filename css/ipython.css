@@ -15,7 +15,7 @@ div.cell {
 }
 
 div.text_cell_render {
-    color: #777777;
+    color: #444444;
     padding-left: 0;
     padding-right: 0;
 }
@@ -26,6 +26,7 @@ div.prompt {
 
 div.input_area {
     background: #FFF;
+    border: 1px solid #EEE;
 }
 
 div.output {
