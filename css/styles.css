@@ -94,6 +94,10 @@ pre {
     border-radius: 6px 0 6px 6px;
 }
 
+.navbar-default .navbar-nav > li > a {
+    cursor: pointer;
+}
+
 /* Footer */
 .footer {
     border-bottom: solid 1px #EEE;
