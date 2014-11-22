@@ -281,17 +281,17 @@
                 </li>
                 <li>
                     Clone the repository locally to your workspace:
-                    <pre>» git clone git@github.com:$USER/colour.git</pre>
+                    <pre>git clone git@github.com:$USER/colour.git</pre>
                 </li>
                 <li>
                     Connect your clone to the original
                     <em><span class="text-info">upstream</span></em> repository
                     by adding it as a remote:
-                    <pre>» git remote add upstream git@github.com:colour-science/colour</pre>
+                    <pre>git remote add upstream git@github.com:colour-science/colour</pre>
                 </li>
                 <li>
                     You should now have two remotes:
-                    <pre>» git remote -v
+                    <pre>git remote -v
 origin  https://github.com/$USER/colour (fetch)
 origin  https://github.com/$USER/colour (push)
 upstream  https://github.com/colour-science/colour (fetch)
@@ -300,12 +300,12 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                 <li>
                     Pull the latest changes from
                     <em><span class="text-info">upstream</span></em>:
-                    <pre>» git checkout master
-» git pull upstream master</pre>
+                    <pre>git checkout master
+git pull upstream master</pre>
                 </li>
                 <li>
                     Create a branch for your contribution:
-                    <pre>» git checkout -b feature/mie_scattering</pre>
+                    <pre>git checkout -b feature/mie_scattering</pre>
                     The core developers are using the
                     <a href="http://nvie.com/posts/a-successful-git-branching-model/">git
                         flow branching model</a> for
@@ -329,14 +329,14 @@ upstream  https://github.com/colour-science/colour (push)</pre>
                 </li>
                 <li>
                     Commit your changes:
-                    <pre>» git add mie_scattering.py
-» git commit -m 'Implement "Mie Scattering" support'.</pre>
+                    <pre>git add mie_scattering.py
+git commit -m 'Implement "Mie Scattering" support'.</pre>
                 </li>
                 <li>
                     Push your changes back to
                     <em><span class="text-info">origin</span></em>, your own
                     fork:
-                    <pre>» git push origin feature/mie_scattering</pre>
+                    <pre>git push origin feature/mie_scattering</pre>
                 </li>
                 <li>
                     Ensure that the test suite is all right on

@@ -115,8 +115,8 @@
                         <strong><span class="text-primary">cd</span></strong>
                         into it:
                     </p>
-            <pre>» mkdir colour-science
-    » cd colour-science</pre>
+            <pre>mkdir colour-science
+    cd colour-science</pre>
                 </li>
                 <li>
                     <p>
@@ -124,7 +124,7 @@
                         <a href="https://github.com/colour-science/colour-vagrant">colour-vagrant</a>
                         repository:
                     </p>
-                    <pre>» git clone git://github.com/color-science/colour-vagrant.git</pre>
+                    <pre>git clone git://github.com/color-science/colour-vagrant.git</pre>
                 </li>
                 <li>
 
@@ -164,7 +164,7 @@
                         <a href="https://github.com/colour-science/colour-vagrant">colour-vagrant</a>
                         environment:
                     </p>
-                    <pre>» pip install fabric</pre>
+                    <pre>pip install fabric</pre>
                     <p>Initially, I was provisioning with
                         <a href="http://puppetlabs.com/">Puppet</a>. It was
                         cumbersome to use, so I decided to go for
@@ -401,7 +401,7 @@
                 <strong><span class="text-primary">ssh</span></strong>
                 into the virtual machine:
             </p>
-            <pre>» ssh -X vagrant@192.168.32.64</pre>
+            <pre>ssh -X vagrant@192.168.32.64</pre>
             <p>Password is
                 <strong><span class="text-primary">'vagrant'</span></strong>
                 without the quotes.
@@ -412,7 +412,7 @@
                 <strong><span class="text-primary">Mac Os X</span></strong>
                 host:
             </p>
-            <pre>» xhost + 192.168.32.64</pre>
+            <pre>xhost + 192.168.32.64</pre>
 
             <h4>IPython Notebooks</h4>
 
@@ -420,8 +420,8 @@
                 <a href="http://ipython.org/notebook.html">IPython
                     Notebooks</a> server is started as follows:
             </p>
-    <pre>» cd /colour-science/colour-ipython/notebooks
-    » ipython notebook --pylab=inline --ip=0.0.0.0</pre>
+    <pre>cd /colour-science/colour-ipython/notebooks
+    ipython notebook --pylab=inline --ip=0.0.0.0</pre>
             <p>Then you can access it on the
                 <strong><span class="text-primary">Mac Os X</span></strong>
                 host at the following url:
@@ -432,11 +432,11 @@
             <p>You can activate the remote Python environments in the virtual
                 machine by issuing those commands:</p>
             For <strong><span class="text-primary">python2.6</span></strong>:
-            <pre>» source activate python2.6</pre>
+            <pre>source activate python2.6</pre>
             For <strong><span class="text-primary">python2.7</span></strong>:
-            <pre>» source activate python2.7</pre>
+            <pre>source activate python2.7</pre>
             For <strong><span class="text-primary">python3.4</span></strong>:
-            <pre>» source activate python3.4</pre>
+            <pre>source activate python3.4</pre>
 
             <?php include("disqus.php") ?>
 
