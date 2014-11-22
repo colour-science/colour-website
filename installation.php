@@ -112,28 +112,28 @@
                     Package Index </a>by issuing this command
                 in a shell:
             </p>
-            <pre>» pip install colour-science</pre>
+            <pre>pip install colour-science</pre>
 
             <h3>Github</h3>
 
             <p>
                 Alternatively, you can also install directly from
-                <a href="http://github.com/color-science/colour">Github</a>
+                <a href="http://github.com/colour-science/colour">Github</a>
                 source repository:
             </p>
             <pre>
-» git clone git://github.com/color-science/colour.git
-» cd colour
-» pip install .</pre>
+git clone git://github.com/colour-science/colour.git
+cd colour
+pip install .</pre>
             <p>The optional features dependencies are installed as follows:</p>
-            <pre>» pip install -e .[optional]</pre>
+            <pre>pip install -e .[optional]</pre>
             <p>The figures plotting dependencies are installed as follows:</p>
-            <pre>» pip install -e .[plotting]</pre>
+            <pre>pip install -e .[plotting]</pre>
             <p>The tests suite dependencies are installed as follows:</p>
-            <pre>» pip install -e .[tests]</pre>
+            <pre>pip install -e .[tests]</pre>
             <p>The documentation building dependencies are installed as
                 follows:</p>
-            <pre>» pip install -e .[docs]</pre>
+            <pre>pip install -e .[docs]</pre>
 
             <h3>Vagrant</h3>
 
