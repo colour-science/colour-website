@@ -113,7 +113,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="api/0.3.2/html/index.html">Colour
+                                    <a href="api/0.3.3/html/index.html">Colour
                                         0.3.3</a>
                                 </li>
                                 <li>
