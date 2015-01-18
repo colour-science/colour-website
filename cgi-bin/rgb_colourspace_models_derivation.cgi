@@ -1,7 +1,7 @@
-#!/usr/bin/env python
 #!/home/colour/development/environments/colour2.7/bin/python
 
 # Vagrant:
+#!/usr/bin/env python
 
 import cgi
 
@@ -10,11 +10,11 @@ print("Content-Type: text/html\n\n")
 try:
     # Vagrant:
     #
-    import sys
-
-    sys.path.append(
-        '/home/vagrant/anaconda/envs/python2.7/lib/python2.7/site-packages')
-    sys.path.append('/colour-science/colour')
+    # import sys
+    #
+    # sys.path.append(
+    #     '/home/vagrant/anaconda/envs/python2.7/lib/python2.7/site-packages')
+    # sys.path.append('/colour-science/colour')
 
     try:
         from collections import OrderedDict
@@ -56,14 +56,14 @@ try:
         </html>"""
 
     form = """
-        <form id="form" class="form" style="height: 512px;width: 416px" action="/cgi-bin/rgb_colourspaces_transformation_matrices.cgi" method="post">
+        <form id="form" class="form" style="height: 440px;width: 416px" action="/cgi-bin/rgb_colourspace_models_derivation.cgi" method="post">
             <h1>RGB Colourspace Models Derivation</h1>
             <p>
                 <a href="http://colour-science.org/">colour-science.org</a>
             </p>
             <div class="content">
                 <div class="introduction">
-                    This form computes the colour transformation matrix from the <em>Input Colourspace</em> to the <em>Output Colourspace</em> using the given <em>Chromatic Adaptation Transform</em>.
+                    This form computes the normalised primary matrix from the <em>Input Colourspace</em> using the given <em>Illuminant</em>.
                 </div>
                 <div id="section0" >
                     <div class="field">
@@ -75,7 +75,7 @@ try:
                         {1}
                     </div>
                     <div class="field">
-                        <label>RGB Transformation Matrix</label>
+                        <label>RGB to XYZ Matrix</label>
                         {2}
                     </div>
                 </div>
@@ -83,12 +83,11 @@ try:
         </form>""".format(
         html_select('c_select', COLOURSPACES.keys(), C_SELECT_VALUE),
         html_select('w_select', ILLUMINANTS.keys(), W_SELECT_VALUE),
-        'html_format_matrix()')
-    # RGB_to_RGB(COLOURSPACES[COLOURSPACES.keys()[
-    # C_SELECT_VALUE]],
-    #            COLOURSPACES[COLOURSPACES.keys()[
-    #                C_O_SELECT_VALUE]],
-    #            ILLUMINANTS.keys()[W_SELECT_VALUE])))
+        html_format_matrix(colour.normalised_primary_matrix(
+            COLOURSPACES[COLOURSPACES.keys()[
+                             C_SELECT_VALUE]].primaries,
+                         ILLUMINANTS[ILLUMINANTS.keys()[
+                             W_SELECT_VALUE]])))
 
     print(html.format(ANALYTICS_TRACKING, form))
 
