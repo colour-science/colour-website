@@ -1,3 +1,4 @@
+#!/home/colour/development/environments/python2.6/bin/python
 #!/usr/bin/env python
 
 import cgi
