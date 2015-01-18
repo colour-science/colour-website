@@ -1,16 +1,19 @@
-#!/home/colour/development/environments/python2.6/bin/python
-#!/usr/bin/env python
+#!/home/colour/development/environments/colour2.7/bin/python
+
+# Vagrant: /usr/bin/env python
 
 import cgi
 
 print("Content-Type: text/html\n\n")
 
 try:
-    import sys
-
-    sys.path.append(
-        '/home/vagrant/anaconda/envs/python2.7/lib/python2.7/site-packages')
-    sys.path.append('/colour-science/colour')
+    # Vagrant:
+    #
+    # import sys
+    # 
+    # sys.path.append(
+    #     '/home/vagrant/anaconda/envs/python2.7/lib/python2.7/site-packages')
+    # sys.path.append('/colour-science/colour')
 
     try:
         from collections import OrderedDict
