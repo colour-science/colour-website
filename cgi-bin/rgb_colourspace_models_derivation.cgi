@@ -63,7 +63,7 @@ try:
             </p>
             <div class="content">
                 <div class="introduction">
-                    This form computes the normalised primary matrix from the <em>Input Colourspace</em> using the given <em>Illuminant</em>.
+                    This form computes the <em>Normalised Primary Matrix</em> from the <em>Input Colourspace</em> using the given <em>Illuminant</em>.
                 </div>
                 <div id="section0" >
                     <div class="field">

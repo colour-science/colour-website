@@ -83,10 +83,16 @@
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
-                        <span class="fa fa-cube"></span>
-                        Packages
+                        <span class="fa fa-gift"></span>
+                        Goodies
                         <b class="caret"></b></a>
                     <ul class="dropdown-menu">
+                        <li>
+                            <a href="utilities.php">Utilities</a>
+                        </li>
+                        <li>
+                            <a href="experiments.php">Experiments</a>
+                        </li>
                         <li>
                             <a href="colour_maya.php">Colour - Maya</a>
                         </li>

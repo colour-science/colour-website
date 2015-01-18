@@ -48,9 +48,13 @@
             <div class="col-md-2">
                 <div class="list-group">
                     <a class="list-group-item active text-center">
-                        <span class="fa fa-cube"></span>
-                        Packages
+                        <span class="fa fa-gift"></span>
+                        Goodies
                     </a>
+                    <a href="utilities.php"
+                       class="list-group-item text-center">Utilities</a>
+                    <a href="experiments.php"
+                       class="list-group-item text-center">Experiments</a>
                     <a href="colour_maya.php"
                        class="list-group-item text-center">Colour - Maya</a>
                     <a href="colour_nuke.php"
