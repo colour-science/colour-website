@@ -3,13 +3,19 @@
 
 import cgi
 
+print("Content-Type: text/html\n\n")
+
 try:
     import sys
-    from collections import OrderedDict
 
     sys.path.append(
         '/home/vagrant/anaconda/envs/python2.7/lib/python2.7/site-packages')
     sys.path.append('/colour-science/colour')
+
+    try:
+        from collections import OrderedDict
+    except ImportError:
+        from ordereddict import OrderedDict
 
     import numpy as np
     import colour
@@ -42,7 +48,6 @@ try:
         html += '</table>'
         return html
 
-    print("Content-Type: text/html\n\n")
 
     form = cgi.FieldStorage()
 
