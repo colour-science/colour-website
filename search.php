@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>404</title>
+    <title>Search</title>
 
     <?php include("common_header_attributes.php"); ?>
 
@@ -18,11 +18,9 @@
     <div class="row">
         <!-- >>> Center -->
         <div class="col-md-9">
-            <h2>Oops! We are really sorry, but the page you requested cannot be found!</h2>
+            <h2>Search</h2>
 
-            <p>Please make sure you have the right URL.</p>
-
-            <p>If you still can't find what you are looking for, try using the search form below.</p>
+            <p>Use the form below to perform a search on the whole website.</p>
 
             <?php include("google_search.php"); ?>
         </div>

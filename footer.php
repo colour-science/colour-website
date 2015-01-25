@@ -28,7 +28,13 @@
                         Contributing
                     </a>
                     <a href="faq.php"
-                       class="list-group-item text-center">Faq</a>
+                       class="list-group-item text-center">Faq
+                    </a>
+                    <a href="search.php"
+                       class="list-group-item text-center">
+                        <span class="fa fa-search"></span>
+                        Search
+                    </a>
                 </div>
             </div>
             <div class="col-md-2">

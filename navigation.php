@@ -60,6 +60,12 @@
                         <li>
                             <a href="faq.php">FAQ</a>
                         </li>
+                        <li>
+                            <a href="search.php">
+                                <span class="fa fa-search"></span>
+                                Search
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
