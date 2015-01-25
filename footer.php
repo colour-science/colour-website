@@ -132,7 +132,13 @@
                 <span class="fa fa-google-plus fa-2x footer-links"></span></a>
         </li>
     </ul>
-    Copyright © 2013 - 2014 – Colour Developers –
+    Copyright © 2013 -
+    <script language="javascript" type="text/javascript">
+        var today = new Date()
+        var year = today.getFullYear()
+        document.write(year)
+    </script>
+    – Colour Developers –
     colour-science@googlegroups.com
 </div>
 <!-- <<< Footer -->
