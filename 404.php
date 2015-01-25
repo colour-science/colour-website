@@ -20,9 +20,12 @@
         <div class="col-md-9">
             <h2>Oops! We are really sorry, but the page you requested cannot be found!</h2>
 
+            <br/>
+
             <p>Please make sure you have the right URL.</p>
 
             <p>If you still can't find what you are looking for, try using the search form below.</p>
+            <br/>
 
             <?php include("google_search.php"); ?>
         </div>

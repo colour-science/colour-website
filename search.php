@@ -20,7 +20,10 @@
         <div class="col-md-9">
             <h2>Search</h2>
 
+            <br/>
+
             <p>Use the form below to perform a search on the whole website.</p>
+            <br/>
 
             <?php include("google_search.php"); ?>
         </div>
