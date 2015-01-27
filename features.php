@@ -225,6 +225,7 @@
                 <li>Ganz and Griesser (1979)</li>
                 <li>CIE 2004</li>
             </ul>
+            <h4>Luminous Efficacy Computation</h4>
             <h4>Luminous Flux Computation</h4>
 
             <h3>Colour Temperature &amp; Correlated Colour Temperature</h3>
@@ -302,22 +303,39 @@
                 <li>XYZ to IPT</li>
                 <li>IPT to XYZ</li>
             </ul>
+            <h4>Log Conversion</h4>
+            <ul class="simple">
+                <li>Cineon</li>
+                <li>Panalog</li>
+                <li>REDLog</li>
+                <li>ViperLog</li>
+                <li>PLog</li>
+                <li>C-Log</li>
+                <li>ACEScc</li>
+                <li>ALEXA Log C</li>
+                <li>DCI-P3</li>
+                <li>S-Log</li>
+                <li>S-Log2</li>
+                <li>S-Log3</li>
+            </ul>
             <h4>RGB Colourspaces Derivation</h4>
             <h4>RGB Colourspaces</h4>
             <ul class="simple">
-                <li>ACES RGB</li>
-                <li>ACES RGB Log</li>
-                <li>ACES RGB Proxy 10</li>
-                <li>ACES RGB Proxy 12</li>
+                <li>ACES2065-1</li>
+                <li>ACEScc</li>
+                <li>ACEScg</li>
+                <li>ACESproxy</li>
+                <li>ALEXA Wide Gamut RGB</li>
                 <li>Adobe RGB 1998</li>
                 <li>Adobe Wide Gamut RGB</li>
-                <li>ALEXA Wide Gamut RGB</li>
                 <li>Apple RGB</li>
                 <li>Best RGB</li>
                 <li>Beta RGB</li>
                 <li>CIE RGB</li>
+                <li>Cinema Gamut</li>
                 <li>ColorMatch RGB</li>
                 <li>DCI-P3</li>
+                <li>DCI-P3+</li>
                 <li>Don RGB 4</li>
                 <li>ECI RGB v2</li>
                 <li>Ekta Space PS 5</li>
@@ -325,10 +343,12 @@
                 <li>NTSC RGB</li>
                 <li>Pal/Secam RGB</li>
                 <li>ProPhoto RGB</li>
-                <li>Rec. 709</li>
                 <li>Rec. 2020</li>
+                <li>Rec. 709</li>
                 <li>Russell RGB</li>
-                <li>S-Log</li>
+                <li>S-Gamut</li>
+                <li>S-Gamut3</li>
+                <li>S-Gamut3.Cine</li>
                 <li>SMPTE-C RGB</li>
                 <li>Xtreme RGB</li>
                 <li>sRGB</li>
@@ -410,6 +430,12 @@
             <h3>Reflectance Recovery</h3>
             <ul class="simple">
                 <li>Smits (1999)</li>
+            </ul>
+
+            <h3>Volume</h3>
+            <ul class="simple">
+                <li>MacAdam Limits - Optimal Colour Stimuli</li>
+                <li>Monte Carlo RGB Colourspace Volume Computation</li>
             </ul>
 
             <h3>Comprehensive Plotting Capabilities</h3>

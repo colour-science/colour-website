@@ -21,6 +21,8 @@
 
             <h2>Tuesday, 28 October 2014</h2>
 
+            <br/>
+
             <p>
                 <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">Colour 0.3.3</a> is
                 available!

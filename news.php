@@ -20,6 +20,12 @@
         <div class="col-md-9">
             <h2>Latest News</h2>
 
+            <h3>Tuesday, 27 January 2015</h3>
+
+            <h4>
+                <a href="news_2015_01_27.php">Colour 0.3.4 is available!</a>
+            </h4>
+
             <h3>Tuesday, 28 October 2014</h3>
 
             <h4>

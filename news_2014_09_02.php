@@ -21,6 +21,8 @@
 
             <h2>Tuesday, 2 September 2014</h2>
 
+            <br/>
+
             <p>
                 We are thrilled to announce that after many months of work, the
                 first public release of

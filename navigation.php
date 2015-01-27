@@ -125,6 +125,10 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
+                                    <a href="api/0.3.4/html/index.html">Colour
+                                        0.3.4</a>
+                                </li>
+                                <li>
                                     <a href="api/0.3.3/html/index.html">Colour
                                         0.3.3</a>
                                 </li>
