@@ -114,6 +114,16 @@
             </p>
             <pre>pip install colour-science</pre>
 
+            <p>The optional features dependencies are installed as follows:</p>
+            <pre>pip install 'colour-science[optional]'</pre>
+            <p>The figures plotting dependencies are installed as follows:</p>
+            <pre>pip install 'colour-science[plotting]'</pre>
+            <p>The tests suite dependencies are installed as follows:</p>
+            <pre>pip install 'colour-science[tests]'</pre>
+            <p>The documentation building dependencies are installed as
+                follows:</p>
+            <pre>pip install 'colour-science[docs]'</pre>
+
             <h3>Github</h3>
 
             <p>
@@ -125,15 +135,6 @@
 git clone git://github.com/colour-science/colour.git
 cd colour
 pip install .</pre>
-            <p>The optional features dependencies are installed as follows:</p>
-            <pre>pip install -e .[optional]</pre>
-            <p>The figures plotting dependencies are installed as follows:</p>
-            <pre>pip install -e .[plotting]</pre>
-            <p>The tests suite dependencies are installed as follows:</p>
-            <pre>pip install -e .[tests]</pre>
-            <p>The documentation building dependencies are installed as
-                follows:</p>
-            <pre>pip install -e .[docs]</pre>
 
             <h3>Vagrant</h3>
 
