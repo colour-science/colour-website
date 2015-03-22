@@ -56,6 +56,10 @@
                 <li>
                     Adobe Camera Raw derived and exact tone curves.
                 </li>
+                <li>
+                    Various Global Tonemapping Operators which they are also available from
+                    <a href="http://www.nukepedia.com/gizmos/colour/global_tonemapping_operators">Nukepedia</a>.
+                </li>
             </ul>
 
             <h3>Downloads</h3>
