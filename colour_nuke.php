@@ -60,6 +60,10 @@
                     Various Global Tonemapping Operators which are also available from
                     <a href="http://www.nukepedia.com/gizmos/colour/global_tonemapping_operators">Nukepedia</a>.
                 </li>
+                <li>
+                    Various Tangent Space Normals utilities which are also available from
+                    <a href="http://www.nukepedia.com/gizmos/filter/tangent_space_normals_utilities">Nukepedia</a>.
+                </li>
             </ul>
 
             <h3>Downloads</h3>
