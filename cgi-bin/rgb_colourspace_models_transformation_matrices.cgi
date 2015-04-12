@@ -29,12 +29,12 @@ try:
 
     def RGB_to_RGB(c_i, c_o, transform):
         cat = colour.chromatic_adaptation_matrix_VonKries(
-            colour.xy_to_XYZ(c_o.whitepoint),
             colour.xy_to_XYZ(c_i.whitepoint),
+            colour.xy_to_XYZ(c_o.whitepoint),
             transform)
 
-        return (np.dot(c_i.XYZ_to_RGB_matrix,
-                       np.dot(cat, c_o.RGB_to_XYZ_matrix)))
+        return (np.dot(c_o.XYZ_to_RGB_matrix,
+                       np.dot(cat, c_i.RGB_to_XYZ_matrix)))
 
 
     form = cgi.FieldStorage()
