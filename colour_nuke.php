@@ -64,6 +64,10 @@
                     Various Tangent Space Normals utilities which are also available from
                     <a href="http://www.nukepedia.com/gizmos/filter/tangent_space_normals_utilities">Nukepedia</a>.
                 </li>
+                <li>
+                    X-Rite ColorChecker 2005 Classic which is also available from
+                    <a href="http://www.nukepedia.com/gizmos/draw/x-rite-colorchecker-classic-2005-gretagmacbeth">Nukepedia</a>.
+                </li>
             </ul>
 
             <h3>Downloads</h3>
