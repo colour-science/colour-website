@@ -558,6 +558,10 @@ array([ 100.        ,   17.5066479...,  244.9304684...])</pre>
                 <li>
                     Ensure that trailing whitespaces are stripped.
                 </li>
+                <li>
+                    Prefix unused variable with an underscore:
+                    <pre>_L, a, b = tsplit(Lab)</pre>
+                </li>
             </ul>
 
             <h4>Citations</h4>

@@ -76,6 +76,12 @@
             <div>
                 <h2>Latest News</h2>
 
+                <h3>Wednesday, 6 May 2015</h3>
+
+                <h4>
+                    <a href="news_2015_05_06.php">Colour 0.3.5 is available!</a>
+                </h4>
+
                 <h3>Tuesday, 27 January 2015</h3>
 
                 <h4>

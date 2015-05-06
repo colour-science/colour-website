@@ -125,24 +125,25 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="api/0.3.4/html/index.html">Colour
-                                        0.3.4</a>
+                                    <a href="api/0.3.5/html/index.html">Latest</a>
                                 </li>
                                 <li>
-                                    <a href="api/0.3.3/html/index.html">Colour
-                                        0.3.3</a>
+                                    <a href="api/0.3.5/html/index.html">0.3.5</a>
                                 </li>
                                 <li>
-                                    <a href="api/0.3.2/html/index.html">Colour
-                                        0.3.2</a>
+                                    <a href="api/0.3.4/html/index.html">0.3.4</a>
                                 </li>
                                 <li>
-                                    <a href="api/0.3.1/html/index.html">Colour
-                                        0.3.1</a>
+                                    <a href="api/0.3.3/html/index.html">0.3.3</a>
                                 </li>
                                 <li>
-                                    <a href="api/0.3.0/html/index.html">Colour
-                                        0.3.0</a>
+                                    <a href="api/0.3.2/html/index.html">0.3.2</a>
+                                </li>
+                                <li>
+                                    <a href="api/0.3.1/html/index.html">0.3.1</a>
+                                </li>
+                                <li>
+                                    <a href="api/0.3.0/html/index.html">0.3.0</a>
                                 </li>
                             </ul>
                         </li>

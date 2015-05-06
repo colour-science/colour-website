@@ -3,10 +3,10 @@
     <div class="row">
         <div>
             <h2 class="text-center">Releases</h2>
-            <a href="https://github.com/colour-science/colour/archive/v0.3.4.zip">
+            <a href="https://github.com/colour-science/colour/archive/v0.3.5.zip">
                 <button type="button" class="btn btn-primary btn-lg btn-block">
                     <span class="fa fa-download"></span>
-                    Colour 0.3.4 Alpha
+                    Colour 0.3.5 Alpha
                 </button>
             </a>
         </div>
@@ -74,10 +74,10 @@
             <h2 class="text-center">Citation</h2>
 
             <div class="list-group">
-                <a href="http://dx.doi.org/10.5281/zenodo.14602"
+                <a href="http://dx.doi.org/10.5281/zenodo.17370"
                    class="list-group-item text-center"><img
-                        src="https://zenodo.org/badge/doi/10.5281/zenodo.14602.png"
-                        alt="10.5281/zenodo.14602"></a>
+                        src="https://zenodo.org/badge/doi/10.5281/zenodo.17370.png"
+                        alt="10.5281/zenodo.17370"></a>
             </div>
         </div>
         <div>

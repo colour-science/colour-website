@@ -307,18 +307,20 @@
             <ul class="simple">
                 <li>Cineon</li>
                 <li>Panalog</li>
-                <li>REDLog</li>
                 <li>ViperLog</li>
                 <li>PLog</li>
                 <li>C-Log</li>
                 <li>ACEScc</li>
                 <li>ALEXA Log C</li>
                 <li>DCI-P3</li>
+                <li>REDLogFilm</li>
                 <li>S-Log</li>
                 <li>S-Log2</li>
                 <li>S-Log3</li>
+                <li>V-Log</li>
             </ul>
             <h4>RGB Colourspaces Derivation</h4>
+            <h4>RGB Colourspaces Primaries Computation</h4>
             <h4>RGB Colourspaces</h4>
             <ul class="simple">
                 <li>ACES2065-1</li>
@@ -336,6 +338,8 @@
                 <li>ColorMatch RGB</li>
                 <li>DCI-P3</li>
                 <li>DCI-P3+</li>
+                <li>DRAGONcolor</li>
+                <li>DRAGONcolor2</li>
                 <li>Don RGB 4</li>
                 <li>ECI RGB v2</li>
                 <li>Ekta Space PS 5</li>
@@ -343,6 +347,10 @@
                 <li>NTSC RGB</li>
                 <li>Pal/Secam RGB</li>
                 <li>ProPhoto RGB</li>
+                <li>REDcolor</li>
+                <li>REDcolor2</li>
+                <li>REDcolor3</li>
+                <li>REDcolor4</li>
                 <li>Rec. 2020</li>
                 <li>Rec. 709</li>
                 <li>Russell RGB</li>
@@ -350,6 +358,7 @@
                 <li>S-Gamut3</li>
                 <li>S-Gamut3.Cine</li>
                 <li>SMPTE-C RGB</li>
+                <li>V-Gamut</li>
                 <li>Xtreme RGB</li>
                 <li>sRGB</li>
             </ul>
@@ -445,6 +454,8 @@
                 <li>CSV tabular data files</li>
                 <li>IES TM-27-14 spectral data XML files</li>
                 <li>X-Rite spectral data files</li>
+                <li>Image I/O using <a
+                        href="http://openimageio.org">OpenImageIO</a></li>
             </ul>
 
             <?php include("disqus.php") ?>
