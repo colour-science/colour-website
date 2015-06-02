@@ -401,7 +401,7 @@
                 <strong><span class="text-primary">ssh</span></strong>
                 into the virtual machine:
             </p>
-            <pre>ssh -XY vagrant@192.168.32.64</pre>
+            <pre>ssh -Y vagrant@192.168.32.64</pre>
             <p>Password is
                 <strong><span class="text-primary">'vagrant'</span></strong>
                 without the quotes.
