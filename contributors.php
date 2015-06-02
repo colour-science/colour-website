@@ -25,7 +25,7 @@
                 <div class="col-md-4 text-center">
                     <h3>Thomas Mansencal</h3>
 
-                    <p><em class="text-info">Visual Effects Artist</em></p>
+                    <p><em class="text-info">Visual Effects Artist @ Weta Digital</em></p>
 
                     <p>Project coordination, overall development.</p>
                 </div>
