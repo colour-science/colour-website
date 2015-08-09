@@ -37,7 +37,7 @@
 
             <p>
                 Head to the <a
-                    href="https://github.com/colour-science/colour/releases/tag/v0.3.6">release page</a>
+                    href="https://github.com/colour-science/colour/releases/tag/v0.3.6">releases page</a>
                 for complete details.
             </p>
             <?php include("disqus.php") ?>

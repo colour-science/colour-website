@@ -96,7 +96,7 @@
                 A lot of object names have been changed, especially the ones
                 featuring an author name that are now partially title-cased.
                 Please take a look at the
-                <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">release page</a> for exact details.
+                <a href="https://github.com/colour-science/colour/releases/tag/v0.3.3">releases page</a> for exact details.
             </p>
 
             <p>
