@@ -125,7 +125,10 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="api/0.3.5/html/index.html">Latest</a>
+                                    <a href="api/0.3.6/html/index.html">Latest</a>
+                                </li>
+                                <li>
+                                    <a href="api/0.3.6/html/index.html">0.3.6</a>
                                 </li>
                                 <li>
                                     <a href="api/0.3.5/html/index.html">0.3.5</a>
