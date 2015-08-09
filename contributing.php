@@ -328,6 +328,13 @@ git pull upstream master</pre>
                     Check if the unit tests and doctests are running properly.
                 </li>
                 <li>
+                    <a href="https://pypi.python.org/pypi/flake8">flake8</a> is
+                    currently set to error if anything incorrect is happening,
+                    thus we advice that you run it before committing and
+                    pushing your code to <em><span
+                        class="text-info">upstream</span></em>.
+                </li>
+                <li>
                     Commit your changes:
                     <pre>git add mie_scattering.py
 git commit -m 'Implement "Mie Scattering" support'.</pre>
