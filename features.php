@@ -183,6 +183,7 @@
                 <li>MHC100/U/MP /3K</li>
                 <li>MHC100/U/MP /4K</li>
                 <li>SDW-T 100W/LV (Super HPS)</li>
+                <li>Kinoton 75P</li>
             </ul>
             <h4>Light Sources Chromaticity Coordinates</h4>
             <h4>Colour Matching Functions Conversions for Educational
@@ -445,6 +446,8 @@
             <ul class="simple">
                 <li>MacAdam Limits - Optimal Colour Stimuli</li>
                 <li>Monte Carlo RGB Colourspace Volume Computation</li>
+                <li>Monte Carlo Pointer's Gamut Colourspace Coverage Computation</li>
+                <li>Monte Carlo Visible Spectrum Colourspace Coverage Computation</li>
             </ul>
 
             <h3>Comprehensive Plotting Capabilities</h3>

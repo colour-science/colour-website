@@ -53,7 +53,7 @@
             <p>
                 Feel free to take a look at the <a
                     href="https://github.com/colour-science/colour/releases/tag/v0.3.5">release page</a>
-                for complete details and let us know if any issues.
+                for complete details.
             </p>
             <?php include("disqus.php") ?>
 

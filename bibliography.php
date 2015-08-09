@@ -65,7 +65,7 @@
                 </li>
                 <li>
                     Breneman, E. J. (1987). Corresponding chromaticities for different states of adaptation to complex visual fields. JOSA A, 4(6). Retrieved from
-                    <a href="http://www.opticsinfobase.org/josaa/fulltext.cfm?uri=josaa-4-6-1115&id=2783">http://www.opticsinfobase.org/josaa/fulltext.cfm?uri=josaa-4-6-1115&id=2783</a>
+                    <a href="http://www.opticsinfobase.org/josaa/fulltext.cfm?uri=josaa-4-6-1115&id=2783  ">http://www.opticsinfobase.org/josaa/fulltext.cfm?uri=josaa-4-6-1115&id=2783 </a>
                 </li>
                 <li>
                     Brill, M. H., & Süsstrunk, S. (2008). Repairing gamut problems in CIECAM02: A progress report. Color Research & Application, 33(5), 424–426. doi:10.1002/col.20432
@@ -76,11 +76,11 @@
                 </li>
                 <li>
                     Canon. (2014). EOS C500 Firmware Update. Retrieved January 14, 2015, from
-                    <a href="http://www.usa.canon.com/cusa/professional/standard_display/cinema-firmware-c500">http://www.usa.canon.com/cusa/professional/standard_display/cinema-firmware-c500</a>
+                    <a href="http://www.usa.canon.com/cusa/professional/standard_display/cinema-firmware-c500  ">http://www.usa.canon.com/cusa/professional/standard_display/cinema-firmware-c500 </a>
                 </li>
                 <li>
                     Castro, S. (2014). Numpy: Fastest way of computing diagonal for each row of a 2d array. Retrieved August 22, 2014, from
-                    <a href="http://stackoverflow.com/questions/26511401/numpy-fastest-way-of-computing-diagonal-for-each-row-of-a-2d-array/26517247#26517247">http://stackoverflow.com/questions/26511401/numpy-fastest-way-of-computing-diagonal-for-each-row-of-a-2d-array/26517247#26517247</a>
+                    <a href="http://stackoverflow.com/questions/26511401/numpy-fastest-way-of-computing-diagonal-for-each-row-of-a-2d-array/26517247#26517247  ">http://stackoverflow.com/questions/26511401/numpy-fastest-way-of-computing-diagonal-for-each-row-of-a-2d-array/26517247#26517247 </a>
                 </li>
                 <li>
                     Centore, P. (2012). An open-source inversion algorithm for the Munsell renotation. Color Research & Application, 37(6), 455–464. doi:10.1002/col.20715
@@ -209,7 +209,7 @@
                 </li>
                 <li>
                     Digital Cinema Initiatives. (2007). Digital Cinema System Specification - Version 1.1. Retrieved from
-                    <a href="http://www.dcimovies.com/archives/spec_v1_1/DCI_DCinema_System_Spec_v1_1.pdf">http://www.dcimovies.com/archives/spec_v1_1/DCI_DCinema_System_Spec_v1_1.pdf</a>
+                    <a href="http://www.dcimovies.com/archives/spec_v1_1/DCI_DCinema_System_Spec_v1_1.pdf  ">http://www.dcimovies.com/archives/spec_v1_1/DCI_DCinema_System_Spec_v1_1.pdf </a>
                 </li>
                 <li>
                     EasyRGB. (n.d.). CMY —> CMYK. Retrieved May 18, 2014, from
@@ -286,7 +286,7 @@
                 </li>
                 <li>
                     Gaggioni, H., Dhanendra, P., Yamashita, J., Kawada, N., Endo, K., & Clark, C. (n.d.). S-Log: A new LUT for digital production mastering and interchange applications. Retrieved from
-                    <a href="http://pro.sony.com/bbsccms/assets/files/mkt/cinema/solutions/slog_manual.pdf">http://pro.sony.com/bbsccms/assets/files/mkt/cinema/solutions/slog_manual.pdf</a>
+                    <a href="http://pro.sony.com/bbsccms/assets/files/mkt/cinema/solutions/slog_manual.pdf  ">http://pro.sony.com/bbsccms/assets/files/mkt/cinema/solutions/slog_manual.pdf </a>
                 </li>
                 <li>
                     Glasser, L. G., McKinney, A. H., Reilly, C. D., & Schnelle, P. D. (1958). Cube-Root Color Coordinate System. J. Opt. Soc. Am., 48(10), 736–740. doi:10.1364/JOSA.48.000736
@@ -303,11 +303,14 @@
                 </li>
                 <li>
                     Hewlett-Packard Development Company. (2009). Understanding the HP DreamColor LP2480zx DCI-P3 Emulation Color Space. Retrieved from
-                    <a href="http://www.hp.com/united-states/campaigns/workstations/pdfs/lp2480zx-dci--p3-emulation.pdf">http://www.hp.com/united-states/campaigns/workstations/pdfs/lp2480zx-dci--p3-emulation.pdf</a>
+                    <a href="http://www.hp.com/united-states/campaigns/workstations/pdfs/lp2480zx-dci--p3-emulation.pdf  ">http://www.hp.com/united-states/campaigns/workstations/pdfs/lp2480zx-dci--p3-emulation.pdf </a>
                 </li>
                 <li>
                     Holmes, J. (n.d.). Ekta Space PS 5. Retrieved from <a
                         href="http://www.josephholmes.com/Ekta_Space.zip">http://www.josephholmes.com/Ekta_Space.zip</a>
+                </li>
+                <li>
+                    Houston, J. (2015). Private Discussion with Mansencal, T.
                 </li>
                 <li>
                     Hunt, R. W. G. (2004). The Reproduction of Colour (6th ed.). Wiley. ISBN:978-0-470-02425-6
@@ -333,15 +336,15 @@
                 </li>
                 <li>
                     International Telecommunication Union. (1998). CONVENTIONAL TELEVISION SYSTEMS. In Recommendation ITU-R BT.470-6 (pp. 1–36). Retrieved from
-                    <a href="http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.470-6-199811-S!!PDF-E.pdf">http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.470-6-199811-S!!PDF-E.pdf</a>
+                    <a href="http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.470-6-199811-S!!PDF-E.pdf  ">http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.470-6-199811-S!!PDF-E.pdf </a>
                 </li>
                 <li>
                     International Telecommunication Union. (2002). Parameter values for the HDTV standards for production and international programme exchange BT Series Broadcasting service. In Recommendation ITU-R BT.709-5 (Vol. 5, pp. 1–32). Retrieved from
-                    <a href="http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.709-5-200204-I!!PDF-E.pdf">http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.709-5-200204-I!!PDF-E.pdf</a>
+                    <a href="http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.709-5-200204-I!!PDF-E.pdf  ">http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.709-5-200204-I!!PDF-E.pdf </a>
                 </li>
                 <li>
                     International Telecommunication Union. (2014). Parameter values for ultra-high definition television systems for production and international programme exchange. In Recommendation ITU-R BT.2020 (Vol. 1, pp. 1–8). Retrieved from
-                    <a href="http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.2020-1-201406-I!!PDF-E.pdf">http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.2020-1-201406-I!!PDF-E.pdf</a>
+                    <a href="http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.2020-1-201406-I!!PDF-E.pdf  ">http://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.2020-1-201406-I!!PDF-E.pdf </a>
                 </li>
                 <li>
                     Kang, B., Moon, O., Hong, C., Lee, H., Cho, B., & Kim, Y. (2002). Design of advanced color: Temperature control system for HDTV applications. Journal of the Korean …, 41(6), 865–871. Retrieved from
@@ -349,7 +352,7 @@
                 </li>
                 <li>
                     Kienzle, P., Patel, N., & Krycka, J. (2011). refl1d.numpyerrors - Refl1D v0.6.19 documentation. Retrieved January 30, 2015, from
-                    <a href="http://www.reflectometry.org/danse/docs/refl1d/_modules/refl1d/numpyerrors.html">http://www.reflectometry.org/danse/docs/refl1d/_modules/refl1d/numpyerrors.html</a>
+                    <a href="http://www.reflectometry.org/danse/docs/refl1d/_modules/refl1d/numpyerrors.html  ">http://www.reflectometry.org/danse/docs/refl1d/_modules/refl1d/numpyerrors.html </a>
                 </li>
                 <li>
                     Li, C., Luo, M. R., Rigg, B., & Hunt, R. W. G. (2002). CMC 2000 chromatic adaptation transform: CMCCAT2000. Color Research & …, 27(1), 49–58. doi:10.1002/col.10005
@@ -431,7 +434,7 @@
                 </li>
                 <li>
                     Luo, M. R., & Morovic, J. (1996). Two Unsolved Issues in Colour Management – Colour Appearance and Gamut Mapping. In Conference: 5th International Conference on High Technology: Imaging Science and Technology – Evolution & Promise (pp. 136–147). Retrieved from
-                    <a href="http://www.researchgate.net/publication/236348295_Two_Unsolved_Issues_in_Colour_Management__Colour_Appearance_and_Gamut_Mapping">http://www.researchgate.net/publication/236348295_Two_Unsolved_Issues_in_Colour_Management__Colour_Appearance_and_Gamut_Mapping</a>
+                    <a href="http://www.researchgate.net/publication/236348295_Two_Unsolved_Issues_in_Colour_Management__Colour_Appearance_and_Gamut_Mapping  ">http://www.researchgate.net/publication/236348295_Two_Unsolved_Issues_in_Colour_Management__Colour_Appearance_and_Gamut_Mapping </a>
                 </li>
                 <li>
                     Luo, M. R., Lo, M.-C., & Kuo, W.-G. (1996). The LLAB (l:c) colour model. Color Research & Application, 21(6), 412–429. doi:10.1002/(SICI)1520-6378(199612)21:6<412::AID-COL4>3.0.CO;2-Z
@@ -445,15 +448,15 @@
                 </li>
                 <li>
                     Mansencal, T. (n.d.). Lookup. Retrieved from <a
-                        href="https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py">https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py</a>
+                        href="https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py  ">https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py </a>
                 </li>
                 <li>
                     Mansencal, T. (n.d.). Structure. Retrieved from <a
-                        href="https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py">https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py</a>
+                        href="https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py  ">https://github.com/KelSolaar/Foundations/blob/develop/foundations/data_structures.py </a>
                 </li>
                 <li>
                     Moroney, N., Fairchild, M. D., Hunt, R. W. G., Li, C., Luo, M. R., & Newman, T. (n.d.). The CIECAM02 Color Appearance Model. Color and Imaging Conference, 2002(1), 23–27. Retrieved from
-                    <a href="http://www.ingentaconnect.com/content/ist/cic/2002/00002002/00000001/art00006">http://www.ingentaconnect.com/content/ist/cic/2002/00002002/00000001/art00006</a>
+                    <a href="http://www.ingentaconnect.com/content/ist/cic/2002/00002002/00000001/art00006  ">http://www.ingentaconnect.com/content/ist/cic/2002/00002002/00000001/art00006 </a>
                 </li>
                 <li>
                     Munsell Color Science. (n.d.). Macbeth Colorchecker. Retrieved from
@@ -481,7 +484,7 @@
                 </li>
                 <li>
                     Panasonic. (2014). VARICAM V-Log/V-Gamut. Retrieved from <a
-                        href="http://pro-av.panasonic.net/en/varicam/common/pdf/VARICAM_V-Log_V-Gamut.pdf">http://pro-av.panasonic.net/en/varicam/common/pdf/VARICAM_V-Log_V-Gamut.pdf</a>
+                        href="http://pro-av.panasonic.net/en/varicam/common/pdf/VARICAM_V-Log_V-Gamut.pdf  ">http://pro-av.panasonic.net/en/varicam/common/pdf/VARICAM_V-Log_V-Gamut.pdf </a>
                 </li>
                 <li>
                     Pointer, M. R. (1980). Pointer’s Gamut Data. Retrieved from
@@ -489,7 +492,7 @@
                 </li>
                 <li>
                     Reitz, K. (n.d.). CaseInsensitiveDict. Retrieved from <a
-                        href="https://github.com/kennethreitz/requests/blob/v1.2.3/requests/structures.py#L37">https://github.com/kennethreitz/requests/blob/v1.2.3/requests/structures.py#L37</a>
+                        href="https://github.com/kennethreitz/requests/blob/v1.2.3/requests/structures.py#L37  ">https://github.com/kennethreitz/requests/blob/v1.2.3/requests/structures.py#L37 </a>
                 </li>
                 <li>
                     Renewable Resource Data Center. (2003). Reference Solar Spectral Irradiance: ASTM G-173. Retrieved August 23, 2014, from
@@ -498,6 +501,9 @@
                 <li>
                     sastanin. (n.d.). How to make scipy.interpolate give an extrapolated result beyond the input range? Retrieved August 08, 2014, from
                     <a href="http://stackoverflow.com/a/2745496/931625">http://stackoverflow.com/a/2745496/931625</a>
+                </li>
+                <li>
+                    Sharma, G., Wu, W., & Dalal, E. N. (2005). The CIEDE2000 color‐difference formula: Implementation notes, supplementary test data, and mathematical observations. Color Research & Application, 30(1), 21–30. doi:10.1002/col.20070
                 </li>
                 <li>
                     Smith, A. R. (1978). Color Gamut Transform Pairs. In Proceedings of the 5th Annual Conference on Computer Graphics and Interactive Techniques (pp. 12–19). New York, NY, USA: ACM. doi:10.1145/800248.807361
@@ -517,11 +523,15 @@
                 </li>
                 <li>
                     Sony Corporation. (n.d.). Technical Summary for S-Gamut3.Cine/S-Log3 and S-Gamut3/S-Log3. Retrieved from
-                    <a href="http://community.sony.com/sony/attachments/sony/large-sensor-camera-F5-F55/12359/2/TechnicalSummary_for_S-Gamut3Cine_S-Gamut3_S-Log3_V1_00.pdf">http://community.sony.com/sony/attachments/sony/large-sensor-camera-F5-F55/12359/2/TechnicalSummary_for_S-Gamut3Cine_S-Gamut3_S-Log3_V1_00.pdf</a>
+                    <a href="http://community.sony.com/sony/attachments/sony/large-sensor-camera-F5-F55/12359/2/TechnicalSummary_for_S-Gamut3Cine_S-Gamut3_S-Log3_V1_00.pdf  ">http://community.sony.com/sony/attachments/sony/large-sensor-camera-F5-F55/12359/2/TechnicalSummary_for_S-Gamut3Cine_S-Gamut3_S-Log3_V1_00.pdf </a>
                 </li>
                 <li>
                     Sony Imageworks. (2012). make.py. Retrieved November 27, 2014, from
-                    <a href="https://github.com/imageworks/OpenColorIO-Configs/blob/master/nuke-default/make.py">https://github.com/imageworks/OpenColorIO-Configs/blob/master/nuke-default/make.py</a>
+                    <a href="https://github.com/imageworks/OpenColorIO-Configs/blob/master/nuke-default/make.py  ">https://github.com/imageworks/OpenColorIO-Configs/blob/master/nuke-default/make.py </a>
+                </li>
+                <li>
+                    Spiker, N. (2015). Private Discussion with Mansencal, T. Retrieved from
+                    <a href="http://www.repairfaq.org/sam/repspec/">http://www.repairfaq.org/sam/repspec/</a>
                 </li>
                 <li>
                     Stearns, E. I., & Stearns, R. E. (1988). An example of a method for correcting radiance data for Bandpass error. Color Research & Application, 13(4), 257–259. doi:10.1002/col.5080130410
@@ -548,7 +558,7 @@
                 </li>
                 <li>
                     Thorpe, L. (2012). CANON-LOG TRANSFER CHARACTERISTIC. Retrieved from
-                    <a href="http://downloads.canon.com/CDLC/Canon-Log_Transfer_Characteristic_6-20-2012.pdf">http://downloads.canon.com/CDLC/Canon-Log_Transfer_Characteristic_6-20-2012.pdf</a>
+                    <a href="http://downloads.canon.com/CDLC/Canon-Log_Transfer_Characteristic_6-20-2012.pdf  ">http://downloads.canon.com/CDLC/Canon-Log_Transfer_Characteristic_6-20-2012.pdf </a>
                 </li>
                 <li>
                     Trieu, T. (2015). Private Discussion with Mansencal, T.
@@ -606,7 +616,7 @@
                 </li>
                 <li>
                     Wikipedia. (n.d.). Construction of the CIE XYZ color space from the Wright–Guild data. Retrieved February 24, 2014, from
-                    <a href="http://en.wikipedia.org/wiki/CIE_1931_color_space#Construction_of_the_CIE_XYZ_color_space_from_the_Wright.E2.80.93Guild_data">http://en.wikipedia.org/wiki/CIE_1931_color_space#Construction_of_the_CIE_XYZ_color_space_from_the_Wright.E2.80.93Guild_data</a>
+                    <a href="http://en.wikipedia.org/wiki/CIE_1931_color_space#Construction_of_the_CIE_XYZ_color_space_from_the_Wright.E2.80.93Guild_data  ">http://en.wikipedia.org/wiki/CIE_1931_color_space#Construction_of_the_CIE_XYZ_color_space_from_the_Wright.E2.80.93Guild_data </a>
                 </li>
                 <li>
                     Wikipedia. (n.d.). HSL and HSV. Retrieved September 10, 2014, from
@@ -654,7 +664,7 @@
                 </li>
                 <li>
                     Wikipedia. (n.d.). White points of standard illuminants. Retrieved February 24, 2014, from
-                    <a href="http://en.wikipedia.org/wiki/Standard_illuminant#White_points_of_standard_illuminants">http://en.wikipedia.org/wiki/Standard_illuminant#White_points_of_standard_illuminants</a>
+                    <a href="http://en.wikipedia.org/wiki/Standard_illuminant#White_points_of_standard_illuminants  ">http://en.wikipedia.org/wiki/Standard_illuminant#White_points_of_standard_illuminants </a>
                 </li>
                 <li>
                     Wikipedia. (n.d.). Whiteness. Retrieved September 17, 2014, from
@@ -702,7 +712,7 @@
                 </li>
                 <li>
                     X-Rite, & Pantone. (2012). Color iQC and Color iMatch Color Calculations Guide. Retrieved from
-                    <a href="http://www.xrite.com/documents/literature/en/09_Color_Calculations_en.pdf">http://www.xrite.com/documents/literature/en/09_Color_Calculations_en.pdf</a>
+                    <a href="http://www.xrite.com/documents/literature/en/09_Color_Calculations_en.pdf  ">http://www.xrite.com/documents/literature/en/09_Color_Calculations_en.pdf </a>
                 </li>
                 <li>
                     Yorke, R. (2014). Python: Change format of np.array or allow tolerance in in1d function. Retrieved March 27, 2015, from
