@@ -329,10 +329,11 @@ git pull upstream master</pre>
                 </li>
                 <li>
                     <a href="https://pypi.python.org/pypi/flake8">flake8</a> is
-                    currently set to error if anything incorrect is happening,
+                    currently set to error if anything incorrect is found,
                     thus we advice that you run it before committing and
                     pushing your code to <em><span
-                        class="text-info">upstream</span></em>.
+                        class="text-info">origin</span></em>, your own
+                    fork.
                 </li>
                 <li>
                     Commit your changes:
