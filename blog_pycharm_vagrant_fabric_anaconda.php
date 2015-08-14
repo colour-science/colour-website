@@ -124,7 +124,7 @@
                         <a href="https://github.com/colour-science/colour-vagrant">colour-vagrant</a>
                         repository:
                     </p>
-                    <pre>git clone git://github.com/color-science/colour-vagrant.git</pre>
+                    <pre>git clone git://github.com/colour-science/colour-vagrant.git</pre>
                 </li>
                 <li>
 
