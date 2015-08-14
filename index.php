@@ -31,7 +31,7 @@
                 </p>
 
                 <p>
-                    It is open source and freely available and under the
+                    It is open source and freely available under the
                     <a href="http://opensource.org/licenses/BSD-3-Clause">New
                         BSD License</a> terms.
                 </p>
