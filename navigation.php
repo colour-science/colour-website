@@ -163,6 +163,12 @@
                             </a>
                         </li>
                         <li>
+                            <a href="cited_by.php">
+                                <span class="fa fa-university"></span>
+                                Cited By
+                            </a>
+                        </li>
+                        <li>
                             <a href="features.php">
                                 <span class="fa fa-lightbulb-o"></span>
                                 Features

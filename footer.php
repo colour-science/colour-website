@@ -92,6 +92,11 @@
                         <span class="fa fa-quote-right"></span>
                         Bibliography
                     </a>
+                    <a href="cited_by.php"
+                       class="list-group-item text-center">
+                        <span class="fa fa-university"></span>
+                        Cited By
+                    </a>
                     <a href="features.php" class="list-group-item text-center">
                         <span class="fa fa-lightbulb-o"></span>
                         Features
