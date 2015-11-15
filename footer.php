@@ -54,8 +54,8 @@
             <div class="col-md-2">
                 <div class="list-group">
                     <a class="list-group-item active text-center">
-                        <span class="fa fa-gift"></span>
-                        Goodies
+                        <span class="fa fa-cog"></span>
+                        Projects
                     </a>
                     <a href="utilities.php"
                        class="list-group-item text-center">Utilities</a>

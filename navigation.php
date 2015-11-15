@@ -89,8 +89,8 @@
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
-                        <span class="fa fa-gift"></span>
-                        Goodies
+                        <span class="fa fa-cog"></span>
+                        Projects
                         <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
