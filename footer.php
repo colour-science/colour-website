@@ -77,7 +77,7 @@
                             Documentation
                         </nobr>
                     </a>
-                    <a href="api/latest/html/index.html"
+                    <a href="http://colour.readthedocs.org/en/latest/"
                        class="list-group-item text-center">
                         <span class="fa fa-life-ring"></span>
                         API Reference

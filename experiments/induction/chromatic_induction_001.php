@@ -217,7 +217,12 @@
     </ul>
     <h3>Definition</h3>
 
-    <p>Chromatic induction is the modification of the visual response that occurs when 2 colour stimuli (of any spectral irradiance distribution) are viewed side-by-side in which each stimulus alters the appearance of the other.</p>
+    <p>
+        Chromatic induction is the modification of the visual response that
+        occurs when 2 colour stimuli (of any spectral irradiance distribution)
+        are viewed side-by-side in which each stimulus alters the appearance of
+        the other.
+    </p>
 
     <h3 class="center">
         <a href="http://colour-science.org">colour-science.org</a>
