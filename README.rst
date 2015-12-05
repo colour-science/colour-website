@@ -1,11 +1,13 @@
+DEPRECATED
+==========
+
+This repository contains the legacy website for http://colour-science.org/
+and is deprecated, please visit https://github.com/colour-science/colour-science.org
+for the current website repository.
+
+
 Colour - Website
 ================
-
-.. important::
-
-    This repository contains the legacy website for http://colour-science.org/
-    and is not used anymore, please visit https://github.com/colour-science/colour-science.org
-    for the current website repository.
 
 Introduction
 ------------
